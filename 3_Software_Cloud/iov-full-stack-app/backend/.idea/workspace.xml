@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7fe01da8-46d5-4118-ad9b-ec0a7572dd27" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/source/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/source/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Users\mc\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jQ1koValMvrT7lum9ro8jGKiDr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/source" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Data\bachelor-enesys\1-system\3-fullstackapp\backend\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.run local">
+    <configuration name="run local" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="#JAVA_HOME" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="spring-boot:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="run prod" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="spring-boot:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map>
+                <entry key="prod" value="true" />
+              </map>
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Maven.run local" />
+      <item itemvalue="Maven.run prod" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7fe01da8-46d5-4118-ad9b-ec0a7572dd27" name="Default Changelist" comment="" />
+      <created>1603721653284</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603721653284</updated>
+      <workItem from="1603721654849" duration="1776000" />
+      <workItem from="1603730249281" duration="6000" />
+      <workItem from="1603730540590" duration="83000" />
+      <workItem from="1603730766663" duration="2456000" />
+      <workItem from="1603733603060" duration="396000" />
+      <workItem from="1604152864333" duration="66000" />
+      <workItem from="1604405715006" duration="1576000" />
+      <workItem from="1604408117145" duration="630000" />
+      <workItem from="1609192011921" duration="595000" />
+      <workItem from="1609583815570" duration="21000" />
+      <workItem from="1609679635060" duration="522000" />
+      <workItem from="1609680792300" duration="811000" />
+      <workItem from="1609681833035" duration="322000" />
+      <workItem from="1609687887359" duration="423000" />
+      <workItem from="1609688626096" duration="678000" />
+      <workItem from="1609689637267" duration="160000" />
+      <workItem from="1611704749340" duration="450000" />
+      <workItem from="1611705215466" duration="25000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1486" y="-170" key="#Project_Structure" timestamp="1611704826623">
+      <screen x="1366" y="-256" width="1280" height="1024" />
+    </state>
+    <state x="1486" y="-170" key="#Project_Structure/0.0.1366.768/1366.-256.1280.1024@1366.-256.1280.1024" timestamp="1611704826623" />
+    <state x="1494" y="-204" width="1097" height="944" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611705045293">
+      <screen x="1366" y="-256" width="1280" height="1024" />
+    </state>
+    <state x="137" y="39" width="1096" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768/1366.-256.1280.1024@0.0.1366.768" timestamp="1603722020329" />
+    <state x="1494" y="-204" width="1097" height="944" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768/1366.-256.1280.1024@1366.-256.1280.1024" timestamp="1611705045293" />
+    <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1609681123199" />
+    <state x="1598" y="155" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1604406027632">
+      <screen x="1366" y="-256" width="1280" height="1024" />
+    </state>
+    <state x="248" y="308" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.768/1366.-256.1280.1024@0.0.1366.768" timestamp="1603721744306" />
+    <state x="1598" y="155" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.768/1366.-256.1280.1024@1366.-256.1280.1024" timestamp="1604406027632" />
+    <state x="1800" y="-71" key="FileChooserDialogImpl" timestamp="1611705238284">
+      <screen x="1366" y="-256" width="1280" height="1024" />
+    </state>
+    <state x="463" y="139" key="FileChooserDialogImpl/0.0.1366.768/1366.-256.1280.1024@0.0.1366.768" timestamp="1604152887871" />
+    <state x="1800" y="-71" key="FileChooserDialogImpl/0.0.1366.768/1366.-256.1280.1024@1366.-256.1280.1024" timestamp="1611705238284" />
+    <state x="463" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1609689794637" />
+    <state width="1237" height="341" key="GridCell.Tab.0.bottom" timestamp="1611705200926">
+      <screen x="1366" y="-256" width="1280" height="1024" />
+    </state>
+    <state width="1323" height="227" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.-256.1280.1024@0.0.1366.768" timestamp="1603733999047" />
+    <state width="1237" height="341" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.-256.1280.1024@1366.-256.1280.1024" timestamp="1611705200926" />
+    <state width="1323" height="301" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1609689304717" />
+    <state width="1237" height="341" key="GridCell.Tab.0.center" timestamp="1611705200926">
+      <screen x="1366" y="-256" width="1280" height="1024" />
+    </state>
+    <state width="1323" height="227" key="GridCell.Tab.0.center/0.0.1366.768/1366.-256.1280.1024@0.0.1366.768" timestamp="1603733999046" />
+    <state width="1237" height="341" key="GridCell.Tab.0.center/0.0.1366.768/1366.-256.1280.1024@1366.-256.1280.1024" timestamp="1611705200926" />
+    <state width="1323" height="301" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1609689304717" />
+    <state width="1237" height="341" key="GridCell.Tab.0.left" timestamp="1611705200926">
+      <screen x="1366" y="-256" width="1280" height="1024" />
+    </state>
+    <state width="1323" height="227" key="GridCell.Tab.0.left/0.0.1366.768/1366.-256.1280.1024@0.0.1366.768" timestamp="1603733999046" />
+    <state width="1237" height="341" key="GridCell.Tab.0.left/0.0.1366.768/1366.-256.1280.1024@1366.-256.1280.1024" timestamp="1611705200926" />
+    <state width="1323" height="301" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1609689304717" />
+    <state width="1237" height="341" key="GridCell.Tab.0.right" timestamp="1611705200926">
+      <screen x="1366" y="-256" width="1280" height="1024" />
+    </state>
+    <state width="1323" height="227" key="GridCell.Tab.0.right/0.0.1366.768/1366.-256.1280.1024@0.0.1366.768" timestamp="1603733999047" />
+    <state width="1237" height="341" key="GridCell.Tab.0.right/0.0.1366.768/1366.-256.1280.1024@1366.-256.1280.1024" timestamp="1611705200926" />
+    <state width="1323" height="301" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1609689304717" />
+    <state width="1237" height="341" key="GridCell.Tab.1.bottom" timestamp="1611705200926">
+      <screen x="1366" y="-256" width="1280" height="1024" />
+    </state>
+    <state width="1323" height="192" key="GridCell.Tab.1.bottom/0.0.1366.768/1366.-256.1280.1024@0.0.1366.768" timestamp="1603722021807" />
+    <state width="1237" height="341" key="GridCell.Tab.1.bottom/0.0.1366.768/1366.-256.1280.1024@1366.-256.1280.1024" timestamp="1611705200926" />
+    <state width="1237" height="341" key="GridCell.Tab.1.center" timestamp="1611705200926">
+      <screen x="1366" y="-256" width="1280" height="1024" />
+    </state>
+    <state width="1323" height="192" key="GridCell.Tab.1.center/0.0.1366.768/1366.-256.1280.1024@0.0.1366.768" timestamp="1603722021807" />
+    <state width="1237" height="341" key="GridCell.Tab.1.center/0.0.1366.768/1366.-256.1280.1024@1366.-256.1280.1024" timestamp="1611705200926" />
+    <state width="1237" height="341" key="GridCell.Tab.1.left" timestamp="1611705200926">
+      <screen x="1366" y="-256" width="1280" height="1024" />
+    </state>
+    <state width="1323" height="192" key="GridCell.Tab.1.left/0.0.1366.768/1366.-256.1280.1024@0.0.1366.768" timestamp="1603722021807" />
+    <state width="1237" height="341" key="GridCell.Tab.1.left/0.0.1366.768/1366.-256.1280.1024@1366.-256.1280.1024" timestamp="1611705200926" />
+    <state width="1237" height="341" key="GridCell.Tab.1.right" timestamp="1611705200926">
+      <screen x="1366" y="-256" width="1280" height="1024" />
+    </state>
+    <state width="1323" height="192" key="GridCell.Tab.1.right/0.0.1366.768/1366.-256.1280.1024@0.0.1366.768" timestamp="1603722021807" />
+    <state width="1237" height="341" key="GridCell.Tab.1.right/0.0.1366.768/1366.-256.1280.1024@1366.-256.1280.1024" timestamp="1611705200926" />
+    <state x="184" y="29" key="SettingsEditor" timestamp="1609687894446">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="184" y="29" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1609687894446" />
+  </component>
+</project>

@@ -1,0 +1,101 @@
+[
+    {
+        "location": {
+            "latitude": 51.4476251,
+            "longitude": 7.2635669
+        },
+        "stateOfCharge": 65,
+        "carId": "1234",
+        "charging": 1
+    },
+    {
+        "location": {
+            "latitude": 51.4669488,
+            "longitude": 7.2979194
+        },
+        "stateOfCharge": 67,
+        "carId": "1234",
+        "charging": 0
+    },
+    {
+        "location": {
+            "latitude": 51.4737088,
+            "longitude": 7.3244822
+        },
+        "stateOfCharge": 68,
+        "carId": "1234",
+        "charging": 0
+    },
+    {
+        "location": {
+            "latitude": 51.4476767,
+            "longitude": 7.323831
+        },
+        "stateOfCharge": 70,
+        "carId": "1234",
+        "charging": 0
+    },
+    {
+        "location": {
+            "latitude": 51.4387274,
+            "longitude": 7.321657
+        },
+        "stateOfCharge": 72,
+        "carId": "1234",
+        "charging": 0
+    },
+    {
+        "location": {
+            "latitude": 51.4385669,
+            "longitude": 7.3001993
+        },
+        "stateOfCharge": 73,
+        "carId": "1234",
+        "charging": 0
+    },
+    {
+        "location": {
+            "latitude": 51.4396904,
+            "longitude": 7.2909296
+        },
+        "stateOfCharge": 74,
+        "carId": "1234",
+        "charging": 0
+    },
+    {
+        "location": {
+            "latitude": 51.4382861,
+            "longitude": 7.2784195
+        },
+        "stateOfCharge": 77,
+        "carId": "1234",
+        "charging": 0
+    },
+    {
+        "location": {
+            "latitude": 51.4416846,
+            "longitude": 7.2438944
+        },
+        "stateOfCharge": 78,
+        "carId": "1234",
+        "charging": 0
+    },
+    {
+        "location": {
+            "latitude": 51.4455446,
+            "longitude": 7.2585909
+        },
+        "stateOfCharge": 79,
+        "carId": "1234",
+        "charging": 0
+    },
+    {
+        "location": {
+            "latitude": 51.4558549,
+            "longitude": 7.2681802
+        },
+        "stateOfCharge": 82,
+        "carId": "1234",
+        "charging": 0
+    }
+]

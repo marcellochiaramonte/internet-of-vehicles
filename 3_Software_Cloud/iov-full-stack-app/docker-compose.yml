@@ -1,0 +1,92 @@
+version: '3.7'
+# variables are read as ${VARIABLE_NAME} and are defined at the file .env at the root directory of this docker-compose project   
+services: 
+    iov-backend:
+        container_name: iov-backend
+        build:
+            context: ./backend
+            dockerfile: Dockerfile
+        image: ${REGISTRY_ADDRESS}iov-backend:${APP_VERSION}
+        depends_on: 
+            - mariadb-localtest
+        restart: always
+        networks:
+            - iov-network
+
+    nginx-orchestrator:
+        container_name: nginx-orchestrator
+        build:
+            context: ./nginx-orchestrator
+            dockerfile: Dockerfile
+        image: ${REGISTRY_ADDRESS}nginx-orchestrator:${APP_VERSION}
+        restart: always
+        ports: 
+            - 8080:443
+        depends_on: 
+            - iov-backend
+            - iov-frontend
+        networks:
+            - iov-network
+    
+    mqtt-secure-broker:
+        container_name: mqtt-secure-broker
+        build:
+            context: ./mqtt-broker
+            dockerfile: Dockerfile
+        image: ${REGISTRY_ADDRESS}mqtt-secure-broker:${APP_VERSION}
+        restart: always
+        ports:
+            - 8883:8883
+        networks:
+            - iov-network
+
+    python-mqtt-connector:
+        container_name: python-mqtt-connector
+        build:
+            context: ./python-mqtt-connector
+            dockerfile: Dockerfile
+        image: ${REGISTRY_ADDRESS}python-mqtt-connector:${APP_VERSION}
+        restart: always
+        depends_on:
+            - mqtt-secure-broker
+            - iov-backend
+        networks:
+            - iov-network
+
+    iov-frontend:
+        container_name: iov-frontend
+        restart: always
+        depends_on:
+            - iov-backend
+        build:
+            context: ./frontend-map
+            dockerfile: Dockerfile
+        image: ${REGISTRY_ADDRESS}iov-frontend:${APP_VERSION}
+        networks:
+            - iov-network
+
+    mariadb-localtest:              # comment this whole service if an external SQL Database will be used. Don't forget to change the connection proeprties at the Backend Container
+        container_name: mariadb-localtest
+        image: mariadb:10.5.8
+        # ports:                    # uncomment this lines to expose the port 3306 of the container to the host and local network
+        #     - 3306:3306
+        environment:
+            - MYSQL_DATABASE=${MYSQL_DATABASE}    # variables defined at the file .env at the root directory of this docker-compose project          
+            - MYSQL_USER=${MYSQL_USER}
+            - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+            - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+        restart: always
+        networks:
+            - iov-network
+        
+    adminer:         # SQL Database Admin Tool at port 8082 of the host, Optional
+        image: adminer
+        restart: always
+        ports:
+            - 8082:8080
+        networks:
+            - iov-network
+
+networks:
+    iov-network:
+        name: iov-network

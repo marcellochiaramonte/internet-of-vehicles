@@ -1,0 +1,16706 @@
+export const ChargingStations = [
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": null,
+            "Comments": "For use when the operator of the equipment is a single business owner connected to the location and equipment is not part of a larger network",
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 45,
+            "Title": "(Business Owner at Location)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": false,
+            "IsAccessKeyRequired": false,
+            "ID": 7,
+            "Title": "Public - Notice Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 21306,
+        "UUID": "5BA8CF03-C198-4591-80F1-C089FBD3CB91",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 45,
+        "OperatorsReference": null,
+        "UsageTypeID": 7,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 21651,
+            "Title": "Firma Elspermann",
+            "AddressLine1": "Steiger-Stein-Straße 1",
+            "AddressLine2": null,
+            "Town": "Bochum",
+            "StateOrProvince": "Bochum",
+            "Postcode": "44805",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.5094777045432,
+            "Longitude": 7.2549288984253,
+            "ContactTelephone1": "+49 234 960-3525",
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": "Die Ladekarte kann kostenlos am Empfang ausgeliehen werden. Nutzbar von Mo-Fr 8-18, Sa 10-14Uhr.",
+            "RelatedURL": "http://www.stadtwerke-bochum.de/privatkunden/energie_zukunft/Mobilitaet/elektromobilitaet.html",
+            "Distance": 1.1107834314935046,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 23154,
+                "ConnectionTypeID": 28,
+                "ConnectionType": {
+                    "FormalName": "CEE 7/4",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 28,
+                    "Title": "CEE 7/4 - Schuko - Type F"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 230,
+                "PowerKW": 3.7,
+                "CurrentTypeID": 10,
+                "CurrentType": {
+                    "Description": "Alternating Current - Single Phase",
+                    "ID": 10,
+                    "Title": "AC (Single-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-10-08T07:48:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2014-03-21T11:27:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": null,
+            "Comments": "For use when the operator of the equipment is a single business owner connected to the location and equipment is not part of a larger network",
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 45,
+            "Title": "(Business Owner at Location)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": false,
+            "IsAccessKeyRequired": false,
+            "ID": 7,
+            "Title": "Public - Notice Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 54553,
+        "UUID": "92075BAC-CDFD-4F07-86CE-1E7FF82C33CE",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 45,
+        "OperatorsReference": null,
+        "UsageTypeID": 7,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 54899,
+            "Title": "Matthias-Claudius-Straße",
+            "AddressLine1": "Matthias-Claudius-Straße",
+            "AddressLine2": "Mitte",
+            "Town": "Bochum",
+            "StateOrProvince": "Bochum",
+            "Postcode": "44791",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.4945735,
+            "Longitude": 7.24486079999997,
+            "ContactTelephone1": "+49 234 960-3525",
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": "Nutzbar von Mo-Fr 8-18Uhr. Ladekarte kann kostenlos in der Verwaltung der VBW, Wirmerstraße 28 ausgeliehen werden. Betreiber sind die Stadtwerke Bochum.",
+            "RelatedURL": "http://www.stadtwerke-bochum.de/etc/medialib/stwbo/PDF/PDF_Broschueren_Allgemein.Par.0020.File.tmp/Stadtwerke_Bochum_Flyer_EMobilitaet_web.pdf",
+            "Distance": 1.2092993732975046,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 68843,
+                "ConnectionTypeID": 28,
+                "ConnectionType": {
+                    "FormalName": "CEE 7/4",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 28,
+                    "Title": "CEE 7/4 - Schuko - Type F"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 230,
+                "PowerKW": 3.7,
+                "CurrentTypeID": 10,
+                "CurrentType": {
+                    "Description": "Alternating Current - Single Phase",
+                    "ID": 10,
+                    "Title": "AC (Single-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-10-08T07:48:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2015-10-08T07:21:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "http://www.chargepoint.net/",
+            "Comments": null,
+            "PhonePrimaryContact": "1-888-758-4389",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": "support@coulombtech.com",
+            "FaultReportEmail": "support@coulombtech.com",
+            "IsRestrictedEdit": null,
+            "ID": 5,
+            "Title": "ChargePoint (Coulomb Technologies)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": null,
+            "IsAccessKeyRequired": null,
+            "ID": 1,
+            "Title": "Public"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 21307,
+        "UUID": "8D55E8C0-BDC9-41D2-95E7-9D0C03D22771",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 5,
+        "OperatorsReference": null,
+        "UsageTypeID": 1,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 21652,
+            "Title": "STADTWERKE BO / OEKOSTROM 2",
+            "AddressLine1": "Matthias-Claudius-Straße 25",
+            "AddressLine2": "Mitte",
+            "Town": "Bochum",
+            "StateOrProvince": "Bochum",
+            "Postcode": "44791",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.494356594831025,
+            "Longitude": 7.244687889626316,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": null,
+            "Distance": 1.231799613682609,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 23155,
+                "ConnectionTypeID": 13,
+                "ConnectionType": {
+                    "FormalName": "Europlug 2-Pin (CEE 7/16)",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 13,
+                    "Title": "Europlug 2-Pin (CEE 7/16)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 230,
+                "PowerKW": 3.7,
+                "CurrentTypeID": 10,
+                "CurrentType": {
+                    "Description": "Alternating Current - Single Phase",
+                    "ID": 10,
+                    "Title": "AC (Single-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2014-03-21T11:31:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2014-03-21T11:31:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": null,
+            "Comments": "For use when the operator of the equipment is a single business owner connected to the location and equipment is not part of a larger network",
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 45,
+            "Title": "(Business Owner at Location)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": null,
+            "IsAccessKeyRequired": null,
+            "ID": 1,
+            "Title": "Public"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 66196,
+        "UUID": "54C731BC-E037-475C-BBF4-27E2EEC1B681",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 45,
+        "OperatorsReference": null,
+        "UsageTypeID": 1,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 66542,
+            "Title": "Parkhaus UCI Kinowelt",
+            "AddressLine1": "Am Einkaufszentrum",
+            "AddressLine2": "Ruhrpark",
+            "Town": "Bochum",
+            "StateOrProvince": "Bochum",
+            "Postcode": "44791",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.49581577165597,
+            "Longitude": 7.277159457580651,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": "4 grün leuchtende Ladestationen im Holz-Look mit Parkplätzen neben dem Eingang des UCI Kinos. Beschilderung wird noch gemacht. 24/7 kostenlos nutzbar ohne Parkgebühren.",
+            "RelatedURL": "http://www.ruhrpark.de/",
+            "Distance": 1.2757099563862961,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 91493,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 32,
+                "Voltage": 400,
+                "PowerKW": 22.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 4,
+                "Comments": null
+            },
+            {
+                "ID": 91494,
+                "ConnectionTypeID": 28,
+                "ConnectionType": {
+                    "FormalName": "CEE 7/4",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 28,
+                    "Title": "CEE 7/4 - Schuko - Type F"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 230,
+                "PowerKW": 3.7,
+                "CurrentTypeID": 10,
+                "CurrentType": {
+                    "Description": "Alternating Current - Single Phase",
+                    "ID": 10,
+                    "Title": "AC (Single-Phase)"
+                },
+                "Quantity": 4,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 4,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2016-05-13T05:45:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2016-05-13T05:45:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": null,
+            "Comments": "For use when the operator of the equipment is a single business owner connected to the location and equipment is not part of a larger network",
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 45,
+            "Title": "(Business Owner at Location)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": null,
+            "IsAccessKeyRequired": null,
+            "ID": 1,
+            "Title": "Public"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 43617,
+        "UUID": "0BFCC1A4-9D04-4FDA-B059-026012A51A19",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 45,
+        "OperatorsReference": null,
+        "UsageTypeID": 1,
+        "UsageCost": "0",
+        "AddressInfo": {
+            "ID": 43963,
+            "Title": "Einkaufszentrum Ruhr Park",
+            "AddressLine1": "Ruhr Park 104",
+            "AddressLine2": null,
+            "Town": "Bochum",
+            "StateOrProvince": "Bochum",
+            "Postcode": "44791",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.4952888,
+            "Longitude": 7.28427769999996,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": "Ladesäule neben dem Busbahnhof gegenüber der Apotheke. Parken und Laden kostenlos, immer nutzbar. Bei Problemen Centermanagement kontaktieren, Büro direkt hinter der Säule, Mo-Sa 10-20Uhr besetzt",
+            "RelatedURL": "http://www.ruhrpark.de/",
+            "Distance": 1.760354910224853,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 52921,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 32,
+                "Voltage": 400,
+                "PowerKW": 22.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 2,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 2,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-04-08T09:30:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2015-04-08T09:27:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "https://www.rwe-mobility.com/",
+            "Comments": null,
+            "PhonePrimaryContact": "+49(0) 800 88 88 862",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 105,
+            "Title": "Innogy SE (RWE eMobility)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 87232,
+        "UUID": "E035BE98-F02E-473A-A1FB-FDE2A2A83985",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 105,
+        "OperatorsReference": null,
+        "UsageTypeID": 4,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 87578,
+            "Title": "Parkhaus P7",
+            "AddressLine1": "Am Einkaufszentrum 4",
+            "AddressLine2": null,
+            "Town": "Bochum",
+            "StateOrProvince": "Nordrhein-Westfalen",
+            "Postcode": "44791",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.49388559233202,
+            "Longitude": 7.2843589576721035,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": "Schräg gegenüber vom L'Osteria. 24/7 nutzbar, kein reservierter Parkplatz.",
+            "RelatedURL": null,
+            "Distance": 1.818157391393083,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 123652,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 32,
+                "Voltage": 400,
+                "PowerKW": 22.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 2,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 2,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2017-05-02T08:01:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2017-05-02T08:01:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": null,
+            "Comments": "For use when the operator of the equipment is a single business owner connected to the location and equipment is not part of a larger network",
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 45,
+            "Title": "(Business Owner at Location)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": null,
+            "IsAccessKeyRequired": null,
+            "ID": 1,
+            "Title": "Public"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 21312,
+        "UUID": "22B5833A-CEA9-45E4-BB83-57D7B2D1765F",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 45,
+        "OperatorsReference": null,
+        "UsageTypeID": 1,
+        "UsageCost": "0",
+        "AddressInfo": {
+            "ID": 21657,
+            "Title": "Stadtwerke",
+            "AddressLine1": "Ostring 28",
+            "AddressLine2": "Ecke Scharnhorststraße / Moritz Fiege Straße",
+            "Town": "Bochum",
+            "StateOrProvince": "Bochum",
+            "Postcode": "44787",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.481359510546106,
+            "Longitude": 7.224454879760742,
+            "ContactTelephone1": "",
+            "ContactTelephone2": "",
+            "ContactEmail": "",
+            "AccessComments": "Zufahrt nur über Einbahnstraße von Moritz Fiege (alt: Scharnhorst) Straße von der Arndtstraße aus, auf dem Parkplatz an der Ecke. 24/7 nutzbar, Ladekarte an der durchgehend bestzten Information der Stadtwerke.",
+            "RelatedURL": "http://www.stadtwerke-bochum.de/",
+            "Distance": 3.2175285895911356,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 23160,
+                "ConnectionTypeID": 28,
+                "ConnectionType": {
+                    "FormalName": "CEE 7/4",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 28,
+                    "Title": "CEE 7/4 - Schuko - Type F"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 230,
+                "PowerKW": 3.7,
+                "CurrentTypeID": 10,
+                "CurrentType": {
+                    "Description": "Alternating Current - Single Phase",
+                    "ID": 10,
+                    "Title": "AC (Single-Phase)"
+                },
+                "Quantity": 2,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 2,
+        "GeneralComments": "",
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-04-08T09:28:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2014-03-21T11:57:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "https://www.rwe-mobility.com/",
+            "Comments": null,
+            "PhonePrimaryContact": "+49(0) 800 88 88 862",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 105,
+            "Title": "Innogy SE (RWE eMobility)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": [
+            {
+                "ID": 6351,
+                "ChargePointID": 33067,
+                "CommentTypeID": 10,
+                "CommentType": {
+                    "ID": 10,
+                    "Title": "General Comment"
+                },
+                "UserName": "dexter",
+                "Comment": "Ladesäule steht auf der Tankstelle vorn zur Straße hin, in der Zapfsäulen-Gasse, d.h. man stört ggf. andere Autofahrer.\nRundherum gibt es wenig Sehenswertes und wenig Grün. Evtl. https://www.variete-et-cetera.de/, aber sehr enge Öffnungszeiten.\nDer \"Olympia Grill\" ist nur OK wenn man wirklich Hunger hat...",
+                "Rating": 2,
+                "RelatedURL": null,
+                "DateCreated": "2015-08-30T12:07:59.877Z",
+                "User": {
+                    "ID": 4520,
+                    "IdentityProvider": null,
+                    "Identifier": null,
+                    "CurrentSessionToken": null,
+                    "Username": "dexter",
+                    "Profile": null,
+                    "Location": null,
+                    "WebsiteURL": null,
+                    "ReputationPoints": 66,
+                    "Permissions": null,
+                    "PermissionsRequested": null,
+                    "DateCreated": null,
+                    "DateLastLogin": null,
+                    "IsProfilePublic": null,
+                    "IsEmergencyChargingProvider": null,
+                    "IsPublicChargingProvider": null,
+                    "Latitude": null,
+                    "Longitude": null,
+                    "EmailAddress": null,
+                    "EmailHash": null,
+                    "ProfileImageURL": "https://www.gravatar.com/avatar/c1eeee91e0367e7584c286fe72498b79?s=80&d=robohash",
+                    "IsCurrentSessionTokenValid": null,
+                    "APIKey": null,
+                    "SyncedSettings": null
+                },
+                "CheckinStatusTypeID": 10,
+                "CheckinStatusType": {
+                    "IsPositive": true,
+                    "IsAutomatedCheckin": false,
+                    "ID": 10,
+                    "Title": "Charged Successfully"
+                },
+                "IsActionedByEditor": null
+            }
+        ],
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 33067,
+        "UUID": "0B4795C1-E6E3-4532-9031-7903CB53E0F7",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 105,
+        "OperatorsReference": "Essent EM-DE-05911000-02-00002",
+        "UsageTypeID": 4,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 33413,
+            "Title": "Herner Str. 269",
+            "AddressLine1": "Herner Str. 269",
+            "AddressLine2": null,
+            "Town": "Bochum",
+            "StateOrProvince": null,
+            "Postcode": "44809",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.502839,
+            "Longitude": 7.211925,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": null,
+            "Distance": 3.3426105601175378,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 36578,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": null,
+                "Comments": null
+            },
+            {
+                "ID": 46656,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": null,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-08-30T12:08:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 3,
+        "DateCreated": "2015-01-09T06:04:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": null,
+            "Comments": null,
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": null,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 1,
+            "Title": "(Unknown Operator)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": null,
+            "IsAccessKeyRequired": null,
+            "ID": 1,
+            "Title": "Public"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 56304,
+        "UUID": "2B1BE767-A777-4436-83B7-1FADA24BAF72",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 1,
+        "OperatorsReference": null,
+        "UsageTypeID": 1,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 56650,
+            "Title": " Hotel Mercure Bochum City",
+            "AddressLine1": "Massenbergstraße 19",
+            "AddressLine2": "Mitte",
+            "Town": "Bochum",
+            "StateOrProvince": "Bochum",
+            "Postcode": "44787",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.480146382399,
+            "Longitude": 7.22336105026236,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": "Manchmal müssen Parkgebühren bezahlt werden. Auf Ladepunkt der Stadtwerke berufen, dann kann man Glück haben. Das Laden ist kostenlos, Betreiber sind die Stadtwerke Bochum.",
+            "RelatedURL": "http://www.ruhrautoe.de/ueber-ruhrautoe/standorte",
+            "Distance": 3.362815626429684,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 71012,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 32,
+                "Voltage": 400,
+                "PowerKW": 22.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 2,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 2,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-10-29T21:50:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2015-10-28T14:24:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "http://www.teslamotors.com",
+            "Comments": null,
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": null,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 23,
+            "Title": "Tesla Motors (Worldwide)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 84593,
+        "UUID": "4B453BB9-7991-4349-837E-F3352A9A5517",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 23,
+        "OperatorsReference": "25387",
+        "UsageTypeID": 4,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 84939,
+            "Title": "Acora Hotel und Wohnen Bochum",
+            "AddressLine1": "44 - 50 Nordring",
+            "AddressLine2": null,
+            "Town": "Bochum",
+            "StateOrProvince": null,
+            "Postcode": "44787",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.486323,
+            "Longitude": 7.216261,
+            "ContactTelephone1": "+49 2346 8960",
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": null,
+            "Distance": 3.3885381711128355,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 120159,
+                "ConnectionTypeID": 30,
+                "ConnectionType": {
+                    "FormalName": null,
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 30,
+                    "Title": "Tesla (Model S/X)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 32,
+                "Voltage": 400,
+                "PowerKW": 22.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 2,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 2,
+        "GeneralComments": "2 Tesla Connectors, up to 22kW.Available for customers. Please see front desk.",
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2018-10-03T16:09:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2017-03-04T06:37:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": null,
+            "Comments": "For use when the operator of the equipment is a single business owner connected to the location and equipment is not part of a larger network",
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 45,
+            "Title": "(Business Owner at Location)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": null,
+            "IsAccessKeyRequired": null,
+            "ID": 1,
+            "Title": "Public"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 56318,
+        "UUID": "857528B8-097C-41C1-BE44-28A502EC6061",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 45,
+        "OperatorsReference": null,
+        "UsageTypeID": 1,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 56664,
+            "Title": "Jewo Mobil",
+            "AddressLine1": "Claudius-Höfe 2",
+            "AddressLine2": "Mitte",
+            "Town": "Bochum",
+            "StateOrProvince": "Bochum",
+            "Postcode": "44789",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.476942500086906,
+            "Longitude": 7.2271344031105444,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": "Station ist Bestandteil des \"ruhrautoe\" Projekts. Laden und Parken kostenlos 24/7.",
+            "RelatedURL": "http://www.ruhrautoe.de/ueber-ruhrautoe/standorte/",
+            "Distance": 3.428057928351762,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 71031,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 32,
+                "Voltage": 400,
+                "PowerKW": 22.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 0,
+                "Comments": null
+            },
+            {
+                "ID": 71032,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 400,
+                "PowerKW": 11.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-10-29T13:12:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2015-10-29T13:12:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": null,
+            "Comments": "For use when the operator of the equipment is a single business owner connected to the location and equipment is not part of a larger network",
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 45,
+            "Title": "(Business Owner at Location)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": null,
+            "IsAccessKeyRequired": null,
+            "ID": 1,
+            "Title": "Public"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 21311,
+        "UUID": "5FBFAE13-1ABB-4733-A2BF-43EBDBD32494",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 45,
+        "OperatorsReference": null,
+        "UsageTypeID": 1,
+        "UsageCost": "0",
+        "AddressInfo": {
+            "ID": 21656,
+            "Title": "Parkhaus P6 Buddenbergplatz ",
+            "AddressLine1": "Buddenbergplatz 1",
+            "AddressLine2": "Mitte",
+            "Town": "Bochum",
+            "StateOrProvince": "Bochum",
+            "Postcode": "44787",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.47780539267166,
+            "Longitude": 7.224675147885122,
+            "ContactTelephone1": "",
+            "ContactTelephone2": "",
+            "ContactEmail": "",
+            "AccessComments": "1 Parkplatz auf der obersten Ebene rechte Seite, nutzbar während der Öffnungszeiten Mo-Fr 5:00-1:00, Sa 5:00-2:00, So/Feiertag 7:00-0:00Uhr. Beim Pförtner melden, dieser schaltet Säule frei. Vor Ausfahrt wieder dort melden, Säule wird wieder freigegeben und Parkkarte gegen eine entwertete Karte umgetauscht. Laden kostenlos",
+            "RelatedURL": "",
+            "Distance": 3.4745640802583933,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 23159,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 400,
+                "PowerKW": 11.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            },
+            {
+                "ID": 52924,
+                "ConnectionTypeID": 28,
+                "ConnectionType": {
+                    "FormalName": "CEE 7/4",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 28,
+                    "Title": "CEE 7/4 - Schuko - Type F"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 230,
+                "PowerKW": 3.7,
+                "CurrentTypeID": 10,
+                "CurrentType": {
+                    "Description": "Alternating Current - Single Phase",
+                    "ID": 10,
+                    "Title": "AC (Single-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": "",
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-04-08T09:29:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2014-03-21T11:52:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": null,
+            "Comments": null,
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": null,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 1,
+            "Title": "(Unknown Operator)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": null,
+            "IsAccessKeyRequired": null,
+            "ID": 1,
+            "Title": "Public"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 56302,
+        "UUID": "B114D697-9753-4783-B39D-508935633B0D",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 1,
+        "OperatorsReference": null,
+        "UsageTypeID": 1,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 56648,
+            "Title": "Universitätsstraße",
+            "AddressLine1": "Universitätsstraße 1",
+            "AddressLine2": "Mitte",
+            "Town": "Bochum",
+            "StateOrProvince": "Bochum",
+            "Postcode": "44787",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.4788078,
+            "Longitude": 7.22134499999993,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": "Von der Universitätsstrasse auf den Taxi Parkplatz des Hbf dann rechts halten, ausgeschiledert. Jede Ladekarte wird akzeptiert.",
+            "RelatedURL": "http://www.ruhrautoe.de/ueber-ruhrautoe/standorte",
+            "Distance": 3.565910720700636,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 71010,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 32,
+                "Voltage": 400,
+                "PowerKW": 22.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 2,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 2,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-10-30T07:19:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2015-10-28T14:20:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "https://www.rwe-mobility.com/",
+            "Comments": null,
+            "PhonePrimaryContact": "+49(0) 800 88 88 862",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 105,
+            "Title": "Innogy SE (RWE eMobility)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 32936,
+        "UUID": "3C94D3F7-A6D7-4D8B-900D-D2C094C5C97E",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 105,
+        "OperatorsReference": "Essent EM-DE-05911000-06-00001",
+        "UsageTypeID": 4,
+        "UsageCost": "",
+        "AddressInfo": {
+            "ID": 33282,
+            "Title": "Westfalen Tankstelle",
+            "AddressLine1": "Alte Wittener Straße 40",
+            "AddressLine2": "",
+            "Town": "Bochum",
+            "StateOrProvince": "",
+            "Postcode": "44803",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.468056,
+            "Longitude": 7.270833,
+            "ContactTelephone1": "0800-2255793",
+            "ContactTelephone2": "",
+            "ContactEmail": "",
+            "AccessComments": "Rechts am Tankstellengebäude zwischen Zapfsäulen und Ausfahrt Autowäsche. ",
+            "RelatedURL": "http://rwe-mobility.com/",
+            "Distance": 3.630354303525227,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 36447,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 32,
+                "Voltage": 400,
+                "PowerKW": 22.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 2,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 2,
+        "GeneralComments": "",
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-04-08T09:28:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 3,
+        "DateCreated": "2015-01-09T06:03:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": null,
+            "Comments": "For use when the operator of the equipment is a single business owner connected to the location and equipment is not part of a larger network",
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 45,
+            "Title": "(Business Owner at Location)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": true,
+            "IsMembershipRequired": false,
+            "IsAccessKeyRequired": false,
+            "ID": 5,
+            "Title": "Public - Pay At Location"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 103304,
+        "UUID": "8B1B560E-449A-4800-BDE1-1D7AC783B0D1",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 45,
+        "OperatorsReference": null,
+        "UsageTypeID": 5,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 103650,
+            "Title": "Parkhaus P2 Dr. Ruer-Platz",
+            "AddressLine1": "Luisenstraße 9",
+            "AddressLine2": null,
+            "Town": "Bochum",
+            "StateOrProvince": "Nordrhein-Westfalen",
+            "Postcode": "44787",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.4793414,
+            "Longitude": 7.219123800000034,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": "Hinter der Schranke bei der Einfahrt in die Tiefgarage links, am Häuschen des Wärters vorbei nach ein paar Metern auf der rechten Seite.",
+            "RelatedURL": null,
+            "Distance": 3.6450432998899465,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 145946,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 400,
+                "PowerKW": 11.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 2,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 2,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2018-04-26T09:22:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2018-04-26T09:22:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "http://www.thenewmotion.de/",
+            "Comments": null,
+            "PhonePrimaryContact": "030 215 028 48",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": "info@thenewmotion.de",
+            "FaultReportEmail": "service@thenewmotion.de",
+            "IsRestrictedEdit": false,
+            "ID": 156,
+            "Title": "The New Motion (DE)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 81593,
+        "UUID": "C03FA416-C8FF-429A-AB00-D620BAAAAA6A",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 156,
+        "OperatorsReference": null,
+        "UsageTypeID": 4,
+        "UsageCost": "0,30€/kWh",
+        "AddressInfo": {
+            "ID": 81939,
+            "Title": "Autohaus Bentrop",
+            "AddressLine1": "Oberscheidstraße 12",
+            "AddressLine2": null,
+            "Town": "Bochum",
+            "StateOrProvince": "Bochum",
+            "Postcode": "44807",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.517798389214,
+            "Longitude": 7.2156058962952,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": "Nutzbar während der Öffnungszeiten Mo-Fr 8-18Uhr, Sa 9-14Uhr auf dem Firmengelände des KIA Autohauses.",
+            "RelatedURL": "http://www.kia-bentrop.de/",
+            "Distance": 3.6546301387793227,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 116334,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 32,
+                "Voltage": 400,
+                "PowerKW": 22.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2017-02-03T06:05:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2017-02-03T06:04:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": null,
+            "Comments": null,
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": null,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 1,
+            "Title": "(Unknown Operator)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": null,
+            "IsAccessKeyRequired": null,
+            "ID": 1,
+            "Title": "Public"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": [
+            {
+                "ID": 15985,
+                "ChargePointID": 56303,
+                "CommentTypeID": 10,
+                "CommentType": {
+                    "ID": 10,
+                    "Title": "General Comment"
+                },
+                "UserName": "Haegar2004",
+                "Comment": "",
+                "Rating": 5,
+                "RelatedURL": null,
+                "DateCreated": "2017-03-02T13:10:53.547Z",
+                "User": {
+                    "ID": 12201,
+                    "IdentityProvider": null,
+                    "Identifier": null,
+                    "CurrentSessionToken": null,
+                    "Username": "Haegar2004",
+                    "Profile": null,
+                    "Location": null,
+                    "WebsiteURL": null,
+                    "ReputationPoints": 64,
+                    "Permissions": null,
+                    "PermissionsRequested": null,
+                    "DateCreated": null,
+                    "DateLastLogin": null,
+                    "IsProfilePublic": null,
+                    "IsEmergencyChargingProvider": null,
+                    "IsPublicChargingProvider": null,
+                    "Latitude": null,
+                    "Longitude": null,
+                    "EmailAddress": null,
+                    "EmailHash": null,
+                    "ProfileImageURL": "https://www.gravatar.com/avatar/94d72dfaca105b64b8baff77e8071891?s=80&d=robohash",
+                    "IsCurrentSessionTokenValid": null,
+                    "APIKey": null,
+                    "SyncedSettings": null
+                },
+                "CheckinStatusTypeID": 10,
+                "CheckinStatusType": {
+                    "IsPositive": true,
+                    "IsAutomatedCheckin": false,
+                    "ID": 10,
+                    "Title": "Charged Successfully"
+                },
+                "IsActionedByEditor": null
+            }
+        ],
+        "PercentageSimilarity": null,
+        "MediaItems": [
+            {
+                "ID": 10559,
+                "ChargePointID": 56303,
+                "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM56303/OCM-56303.orig.2017030213103841.jpg",
+                "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM56303/OCM-56303.thmb.2017030213103841.jpg",
+                "Comment": "",
+                "IsEnabled": true,
+                "IsVideo": false,
+                "IsFeaturedItem": false,
+                "IsExternalResource": false,
+                "MetadataValue": null,
+                "User": {
+                    "ID": 12201,
+                    "IdentityProvider": null,
+                    "Identifier": null,
+                    "CurrentSessionToken": null,
+                    "Username": "Haegar2004",
+                    "Profile": null,
+                    "Location": null,
+                    "WebsiteURL": null,
+                    "ReputationPoints": 64,
+                    "Permissions": null,
+                    "PermissionsRequested": null,
+                    "DateCreated": null,
+                    "DateLastLogin": null,
+                    "IsProfilePublic": null,
+                    "IsEmergencyChargingProvider": null,
+                    "IsPublicChargingProvider": null,
+                    "Latitude": null,
+                    "Longitude": null,
+                    "EmailAddress": null,
+                    "EmailHash": null,
+                    "ProfileImageURL": "https://www.gravatar.com/avatar/94d72dfaca105b64b8baff77e8071891?s=80&d=robohash",
+                    "IsCurrentSessionTokenValid": null,
+                    "APIKey": null,
+                    "SyncedSettings": null
+                },
+                "DateCreated": "2017-03-02T13:11:00Z"
+            }
+        ],
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 56303,
+        "UUID": "E62ADE9F-B0AD-4900-A0BA-B6A72A065E6E",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 1,
+        "OperatorsReference": null,
+        "UsageTypeID": 1,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 56649,
+            "Title": "Stadtwerke Bochum / Am Rathaus",
+            "AddressLine1": "Viktoriastraße 4",
+            "AddressLine2": "Mitte",
+            "Town": "Bochum",
+            "StateOrProvince": "Bochum",
+            "Postcode": "44787",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.4812,
+            "Longitude": 7.21564000000001,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": "Säule ist im Messmodus. Jede Ladekarte wird akzeptiert.",
+            "RelatedURL": "http://www.ruhrautoe.de/ueber-ruhrautoe/standorte",
+            "Distance": 3.7151902254991773,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 71011,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 32,
+                "Voltage": 400,
+                "PowerKW": 22.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 2,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 2,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2017-03-02T13:11:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2015-10-28T14:22:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": null,
+            "Comments": "For use when the operator of the equipment is a single business owner connected to the location and equipment is not part of a larger network",
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 45,
+            "Title": "(Business Owner at Location)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": null,
+            "IsAccessKeyRequired": null,
+            "ID": 1,
+            "Title": "Public"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": [
+            {
+                "ID": 8812,
+                "ChargePointID": 21309,
+                "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM21309/OCM-21309.orig.2016121408170463.jpg",
+                "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM21309/OCM-21309.thmb.2016121408170463.jpg",
+                "Comment": "",
+                "IsEnabled": true,
+                "IsVideo": false,
+                "IsFeaturedItem": false,
+                "IsExternalResource": false,
+                "MetadataValue": null,
+                "User": {
+                    "ID": 12115,
+                    "IdentityProvider": null,
+                    "Identifier": null,
+                    "CurrentSessionToken": null,
+                    "Username": "Andreas Reisewitz",
+                    "Profile": null,
+                    "Location": null,
+                    "WebsiteURL": null,
+                    "ReputationPoints": 3,
+                    "Permissions": null,
+                    "PermissionsRequested": null,
+                    "DateCreated": null,
+                    "DateLastLogin": null,
+                    "IsProfilePublic": null,
+                    "IsEmergencyChargingProvider": null,
+                    "IsPublicChargingProvider": null,
+                    "Latitude": null,
+                    "Longitude": null,
+                    "EmailAddress": null,
+                    "EmailHash": null,
+                    "ProfileImageURL": null,
+                    "IsCurrentSessionTokenValid": null,
+                    "APIKey": null,
+                    "SyncedSettings": null
+                },
+                "DateCreated": "2016-12-14T08:17:00Z"
+            }
+        ],
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 21309,
+        "UUID": "F45B236E-7DEB-4A87-9869-0280B165F9D4",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 45,
+        "OperatorsReference": null,
+        "UsageTypeID": 1,
+        "UsageCost": "",
+        "AddressInfo": {
+            "ID": 21654,
+            "Title": "Parkhaus P1 Husemannplatz",
+            "AddressLine1": "Viktoriastr. 19",
+            "AddressLine2": "Mitte",
+            "Town": "Bochum",
+            "StateOrProvince": "Bochum",
+            "Postcode": "44787",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.48014010000012,
+            "Longitude": 7.216024136483843,
+            "ContactTelephone1": "",
+            "ContactTelephone2": "",
+            "ContactEmail": "",
+            "AccessComments": "Nutzbar während der Parkhaus Öffnungszeiten (montags - samstags 06:30 - 22:30 Uhr, sonn- und feiertags geschlossen), Parkgebühren fallen an, Strom kostenlos. Ladekarte beim Pförtner leihen.",
+            "RelatedURL": "http://www.parken-in-bochum.de/parkhaus-p1-husemannplatz.php",
+            "Distance": 3.7612275988786084,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 23157,
+                "ConnectionTypeID": 28,
+                "ConnectionType": {
+                    "FormalName": "CEE 7/4",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 28,
+                    "Title": "CEE 7/4 - Schuko - Type F"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 230,
+                "PowerKW": 3.7,
+                "CurrentTypeID": 10,
+                "CurrentType": {
+                    "Description": "Alternating Current - Single Phase",
+                    "ID": 10,
+                    "Title": "AC (Single-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": "",
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2016-12-14T08:17:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2014-03-21T11:41:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": null,
+            "Comments": "For use when the operator of the equipment is a single business owner connected to the location and equipment is not part of a larger network",
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 45,
+            "Title": "(Business Owner at Location)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": null,
+            "IsAccessKeyRequired": null,
+            "ID": 1,
+            "Title": "Public"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 21308,
+        "UUID": "FC3BEE16-62B3-45FA-BDD7-9704059A7FB1",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 45,
+        "OperatorsReference": null,
+        "UsageTypeID": 1,
+        "UsageCost": "",
+        "AddressInfo": {
+            "ID": 21653,
+            "Title": "Parkhaus P3",
+            "AddressLine1": "Westring 26",
+            "AddressLine2": "Mitte",
+            "Town": "Bochum",
+            "StateOrProvince": "Bochum",
+            "Postcode": "44787",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.48255123806931,
+            "Longitude": 7.213122535443044,
+            "ContactTelephone1": "",
+            "ContactTelephone2": "",
+            "ContactEmail": "",
+            "AccessComments": "1 Ladesäule/Parkplatz, durch großes blaues \"Oköstrom: Jetzt auch Tanken\" Plakat (neben Platz 1-003) gekennzeichnet, nutzbar während der Öffnungszeiten (Mo–Fr 6:30–22:30 Uhr, Sa 8:00–20:30 Uhr, Sonn-/Feiertag geschlossen), Ladekarte an der Information.",
+            "RelatedURL": "http://www.parken-in-bochum.de/parkhaus-p3-rathaus-bvz.php",
+            "Distance": 3.781230880200325,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 23156,
+                "ConnectionTypeID": 28,
+                "ConnectionType": {
+                    "FormalName": "CEE 7/4",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 28,
+                    "Title": "CEE 7/4 - Schuko - Type F"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 230,
+                "PowerKW": 3.7,
+                "CurrentTypeID": 10,
+                "CurrentType": {
+                    "Description": "Alternating Current - Single Phase",
+                    "ID": 10,
+                    "Title": "AC (Single-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": "",
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2016-08-28T07:43:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2014-03-21T11:35:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "https://www.rwe-mobility.com/",
+            "Comments": null,
+            "PhonePrimaryContact": "+49(0) 800 88 88 862",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 105,
+            "Title": "Innogy SE (RWE eMobility)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": [
+            {
+                "ID": 21727,
+                "ChargePointID": 133844,
+                "CommentTypeID": 10,
+                "CommentType": {
+                    "ID": 10,
+                    "Title": "General Comment"
+                },
+                "UserName": "Kassiopeia",
+                "Comment": "3 of 4 charging points worked fine, one did not",
+                "Rating": 4,
+                "RelatedURL": null,
+                "DateCreated": "2019-10-28T15:54:36.787Z",
+                "User": {
+                    "ID": 19150,
+                    "IdentityProvider": null,
+                    "Identifier": null,
+                    "CurrentSessionToken": null,
+                    "Username": "Kassiopeia",
+                    "Profile": null,
+                    "Location": null,
+                    "WebsiteURL": null,
+                    "ReputationPoints": 95,
+                    "Permissions": null,
+                    "PermissionsRequested": null,
+                    "DateCreated": null,
+                    "DateLastLogin": null,
+                    "IsProfilePublic": null,
+                    "IsEmergencyChargingProvider": null,
+                    "IsPublicChargingProvider": null,
+                    "Latitude": null,
+                    "Longitude": null,
+                    "EmailAddress": null,
+                    "EmailHash": null,
+                    "ProfileImageURL": "https://www.gravatar.com/avatar/15b55afb5366dacd34fc50aa4acfc2ed?s=80&d=robohash",
+                    "IsCurrentSessionTokenValid": null,
+                    "APIKey": null,
+                    "SyncedSettings": null
+                },
+                "CheckinStatusTypeID": 20,
+                "CheckinStatusType": {
+                    "IsPositive": false,
+                    "IsAutomatedCheckin": false,
+                    "ID": 20,
+                    "Title": "Failed to Charge (Equipment Not Operational)"
+                },
+                "IsActionedByEditor": null
+            }
+        ],
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 133844,
+        "UUID": "DBF86EBC-B5E3-4D8D-A741-B02124C778B9",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 105,
+        "OperatorsReference": null,
+        "UsageTypeID": 4,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 134190,
+            "Title": "Lago",
+            "AddressLine1": "Am Ruhmbach 2",
+            "AddressLine2": "Sodingen",
+            "Town": "Herne",
+            "StateOrProvince": "NRW",
+            "Postcode": "44627",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.5344146711376,
+            "Longitude": 7.26117455250528,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": null,
+            "Distance": 3.8275997680179614,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 187298,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 22.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 2,
+                "Comments": null
+            },
+            {
+                "ID": 187299,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 22.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 2,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 4,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2019-10-28T15:55:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2019-10-28T15:50:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "http://www.chargepoint.net/",
+            "Comments": null,
+            "PhonePrimaryContact": "1-888-758-4389",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": "support@coulombtech.com",
+            "FaultReportEmail": "support@coulombtech.com",
+            "IsRestrictedEdit": null,
+            "ID": 5,
+            "Title": "ChargePoint (Coulomb Technologies)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": null,
+            "IsAccessKeyRequired": null,
+            "ID": 1,
+            "Title": "Public"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 21313,
+        "UUID": "0E8007A5-5D97-48A5-8994-BA1557B95F55",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 5,
+        "OperatorsReference": null,
+        "UsageTypeID": 1,
+        "UsageCost": "0",
+        "AddressInfo": {
+            "ID": 21658,
+            "Title": "STADTWERKE BO / OPEL",
+            "AddressLine1": "Opelring 1",
+            "AddressLine2": "Laer",
+            "Town": "Bochum",
+            "StateOrProvince": "Bochum",
+            "Postcode": "44803",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.465021994170385,
+            "Longitude": 7.257891574096691,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": null,
+            "Distance": 3.8921161956433323,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 23161,
+                "ConnectionTypeID": 13,
+                "ConnectionType": {
+                    "FormalName": "Europlug 2-Pin (CEE 7/16)",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 13,
+                    "Title": "Europlug 2-Pin (CEE 7/16)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 230,
+                "PowerKW": 3.7,
+                "CurrentTypeID": 10,
+                "CurrentType": {
+                    "Description": "Alternating Current - Single Phase",
+                    "ID": 10,
+                    "Title": "AC (Single-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2014-03-21T12:02:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2014-03-21T12:02:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "http://www.chargepoint.net/",
+            "Comments": null,
+            "PhonePrimaryContact": "1-888-758-4389",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": "support@coulombtech.com",
+            "FaultReportEmail": "support@coulombtech.com",
+            "IsRestrictedEdit": null,
+            "ID": 5,
+            "Title": "ChargePoint (Coulomb Technologies)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": null,
+            "IsAccessKeyRequired": null,
+            "ID": 1,
+            "Title": "Public"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": [
+            {
+                "ID": 14169,
+                "ChargePointID": 21310,
+                "CommentTypeID": 10,
+                "CommentType": {
+                    "ID": 10,
+                    "Title": "General Comment"
+                },
+                "UserName": "dexter",
+                "Comment": "Perfekt. Nur eine Anzeige ob die Stationen belegt sind fehlt noch.",
+                "Rating": 5,
+                "RelatedURL": null,
+                "DateCreated": "2016-08-28T14:45:41.69Z",
+                "User": {
+                    "ID": 4520,
+                    "IdentityProvider": null,
+                    "Identifier": null,
+                    "CurrentSessionToken": null,
+                    "Username": "dexter",
+                    "Profile": null,
+                    "Location": null,
+                    "WebsiteURL": null,
+                    "ReputationPoints": 66,
+                    "Permissions": null,
+                    "PermissionsRequested": null,
+                    "DateCreated": null,
+                    "DateLastLogin": null,
+                    "IsProfilePublic": null,
+                    "IsEmergencyChargingProvider": null,
+                    "IsPublicChargingProvider": null,
+                    "Latitude": null,
+                    "Longitude": null,
+                    "EmailAddress": null,
+                    "EmailHash": null,
+                    "ProfileImageURL": "https://www.gravatar.com/avatar/c1eeee91e0367e7584c286fe72498b79?s=80&d=robohash",
+                    "IsCurrentSessionTokenValid": null,
+                    "APIKey": null,
+                    "SyncedSettings": null
+                },
+                "CheckinStatusTypeID": 10,
+                "CheckinStatusType": {
+                    "IsPositive": true,
+                    "IsAutomatedCheckin": false,
+                    "ID": 10,
+                    "Title": "Charged Successfully"
+                },
+                "IsActionedByEditor": null
+            }
+        ],
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 21310,
+        "UUID": "EBCB4D9D-E7DA-4856-872D-1790D4A26D0C",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 5,
+        "OperatorsReference": null,
+        "UsageTypeID": 1,
+        "UsageCost": "Parken+Laden derzeit kostenfrei",
+        "AddressInfo": {
+            "ID": 21655,
+            "Title": "STADTWERKE BO / P8 BERMUDA",
+            "AddressLine1": "Kortumstraße 2-10",
+            "AddressLine2": "Mitte",
+            "Town": "Bochum",
+            "StateOrProvince": "Bochum",
+            "Postcode": "44787",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.47620601803521,
+            "Longitude": 7.2164383556719125,
+            "ContactTelephone1": "",
+            "ContactTelephone2": "",
+            "ContactEmail": "",
+            "AccessComments": "Direkt nach der Parkhauseinfahrt rechts, zwei reservierte Stellplätze. Pförtner ist direkt gegenüber, schaltet frei. Parken+Laden derzeit kostenfrei.",
+            "RelatedURL": "",
+            "Distance": 4.0121348612692715,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 23158,
+                "ConnectionTypeID": 28,
+                "ConnectionType": {
+                    "FormalName": "CEE 7/4",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 28,
+                    "Title": "CEE 7/4 - Schuko - Type F"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 230,
+                "PowerKW": 3.7,
+                "CurrentTypeID": 10,
+                "CurrentType": {
+                    "Description": "Alternating Current - Single Phase",
+                    "ID": 10,
+                    "Title": "AC (Single-Phase)"
+                },
+                "Quantity": 2,
+                "Comments": null
+            },
+            {
+                "ID": 101878,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 230,
+                "PowerKW": 3.7,
+                "CurrentTypeID": 10,
+                "CurrentType": {
+                    "Description": "Alternating Current - Single Phase",
+                    "ID": 10,
+                    "Title": "AC (Single-Phase)"
+                },
+                "Quantity": 2,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 2,
+        "GeneralComments": "",
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2016-08-28T14:46:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2014-03-21T11:47:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": null,
+            "Comments": "For use when the operator of the equipment is a single business owner connected to the location and equipment is not part of a larger network",
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 45,
+            "Title": "(Business Owner at Location)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": null,
+            "IsAccessKeyRequired": null,
+            "ID": 1,
+            "Title": "Public"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": [
+            {
+                "ID": 8988,
+                "ChargePointID": 45131,
+                "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM45131/OCM-45131.orig.2017011007445859.jpg",
+                "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM45131/OCM-45131.thmb.2017011007445859.jpg",
+                "Comment": "",
+                "IsEnabled": true,
+                "IsVideo": false,
+                "IsFeaturedItem": false,
+                "IsExternalResource": false,
+                "MetadataValue": null,
+                "User": {
+                    "ID": 12201,
+                    "IdentityProvider": null,
+                    "Identifier": null,
+                    "CurrentSessionToken": null,
+                    "Username": "Haegar2004",
+                    "Profile": null,
+                    "Location": null,
+                    "WebsiteURL": null,
+                    "ReputationPoints": 64,
+                    "Permissions": null,
+                    "PermissionsRequested": null,
+                    "DateCreated": null,
+                    "DateLastLogin": null,
+                    "IsProfilePublic": null,
+                    "IsEmergencyChargingProvider": null,
+                    "IsPublicChargingProvider": null,
+                    "Latitude": null,
+                    "Longitude": null,
+                    "EmailAddress": null,
+                    "EmailHash": null,
+                    "ProfileImageURL": "https://www.gravatar.com/avatar/94d72dfaca105b64b8baff77e8071891?s=80&d=robohash",
+                    "IsCurrentSessionTokenValid": null,
+                    "APIKey": null,
+                    "SyncedSettings": null
+                },
+                "DateCreated": "2017-01-10T07:45:00Z"
+            }
+        ],
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 45131,
+        "UUID": "CBA73678-353E-4AAA-BA14-29027D66B526",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 45,
+        "OperatorsReference": null,
+        "UsageTypeID": 1,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 45477,
+            "Title": "GLS-Bank Chademo",
+            "AddressLine1": "Christstraße 9",
+            "AddressLine2": null,
+            "Town": "Bochum",
+            "StateOrProvince": null,
+            "Postcode": "44789",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.4708614601872,
+            "Longitude": 7.21922796129865,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": "Freier zugang 24/7 nutzbar.  P&C Kasten an gleicher Positioon, während der Bank-Öffnungszeiten kann Schlüssel ausgeliehen werden.",
+            "RelatedURL": "http://www.gls.de/privatkunden",
+            "Distance": 4.2974661990483165,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 55592,
+                "ConnectionTypeID": 2,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-3 Configuration AA",
+                    "IsDiscontinued": null,
+                    "IsObsolete": null,
+                    "ID": 2,
+                    "Title": "CHAdeMO"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 3,
+                "Level": {
+                    "Comments": "40KW and Higher",
+                    "IsFastChargeCapable": true,
+                    "ID": 3,
+                    "Title": "Level 3:  High (Over 40kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 50.0,
+                "CurrentTypeID": 30,
+                "CurrentType": {
+                    "Description": "Direct Current",
+                    "ID": 30,
+                    "Title": "DC"
+                },
+                "Quantity": 1,
+                "Comments": null
+            },
+            {
+                "ID": 111463,
+                "ConnectionTypeID": 33,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-3 Configuration FF",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 33,
+                    "Title": "CCS (Type 2)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 3,
+                "Level": {
+                    "Comments": "40KW and Higher",
+                    "IsFastChargeCapable": true,
+                    "ID": 3,
+                    "Title": "Level 3:  High (Over 40kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 50.0,
+                "CurrentTypeID": 30,
+                "CurrentType": {
+                    "Description": "Direct Current",
+                    "ID": 30,
+                    "Title": "DC"
+                },
+                "Quantity": 1,
+                "Comments": null
+            },
+            {
+                "ID": 111464,
+                "ConnectionTypeID": 1036,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 1036,
+                    "Title": "Type 2 (Tethered Connector) "
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 3,
+                "Level": {
+                    "Comments": "40KW and Higher",
+                    "IsFastChargeCapable": true,
+                    "ID": 3,
+                    "Title": "Level 3:  High (Over 40kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": null,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 3,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2017-01-12T16:06:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2015-04-25T12:44:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "http://www.park-charge.de/",
+            "Comments": null,
+            "PhonePrimaryContact": "030-32 59 91 80 ",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": "info@park-charge.de",
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 98,
+            "Title": "Park & Charge (D)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 45130,
+        "UUID": "1173BF84-A887-4769-8823-FFBD6D0C0020",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 98,
+        "OperatorsReference": null,
+        "UsageTypeID": 4,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 45476,
+            "Title": "GLS-Bank in Bochum",
+            "AddressLine1": "Christstraße 9",
+            "AddressLine2": null,
+            "Town": "Bochum",
+            "StateOrProvince": null,
+            "Postcode": "44789",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.4708457547956,
+            "Longitude": 7.21914883580529,
+            "ContactTelephone1": "ite",
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": "http://www.gls.de/privatkunden",
+            "Distance": 4.302383472905291,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 55589,
+                "ConnectionTypeID": 17,
+                "ConnectionType": {
+                    "FormalName": null,
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 17,
+                    "Title": "CEE 5 Pin"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 400,
+                "PowerKW": 11.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            },
+            {
+                "ID": 55590,
+                "ConnectionTypeID": 16,
+                "ConnectionType": {
+                    "FormalName": null,
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 16,
+                    "Title": "CEE 3 Pin"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 230,
+                "PowerKW": 3.7,
+                "CurrentTypeID": 10,
+                "CurrentType": {
+                    "Description": "Alternating Current - Single Phase",
+                    "ID": 10,
+                    "Title": "AC (Single-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            },
+            {
+                "ID": 55591,
+                "ConnectionTypeID": 28,
+                "ConnectionType": {
+                    "FormalName": "CEE 7/4",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 28,
+                    "Title": "CEE 7/4 - Schuko - Type F"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 230,
+                "PowerKW": 3.7,
+                "CurrentTypeID": 10,
+                "CurrentType": {
+                    "Description": "Alternating Current - Single Phase",
+                    "ID": 10,
+                    "Title": "AC (Single-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 2,
+        "GeneralComments": "24/7 nutzbar, Ladestation zwischen den Gebäuden. Während der Bank-Öffnungszeiten kann Schlüssel ausgeliehen werden.\r\nChademo Ladesäule an gleicher Position ohne P&C.",
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-04-25T13:54:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2015-04-25T12:42:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": null,
+            "Comments": "For use when the operator of the equipment is a single business owner connected to the location and equipment is not part of a larger network",
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 45,
+            "Title": "(Business Owner at Location)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": null,
+            "IsAccessKeyRequired": null,
+            "ID": 1,
+            "Title": "Public"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 90030,
+        "UUID": "E177FA40-B070-405C-90A6-3861481AB0B0",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 45,
+        "OperatorsReference": null,
+        "UsageTypeID": 1,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 90376,
+            "Title": "Evangelisches Krankenhaus",
+            "AddressLine1": "Wiescherstraße 24",
+            "AddressLine2": null,
+            "Town": "Herne",
+            "StateOrProvince": "Herne",
+            "Postcode": "44623",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.53435589999999,
+            "Longitude": 7.23063460000003,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": "24/7 open",
+            "RelatedURL": null,
+            "Distance": 4.326966825952011,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 127627,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 32,
+                "Voltage": 400,
+                "PowerKW": 22.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 2,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 2,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2017-07-04T11:28:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2017-07-04T11:28:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "https://www.rwe-mobility.com/",
+            "Comments": null,
+            "PhonePrimaryContact": "+49(0) 800 88 88 862",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 105,
+            "Title": "Innogy SE (RWE eMobility)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 95609,
+        "UUID": "FDB9A4E9-56FE-4EC0-BEDC-859DAC92A241",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 105,
+        "OperatorsReference": null,
+        "UsageTypeID": 4,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 95955,
+            "Title": "Akademie Mont-Cenis",
+            "AddressLine1": "Mont-Cenis Platz 1",
+            "AddressLine2": "Sodingen",
+            "Town": "Herne",
+            "StateOrProvince": "Herne",
+            "Postcode": "44627",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.541539644430436,
+            "Longitude": 7.255481869697631,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": "Am Hintereingang der Akademie Mont-Cenis, geöffnet vopn Mo-Fr 7-18Uhr, Sa-So 10-17Uhr.",
+            "RelatedURL": null,
+            "Distance": 4.6295638536728525,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 135428,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 32,
+                "Voltage": 400,
+                "PowerKW": 22.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 2,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 2,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2017-11-15T06:55:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2017-11-15T06:55:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "https://www.rwe-mobility.com/",
+            "Comments": null,
+            "PhonePrimaryContact": "+49(0) 800 88 88 862",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 105,
+            "Title": "Innogy SE (RWE eMobility)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 105476,
+        "UUID": "CFC28A2F-1F8F-46B9-8A32-BA80F63314C9",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 105,
+        "OperatorsReference": null,
+        "UsageTypeID": 4,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 105822,
+            "Title": "Einkaufszentrum Hannibal",
+            "AddressLine1": "Riemker Straße 13",
+            "AddressLine2": null,
+            "Town": "Bochum",
+            "StateOrProvince": "Nordrhein-Westfalen",
+            "Postcode": "44809",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.50676353381178,
+            "Longitude": 7.193805454106155,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": "Die zweite Lademöglichkeit des Einkaufszentrum ist im südöstlichen Teil  des Parkplatzes.",
+            "RelatedURL": null,
+            "Distance": 4.642992321643159,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 148656,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 32,
+                "Voltage": 400,
+                "PowerKW": 22.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2018-06-08T04:44:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2018-06-08T04:44:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "https://www.rwe-mobility.com/",
+            "Comments": null,
+            "PhonePrimaryContact": "+49(0) 800 88 88 862",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 105,
+            "Title": "Innogy SE (RWE eMobility)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 33040,
+        "UUID": "02ACDB0E-CDCE-41B9-A33F-D1FCDF33B98B",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 105,
+        "OperatorsReference": "Essent EM-DE-05911000-04-00001",
+        "UsageTypeID": 4,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 33386,
+            "Title": "Freudenbergstr. 25-33",
+            "AddressLine1": "Freudenbergstr. 25-33",
+            "AddressLine2": null,
+            "Town": "Bochum",
+            "StateOrProvince": null,
+            "Postcode": "44809",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.496908,
+            "Longitude": 7.192317,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": null,
+            "Distance": 4.697805925838312,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 36551,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": null,
+                "Comments": null
+            },
+            {
+                "ID": 46641,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": null,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-04-14T00:17:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 3,
+        "DateCreated": "2015-01-09T06:03:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": null,
+            "Comments": "For use when the operator of the equipment is a single business owner connected to the location and equipment is not part of a larger network",
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 45,
+            "Title": "(Business Owner at Location)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": null,
+            "IsAccessKeyRequired": null,
+            "ID": 1,
+            "Title": "Public"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 21305,
+        "UUID": "A402A0ED-B74D-4FE6-BC17-49E2B16AF0E4",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 45,
+        "OperatorsReference": null,
+        "UsageTypeID": 1,
+        "UsageCost": "",
+        "AddressInfo": {
+            "ID": 21650,
+            "Title": "Einkaufszentrum Hannibal",
+            "AddressLine1": "Riemker Straße 13",
+            "AddressLine2": "Hofstede",
+            "Town": "Bochum",
+            "StateOrProvince": "Bochum",
+            "Postcode": "44809",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.5071287,
+            "Longitude": 7.192698999999948,
+            "ContactTelephone1": "",
+            "ContactTelephone2": "",
+            "ContactEmail": "",
+            "AccessComments": "Am großen blauen Plakat der Stadtwerke Bochum \"Ökostrom: Jetzt auch zum Tanken!\"",
+            "RelatedURL": "http://www.stadtwerke-bochum.de",
+            "Distance": 4.725204249014009,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 23153,
+                "ConnectionTypeID": 28,
+                "ConnectionType": {
+                    "FormalName": "CEE 7/4",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 28,
+                    "Title": "CEE 7/4 - Schuko - Type F"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 230,
+                "PowerKW": 3.7,
+                "CurrentTypeID": 10,
+                "CurrentType": {
+                    "Description": "Alternating Current - Single Phase",
+                    "ID": 10,
+                    "Title": "AC (Single-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": "",
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-04-08T09:47:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2014-03-21T11:20:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": null,
+            "Comments": "For use when the operator of the equipment is a single business owner connected to the location and equipment is not part of a larger network",
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 45,
+            "Title": "(Business Owner at Location)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": null,
+            "IsAccessKeyRequired": null,
+            "ID": 3,
+            "Title": "Privately Owned - Notice Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 43621,
+        "UUID": "B864B54A-7F6D-4467-A7EC-F5896DE92229",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 45,
+        "OperatorsReference": null,
+        "UsageTypeID": 3,
+        "UsageCost": "0",
+        "AddressInfo": {
+            "ID": 43967,
+            "Title": "Zurbrüggen Wohnzentrum",
+            "AddressLine1": "Am Westerfeld 1",
+            "AddressLine2": null,
+            "Town": "Herne",
+            "StateOrProvince": "Herne",
+            "Postcode": "44625",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.530321000107904,
+            "Longitude": 7.211863581684161,
+            "ContactTelephone1": "+49-2323-1474-0",
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": "Zufahrt von Holsterhauser Straße (Richtung \"Zurbrüggen\"). Ladesäulen befinden sich rechts und links des Haupteingangs, nutzbar von Mo-Sa 10-19:00, kostenloses Parken, Laden kostenlos bei Einkauf.",
+            "RelatedURL": "http://www.zurbrueggen.de",
+            "Distance": 4.739440599251949,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 52927,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 400,
+                "PowerKW": 11.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 12,
+                "Comments": null
+            },
+            {
+                "ID": 52928,
+                "ConnectionTypeID": 28,
+                "ConnectionType": {
+                    "FormalName": "CEE 7/4",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 28,
+                    "Title": "CEE 7/4 - Schuko - Type F"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 230,
+                "PowerKW": 3.7,
+                "CurrentTypeID": 10,
+                "CurrentType": {
+                    "Description": "Alternating Current - Single Phase",
+                    "ID": 10,
+                    "Title": "AC (Single-Phase)"
+                },
+                "Quantity": 16,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": "Typ2 Dosen sind abgeschlossen; Schlüssel wird gegen 20€ Pfand an der Information herausgegeben. Schuko frei zugänglich!",
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-04-08T10:17:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2015-04-08T10:17:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": null,
+            "Comments": "For use when the operator of the equipment is a single business owner connected to the location and equipment is not part of a larger network",
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 45,
+            "Title": "(Business Owner at Location)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": null,
+            "IsAccessKeyRequired": null,
+            "ID": 1,
+            "Title": "Public"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 103253,
+        "UUID": "8C320C04-6BDB-413C-9D85-6061BB32F728",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 45,
+        "OperatorsReference": null,
+        "UsageTypeID": 1,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 103599,
+            "Title": "Jahrhunderthalle ",
+            "AddressLine1": "An der Jahrhunderthalle 1",
+            "AddressLine2": null,
+            "Town": "Bochum",
+            "StateOrProvince": "Nordrhein-Westfalen",
+            "Postcode": "44793",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.481473905651576,
+            "Longitude": 7.1979294777710265,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": "24/7 kostenlos nutzbare Ladesäule  direkt am Wasserturm, in unmittelbarer Nähe zur Gastronomie im Pumpenhaus. Kann mit beliebiger Ladekarte aktiviert werden. Ist die Schranke unten, dann klingeln, der Pförtner öffnet dann die Schranke.",
+            "RelatedURL": "http://www.jahrhunderthalle-bochum.de/",
+            "Distance": 4.765656491887598,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 145875,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 32,
+                "Voltage": 400,
+                "PowerKW": 22.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 2,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 2,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2018-04-25T07:09:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2018-04-25T07:09:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": null,
+            "Comments": "For use when the operator of the equipment is a single business owner connected to the location and equipment is not part of a larger network",
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 45,
+            "Title": "(Business Owner at Location)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 43620,
+        "UUID": "08AB91EB-D895-46F8-8483-D19B99B4C257",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 45,
+        "OperatorsReference": null,
+        "UsageTypeID": 4,
+        "UsageCost": "0",
+        "AddressInfo": {
+            "ID": 43966,
+            "Title": "Stadtwerke Herne AG Kundencenter",
+            "AddressLine1": "Berliner Platz 9",
+            "AddressLine2": null,
+            "Town": "Herne",
+            "StateOrProvince": "Herne",
+            "Postcode": "44623",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.536481617274376,
+            "Longitude": 7.223762405216676,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": "24/7 nutzbare Ladesäule am Ende der Parkbuchten mit einem reservierten Parkplatz. Freischaltung mit Ladekarte der Stadtwerke, erhältlich an dieser Adresse im Laden der Stadtwerke Herne.",
+            "RelatedURL": "http://www.stadtwerke-herne.de/index/unternehmen/presseservice/pressemeldungen/stadtwerke_errichten.html",
+            "Distance": 4.768932337645655,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 52926,
+                "ConnectionTypeID": 28,
+                "ConnectionType": {
+                    "FormalName": "CEE 7/4",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 28,
+                    "Title": "CEE 7/4 - Schuko - Type F"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 230,
+                "PowerKW": 3.7,
+                "CurrentTypeID": 10,
+                "CurrentType": {
+                    "Description": "Alternating Current - Single Phase",
+                    "ID": 10,
+                    "Title": "AC (Single-Phase)"
+                },
+                "Quantity": 2,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 2,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2018-01-08T07:00:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2015-04-08T10:11:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "http://www.nissan.de/DE/de/vehicle/electric-vehicles/leaf/charging-and-battery/freistrom-info.html",
+            "Comments": null,
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 167,
+            "Title": "Nissan DE Freistrom"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": false,
+            "IsAccessKeyRequired": false,
+            "ID": 7,
+            "Title": "Public - Notice Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 47604,
+        "UUID": "038F17A9-E2D8-4A5A-8BCD-2C8D28E026FE",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 167,
+        "OperatorsReference": null,
+        "UsageTypeID": 7,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 47950,
+            "Title": "Autohaus Auto und Sport",
+            "AddressLine1": "Porschestraße 3",
+            "AddressLine2": null,
+            "Town": "Bochum",
+            "StateOrProvince": "Bochum",
+            "Postcode": "44809",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.4866281818809,
+            "Longitude": 7.1932977863694,
+            "ContactTelephone1": "0234 - 61 05 05 0 ",
+            "ContactTelephone2": null,
+            "ContactEmail": "bo@autoundsportas.de",
+            "AccessComments": "Durchgehend nutzbare Ladesäule (ohne Ladekarte) auf dem Parkplatz, dazu rechts durchfahren bis Ende. Langes Kabel mit Stecker an der Ladesäule.",
+            "RelatedURL": "http://autosport.nissan-haendler.de/",
+            "Distance": 4.8513104453148115,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 58685,
+                "ConnectionTypeID": 2,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-3 Configuration AA",
+                    "IsDiscontinued": null,
+                    "IsObsolete": null,
+                    "ID": 2,
+                    "Title": "CHAdeMO"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 50.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": 1,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-06-01T12:44:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2015-06-01T12:30:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": null,
+            "Comments": "For use when the operator of the equipment is a single business owner connected to the location and equipment is not part of a larger network",
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 45,
+            "Title": "(Business Owner at Location)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": false,
+            "IsAccessKeyRequired": false,
+            "ID": 6,
+            "Title": "Private - For Staff, Visitors or Customers"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 43616,
+        "UUID": "03A94974-FF80-4299-9DB6-514811C0DF72",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 45,
+        "OperatorsReference": null,
+        "UsageTypeID": 6,
+        "UsageCost": "0",
+        "AddressInfo": {
+            "ID": 43962,
+            "Title": "Parkhaus Jahrhunderthalle",
+            "AddressLine1": "An der Jahrhunderthalle 1",
+            "AddressLine2": "Mitte",
+            "Town": "Bochum",
+            "StateOrProvince": "Bochum",
+            "Postcode": "44793",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.4792189445826,
+            "Longitude": 7.19663105487825,
+            "ContactTelephone1": "0234 307990",
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": "Das Parkhaus ist nur bei Veranstaltungen in der Jahrhunderthalle geöffnet. 2 kostenlose Parkplätze an der Ausfahrt, Pförtner trägt ein, wer wann wieviel geladen hat.",
+            "RelatedURL": "http://www.stadtwerke-bochum.de/privatkunden/energie_zukunft/Mobilitaet/elektromobilitaet/nutzungshinweise.",
+            "Distance": 4.958737634330918,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 52919,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 32,
+                "Voltage": 400,
+                "PowerKW": 22.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 2,
+                "Comments": null
+            },
+            {
+                "ID": 52920,
+                "ConnectionTypeID": 28,
+                "ConnectionType": {
+                    "FormalName": "CEE 7/4",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 28,
+                    "Title": "CEE 7/4 - Schuko - Type F"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 230,
+                "PowerKW": 3.7,
+                "CurrentTypeID": 10,
+                "CurrentType": {
+                    "Description": "Alternating Current - Single Phase",
+                    "ID": 10,
+                    "Title": "AC (Single-Phase)"
+                },
+                "Quantity": 2,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 2,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-04-08T09:30:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2015-04-08T09:20:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "https://www.rwe-mobility.com/",
+            "Comments": null,
+            "PhonePrimaryContact": "+49(0) 800 88 88 862",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 105,
+            "Title": "Innogy SE (RWE eMobility)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 33055,
+        "UUID": "E0344677-293E-4704-A994-CF7194F4E114",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 105,
+        "OperatorsReference": "Essent EM-DE-05913000-11-00003",
+        "UsageTypeID": 4,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 33401,
+            "Title": "Werner Straße 10",
+            "AddressLine1": "Werner Straße 10",
+            "AddressLine2": null,
+            "Town": "Dortmund",
+            "StateOrProvince": null,
+            "Postcode": "44388",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.499444,
+            "Longitude": 7.333333,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": null,
+            "Distance": 5.076551906046735,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 36566,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": null,
+                "Comments": null
+            },
+            {
+                "ID": 46649,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": null,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-04-13T23:33:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 3,
+        "DateCreated": "2015-01-09T06:03:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "https://www.rwe-mobility.com/",
+            "Comments": null,
+            "PhonePrimaryContact": "+49(0) 800 88 88 862",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 105,
+            "Title": "Innogy SE (RWE eMobility)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 33066,
+        "UUID": "4B4B999B-4CE4-4236-B107-B3E279A86C8D",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 105,
+        "OperatorsReference": "Essent EM-DE-05913000-11-00004",
+        "UsageTypeID": 4,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 33412,
+            "Title": "Volksgartenstraße 19",
+            "AddressLine1": "Volksgartenstraße 19",
+            "AddressLine2": null,
+            "Town": "Dortmund",
+            "StateOrProvince": null,
+            "Postcode": "44388",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.502654,
+            "Longitude": 7.333715,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": null,
+            "Distance": 5.110965207142383,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 36577,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": null,
+                "Comments": null
+            },
+            {
+                "ID": 46655,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": null,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-04-13T14:48:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 3,
+        "DateCreated": "2015-01-09T06:04:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "http://www.teslamotors.com",
+            "Comments": null,
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": null,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 23,
+            "Title": "Tesla Motors (Worldwide)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": false,
+            "IsAccessKeyRequired": false,
+            "ID": 6,
+            "Title": "Private - For Staff, Visitors or Customers"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 108897,
+        "UUID": "F6B6B413-C072-40E8-97A3-D2158EE33DAB",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 23,
+        "OperatorsReference": "46178",
+        "UsageTypeID": 6,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 109243,
+            "Title": "Parkhotel Herne",
+            "AddressLine1": "Schaeferstrasse 109",
+            "AddressLine2": null,
+            "Town": "Herne",
+            "StateOrProvince": null,
+            "Postcode": "44623",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.544424,
+            "Longitude": 7.237738,
+            "ContactTelephone1": "+49 2323 9550",
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": null,
+            "Distance": 5.174281636125973,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 154014,
+                "ConnectionTypeID": 30,
+                "ConnectionType": {
+                    "FormalName": null,
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 30,
+                    "Title": "Tesla (Model S/X)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 400,
+                "PowerKW": 11.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": "1 Tesla Connector, up to 11kW.Available for patrons only. Self park.",
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2018-10-11T13:00:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2018-10-11T13:00:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": null,
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": null,
+            "IsAccessKeyRequired": null,
+            "ID": 1,
+            "Title": "Public"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 156202,
+        "UUID": "D03E2FF5-4490-4527-9F80-D133577BEDD4",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": null,
+        "OperatorsReference": null,
+        "UsageTypeID": 1,
+        "UsageCost": "Free",
+        "AddressInfo": {
+            "ID": 156556,
+            "Title": "Stadtwerke Herne Charging Station",
+            "AddressLine1": "An der Linde 41",
+            "AddressLine2": null,
+            "Town": "Herne",
+            "StateOrProvince": null,
+            "Postcode": "44628",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.54756745681513,
+            "Longitude": 7.261051232679961,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": "https://www.stadtwerke-herne.de/",
+            "Distance": 5.289759868622665,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 219831,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 32,
+                "Voltage": 400,
+                "PowerKW": 22.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 2,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 2,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2020-05-11T06:35:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2020-05-11T05:21:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "https://www.rwe-mobility.com/",
+            "Comments": null,
+            "PhonePrimaryContact": "+49(0) 800 88 88 862",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 105,
+            "Title": "Innogy SE (RWE eMobility)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 33133,
+        "UUID": "61D30334-83CE-4BE2-B190-8A3EEAAB2D92",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 105,
+        "OperatorsReference": "Essent EM-DE-05913000-11-00002",
+        "UsageTypeID": 4,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 33479,
+            "Title": "Rhader Weg 6",
+            "AddressLine1": "Rhader Weg 6",
+            "AddressLine2": null,
+            "Town": "Dortmund",
+            "StateOrProvince": null,
+            "Postcode": "44388",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.518767,
+            "Longitude": 7.332117,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": null,
+            "Distance": 5.40964324736979,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 36644,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": null,
+                "Comments": null
+            },
+            {
+                "ID": 46695,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": null,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-04-13T05:10:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 3,
+        "DateCreated": "2015-01-09T06:04:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "https://www.rwe-mobility.com/",
+            "Comments": null,
+            "PhonePrimaryContact": "+49(0) 800 88 88 862",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 105,
+            "Title": "Innogy SE (RWE eMobility)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 33032,
+        "UUID": "6BEBD480-AF8F-44A9-9377-242AD9B676F7",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 105,
+        "OperatorsReference": "Essent EM-DE-05911000-03-00002",
+        "UsageTypeID": 4,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 33378,
+            "Title": "Bundesautobahnraststätte Beverbach",
+            "AddressLine1": "Bundesautobahnraststätte Beverbach",
+            "AddressLine2": null,
+            "Town": "Bochum",
+            "StateOrProvince": null,
+            "Postcode": "44892",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.494884,
+            "Longitude": 7.337912,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": null,
+            "Distance": 5.4233257983902305,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 36543,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": null,
+                "Comments": null
+            },
+            {
+                "ID": 46638,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": null,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-04-13T18:19:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 3,
+        "DateCreated": "2015-01-09T06:03:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": null,
+            "Comments": "For use when the operator of the equipment is a single business owner connected to the location and equipment is not part of a larger network",
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 45,
+            "Title": "(Business Owner at Location)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": null,
+            "IsAccessKeyRequired": null,
+            "ID": 1,
+            "Title": "Public"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 56319,
+        "UUID": "8B18FDE2-8765-429B-ACC6-C0407C81ADFC",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 45,
+        "OperatorsReference": null,
+        "UsageTypeID": 1,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 56665,
+            "Title": "AKAFÖ Wohnheim",
+            "AddressLine1": "Stiepeler Straße 71",
+            "AddressLine2": "Wiemelhausen",
+            "Town": "Bochum",
+            "StateOrProvince": "Bochum",
+            "Postcode": "44799",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.45177488867802,
+            "Longitude": 7.243804314155566,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": "Station des ruhrautoe Projekts, Laden und Parken kostenlos.",
+            "RelatedURL": "http://www.ruhrautoe.de/ueber-ruhrautoe/standorte/",
+            "Distance": 5.4784428638513365,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 71033,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 32,
+                "Voltage": 400,
+                "PowerKW": 22.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 0,
+                "Comments": null
+            },
+            {
+                "ID": 71034,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 400,
+                "PowerKW": 11.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-10-29T13:13:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2015-10-29T13:13:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": null,
+            "Comments": "For use when the operator of the equipment is a single business owner connected to the location and equipment is not part of a larger network",
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 45,
+            "Title": "(Business Owner at Location)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": null,
+            "IsAccessKeyRequired": null,
+            "ID": 1,
+            "Title": "Public"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 75652,
+        "UUID": "ECF7F67F-9DBD-4913-933E-3FB19FC73853",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 45,
+        "OperatorsReference": null,
+        "UsageTypeID": 1,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 75998,
+            "Title": "Supermarkt Lidl",
+            "AddressLine1": "Holsterhauser Straße 59",
+            "AddressLine2": null,
+            "Town": "Herne",
+            "StateOrProvince": "Herne",
+            "Postcode": "44652",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.5241555,
+            "Longitude": 7.186307899999974,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": "Details unbekannt; bitte nachtragen",
+            "RelatedURL": null,
+            "Distance": 5.763753442567075,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 109102,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 400,
+                "PowerKW": 11.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2016-12-19T08:26:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2016-12-19T08:26:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "http://www.park-charge.de/",
+            "Comments": null,
+            "PhonePrimaryContact": "030-32 59 91 80 ",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": "info@park-charge.de",
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 98,
+            "Title": "Park & Charge (D)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 45129,
+        "UUID": "A1448665-EFAD-4D2D-B1A2-13DD9BE45F8D",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 98,
+        "OperatorsReference": null,
+        "UsageTypeID": 4,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 45475,
+            "Title": "P&C Jewo Batterietechnik in Bochum",
+            "AddressLine1": "Bahnstraße 25",
+            "AddressLine2": null,
+            "Town": "Bochum",
+            "StateOrProvince": null,
+            "Postcode": "44793",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.46921,
+            "Longitude": 7.19299000000001,
+            "ContactTelephone1": "+49234-9448416",
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": "24/7 nutzbar.",
+            "RelatedURL": null,
+            "Distance": 5.7664150442277124,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 55586,
+                "ConnectionTypeID": 17,
+                "ConnectionType": {
+                    "FormalName": null,
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 17,
+                    "Title": "CEE 5 Pin"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 400,
+                "PowerKW": 11.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            },
+            {
+                "ID": 55587,
+                "ConnectionTypeID": 16,
+                "ConnectionType": {
+                    "FormalName": null,
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 16,
+                    "Title": "CEE 3 Pin"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 230,
+                "PowerKW": 3.7,
+                "CurrentTypeID": 10,
+                "CurrentType": {
+                    "Description": "Alternating Current - Single Phase",
+                    "ID": 10,
+                    "Title": "AC (Single-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            },
+            {
+                "ID": 55588,
+                "ConnectionTypeID": 28,
+                "ConnectionType": {
+                    "FormalName": "CEE 7/4",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 28,
+                    "Title": "CEE 7/4 - Schuko - Type F"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 230,
+                "PowerKW": 3.7,
+                "CurrentTypeID": 10,
+                "CurrentType": {
+                    "Description": "Alternating Current - Single Phase",
+                    "ID": 10,
+                    "Title": "AC (Single-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 3,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-04-25T13:55:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2015-04-25T12:39:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": null,
+            "Comments": "For use when the operator of the equipment is a single business owner connected to the location and equipment is not part of a larger network",
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 45,
+            "Title": "(Business Owner at Location)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": null,
+            "IsAccessKeyRequired": null,
+            "ID": 1,
+            "Title": "Public"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 21304,
+        "UUID": "00680D3E-E9B2-437A-9738-3ABB59733454",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 45,
+        "OperatorsReference": null,
+        "UsageTypeID": 1,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 21649,
+            "Title": "Stadtwerke Herne AG (Verwaltung)",
+            "AddressLine1": "Grenzweg 18",
+            "AddressLine2": "Baukau",
+            "Town": "Herne",
+            "StateOrProvince": "Herne",
+            "Postcode": "44623",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.5405910816351,
+            "Longitude": 7.20751449259034,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": null,
+            "Distance": 5.793041829536717,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 23152,
+                "ConnectionTypeID": 28,
+                "ConnectionType": {
+                    "FormalName": "CEE 7/4",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 28,
+                    "Title": "CEE 7/4 - Schuko - Type F"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 230,
+                "PowerKW": 3.7,
+                "CurrentTypeID": 10,
+                "CurrentType": {
+                    "Description": "Alternating Current - Single Phase",
+                    "ID": 10,
+                    "Title": "AC (Single-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-04-08T10:07:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2014-03-21T11:02:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": null,
+            "Comments": "For use when the operator of the equipment is a single business owner connected to the location and equipment is not part of a larger network",
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 45,
+            "Title": "(Business Owner at Location)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": null,
+            "IsAccessKeyRequired": null,
+            "ID": 3,
+            "Title": "Privately Owned - Notice Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 24099,
+        "UUID": "A8A8DC13-4813-4923-9656-0D5C0DDC29BA",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 45,
+        "OperatorsReference": null,
+        "UsageTypeID": 3,
+        "UsageCost": "0",
+        "AddressInfo": {
+            "ID": 24444,
+            "Title": "Hochschule Bochum",
+            "AddressLine1": "Lennershofstr 140",
+            "AddressLine2": "",
+            "Town": "Bochum",
+            "StateOrProvince": "NRW",
+            "Postcode": "44801",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.4480128802773,
+            "Longitude": 7.27090537548065,
+            "ContactTelephone1": "+4923432202",
+            "ContactTelephone2": "",
+            "ContactEmail": "",
+            "AccessComments": "Am Eingang der Universität. Ladesäule - an den ersten beiden Parkplätzen links vom Eingang - muss an der Information freigeschaltet werden. Öffnungszeiten Mo-Fr 8-16Uhr.",
+            "RelatedURL": "",
+            "Distance": 5.829839170269035,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 26123,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 400,
+                "PowerKW": 11.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 2,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 2,
+        "GeneralComments": "",
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-04-08T09:29:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2014-06-19T05:41:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "http://www.chargepoint.net/",
+            "Comments": null,
+            "PhonePrimaryContact": "1-888-758-4389",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": "support@coulombtech.com",
+            "FaultReportEmail": "support@coulombtech.com",
+            "IsRestrictedEdit": null,
+            "ID": 5,
+            "Title": "ChargePoint (Coulomb Technologies)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": null,
+            "ID": 2,
+            "Title": "Private - Restricted Access"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 21315,
+        "UUID": "D8B8B8A8-88BD-412B-B7AA-17BE4E8A0689",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 5,
+        "OperatorsReference": null,
+        "UsageTypeID": 2,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 21660,
+            "Title": "RUHR-UNI BOCHUM / E-MOBILITAET ",
+            "AddressLine1": "Universitätsstraße 150",
+            "AddressLine2": "Querenburg",
+            "Town": "Bochum",
+            "StateOrProvince": "Bochum",
+            "Postcode": "44801",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.445306598814675,
+            "Longitude": 7.260096130688449,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": null,
+            "Distance": 6.081632377461276,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 23163,
+                "ConnectionTypeID": 13,
+                "ConnectionType": {
+                    "FormalName": "Europlug 2-Pin (CEE 7/16)",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 13,
+                    "Title": "Europlug 2-Pin (CEE 7/16)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 230,
+                "PowerKW": 3.7,
+                "CurrentTypeID": 10,
+                "CurrentType": {
+                    "Description": "Alternating Current - Single Phase",
+                    "ID": 10,
+                    "Title": "AC (Single-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 2,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2014-03-21T12:13:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2014-03-21T12:13:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "http://www.chargepoint.net/",
+            "Comments": null,
+            "PhonePrimaryContact": "1-888-758-4389",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": "support@coulombtech.com",
+            "FaultReportEmail": "support@coulombtech.com",
+            "IsRestrictedEdit": null,
+            "ID": 5,
+            "Title": "ChargePoint (Coulomb Technologies)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": null,
+            "IsAccessKeyRequired": null,
+            "ID": 1,
+            "Title": "Public"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 21314,
+        "UUID": "D8F2E918-1FD1-4118-B04E-E6E2E4D0C358",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 5,
+        "OperatorsReference": null,
+        "UsageTypeID": 1,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 21659,
+            "Title": "STADTWERKE BO / KREISHANDWERK",
+            "AddressLine1": "Springorumallee 2",
+            "AddressLine2": "Weitmar",
+            "Town": "Bochum",
+            "StateOrProvince": "Bochum",
+            "Postcode": "44795",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.45473644855592,
+            "Longitude": 7.209087313199136,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": null,
+            "Distance": 6.14525712275958,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 23162,
+                "ConnectionTypeID": 13,
+                "ConnectionType": {
+                    "FormalName": "Europlug 2-Pin (CEE 7/16)",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 13,
+                    "Title": "Europlug 2-Pin (CEE 7/16)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 230,
+                "PowerKW": 3.7,
+                "CurrentTypeID": 10,
+                "CurrentType": {
+                    "Description": "Alternating Current - Single Phase",
+                    "ID": 10,
+                    "Title": "AC (Single-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2014-03-21T12:08:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2014-03-21T12:08:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "https://www.rwe-mobility.com/",
+            "Comments": null,
+            "PhonePrimaryContact": "+49(0) 800 88 88 862",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 105,
+            "Title": "Innogy SE (RWE eMobility)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": null,
+            "IsAccessKeyRequired": null,
+            "ID": 1,
+            "Title": "Public"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 45225,
+        "UUID": "93335C36-AED9-4892-8496-9AA93C6931CD",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 105,
+        "OperatorsReference": null,
+        "UsageTypeID": 1,
+        "UsageCost": "0",
+        "AddressInfo": {
+            "ID": 45571,
+            "Title": "E-Bike Station EUV Stadtbetrieb",
+            "AddressLine1": "Westring 215",
+            "AddressLine2": null,
+            "Town": "Castrop-Rauxel",
+            "StateOrProvince": null,
+            "Postcode": "44575",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.5529083411469,
+            "Longitude": 7.2936929833004,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": "http://www.rwe.com/web/cms/de/494436/e-bikes-on-tour/ladestationen/",
+            "Distance": 6.328062280493002,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 55742,
+                "ConnectionTypeID": 28,
+                "ConnectionType": {
+                    "FormalName": "CEE 7/4",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 28,
+                    "Title": "CEE 7/4 - Schuko - Type F"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 1,
+                "Level": {
+                    "Comments": "Under 2 kW, usually domestic socket types",
+                    "IsFastChargeCapable": false,
+                    "ID": 1,
+                    "Title": "Level 1 : Low (Under 2kW)"
+                },
+                "Amps": 10,
+                "Voltage": 230,
+                "PowerKW": 2.3,
+                "CurrentTypeID": 10,
+                "CurrentType": {
+                    "Description": "Alternating Current - Single Phase",
+                    "ID": 10,
+                    "Title": "AC (Single-Phase)"
+                },
+                "Quantity": 3,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 3,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-04-28T15:53:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2015-04-28T08:54:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "http://www.park-charge.de/",
+            "Comments": null,
+            "PhonePrimaryContact": "030-32 59 91 80 ",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": "info@park-charge.de",
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 98,
+            "Title": "Park & Charge (D)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 45128,
+        "UUID": "9468C965-33D2-4BAB-A22F-DE6C23A9D2C0",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 98,
+        "OperatorsReference": null,
+        "UsageTypeID": 4,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 45474,
+            "Title": "Biohaus Naturkost",
+            "AddressLine1": "Hattinger Straße 264",
+            "AddressLine2": null,
+            "Town": "Bochum",
+            "StateOrProvince": null,
+            "Postcode": "44795",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.45833,
+            "Longitude": 7.19666000000007,
+            "ContactTelephone1": "+49234-3257247",
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": null,
+            "Distance": 6.380439131219329,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 55583,
+                "ConnectionTypeID": 17,
+                "ConnectionType": {
+                    "FormalName": null,
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 17,
+                    "Title": "CEE 5 Pin"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 400,
+                "PowerKW": 11.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            },
+            {
+                "ID": 55584,
+                "ConnectionTypeID": 16,
+                "ConnectionType": {
+                    "FormalName": null,
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 16,
+                    "Title": "CEE 3 Pin"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 230,
+                "PowerKW": 3.7,
+                "CurrentTypeID": 10,
+                "CurrentType": {
+                    "Description": "Alternating Current - Single Phase",
+                    "ID": 10,
+                    "Title": "AC (Single-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            },
+            {
+                "ID": 55585,
+                "ConnectionTypeID": 28,
+                "ConnectionType": {
+                    "FormalName": "CEE 7/4",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 28,
+                    "Title": "CEE 7/4 - Schuko - Type F"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 230,
+                "PowerKW": 3.7,
+                "CurrentTypeID": 10,
+                "CurrentType": {
+                    "Description": "Alternating Current - Single Phase",
+                    "ID": 10,
+                    "Title": "AC (Single-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-04-25T13:55:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2015-04-25T12:37:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": null,
+            "Comments": "For use when the operator of the equipment is a single business owner connected to the location and equipment is not part of a larger network",
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 45,
+            "Title": "(Business Owner at Location)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": null,
+            "IsAccessKeyRequired": null,
+            "ID": 1,
+            "Title": "Public"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 91136,
+        "UUID": "362C66A9-50DD-44D4-8767-68AADE96A058",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 45,
+        "OperatorsReference": null,
+        "UsageTypeID": 1,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 91482,
+            "Title": "Markt",
+            "AddressLine1": "Am Markt 13",
+            "AddressLine2": null,
+            "Town": "Castrop-Rauxel",
+            "StateOrProvince": "Kreis Recklinghausen",
+            "Postcode": "44575",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.54755332403406,
+            "Longitude": 7.311875516498154,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": "Blaugrüne Ladesäule vor dem Immobiliencenter der Sparkasse am Markt. Freischaltung mit beliebiger RFID Karte.",
+            "RelatedURL": "http://www.stadtwerke-cas.de/",
+            "Distance": 6.390647659166596,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 129237,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 32,
+                "Voltage": 400,
+                "PowerKW": 22.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 2,
+                "Comments": null
+            },
+            {
+                "ID": 129238,
+                "ConnectionTypeID": 28,
+                "ConnectionType": {
+                    "FormalName": "CEE 7/4",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 28,
+                    "Title": "CEE 7/4 - Schuko - Type F"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 230,
+                "PowerKW": 3.7,
+                "CurrentTypeID": 10,
+                "CurrentType": {
+                    "Description": "Alternating Current - Single Phase",
+                    "ID": 10,
+                    "Title": "AC (Single-Phase)"
+                },
+                "Quantity": 2,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 2,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2017-07-31T05:24:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2017-07-31T05:24:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "https://has-to-be.com",
+            "Comments": "also known as has.to.be",
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 3261,
+            "Title": "Be Energised (has-to-be)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": null,
+            "IsAccessKeyRequired": null,
+            "ID": 1,
+            "Title": "Public"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": [
+            {
+                "ID": 21522,
+                "ChargePointID": 131980,
+                "CommentTypeID": 10,
+                "CommentType": {
+                    "ID": 10,
+                    "Title": "General Comment"
+                },
+                "UserName": "dexter",
+                "Comment": "Nur für Besucher des Studentenwohnheims sinnvoll (Pampa + Zeittarif)",
+                "Rating": 2,
+                "RelatedURL": null,
+                "DateCreated": "2019-09-16T18:45:51.753Z",
+                "User": {
+                    "ID": 4520,
+                    "IdentityProvider": null,
+                    "Identifier": null,
+                    "CurrentSessionToken": null,
+                    "Username": "dexter",
+                    "Profile": null,
+                    "Location": null,
+                    "WebsiteURL": null,
+                    "ReputationPoints": 66,
+                    "Permissions": null,
+                    "PermissionsRequested": null,
+                    "DateCreated": null,
+                    "DateLastLogin": null,
+                    "IsProfilePublic": null,
+                    "IsEmergencyChargingProvider": null,
+                    "IsPublicChargingProvider": null,
+                    "Latitude": null,
+                    "Longitude": null,
+                    "EmailAddress": null,
+                    "EmailHash": null,
+                    "ProfileImageURL": "https://www.gravatar.com/avatar/c1eeee91e0367e7584c286fe72498b79?s=80&d=robohash",
+                    "IsCurrentSessionTokenValid": null,
+                    "APIKey": null,
+                    "SyncedSettings": null
+                },
+                "CheckinStatusTypeID": 10,
+                "CheckinStatusType": {
+                    "IsPositive": true,
+                    "IsAutomatedCheckin": false,
+                    "ID": 10,
+                    "Title": "Charged Successfully"
+                },
+                "IsActionedByEditor": null
+            }
+        ],
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 131980,
+        "UUID": "9B0D12E8-279C-4B84-B60E-B94AAB3F69D9",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 3261,
+        "OperatorsReference": null,
+        "UsageTypeID": 1,
+        "UsageCost": "29 ct/kWh + 1 ct/Minute",
+        "AddressInfo": {
+            "ID": 132326,
+            "Title": "Garage Studentenwohnheim",
+            "AddressLine1": "Kollegstraße 2",
+            "AddressLine2": null,
+            "Town": "Bochum",
+            "StateOrProvince": "NRW",
+            "Postcode": "44801",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.4435240736897,
+            "Longitude": 7.2805161139828,
+            "ContactTelephone1": "+492349603090",
+            "ContactTelephone2": "+492349603555",
+            "ContactEmail": "stadtwerkedrive@stadtwerke-bochum.de",
+            "AccessComments": "Stadtwerke Bochum GmbH / Verbund be.energised",
+            "RelatedURL": "https://www.stadtwerkedrive.de/laden-in-bochum",
+            "Distance": 6.4386045292564775,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 184658,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 32,
+                "Voltage": 400,
+                "PowerKW": 22.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 2,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 2,
+        "GeneralComments": "Ladestation direkt vorn rechts an der Einfahrt zur Garage, offen und von der Straße aus sichtbar\r\nVorsicht Falle: Zeittarif",
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2019-09-16T18:46:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2019-09-16T18:45:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "https://www.rwe-mobility.com/",
+            "Comments": null,
+            "PhonePrimaryContact": "+49(0) 800 88 88 862",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 105,
+            "Title": "Innogy SE (RWE eMobility)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 33046,
+        "UUID": "1451497C-7390-4063-B0D0-71E80DE2463E",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 105,
+        "OperatorsReference": "Essent EM-DE-05913000-11-00001",
+        "UsageTypeID": 4,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 33392,
+            "Title": "Kesselborn 52",
+            "AddressLine1": "Kesselborn 52",
+            "AddressLine2": null,
+            "Town": "Dortmund",
+            "StateOrProvince": null,
+            "Postcode": "44379",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.497778,
+            "Longitude": 7.3625,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": null,
+            "Distance": 7.0995710699190875,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 36557,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": null,
+                "Comments": null
+            },
+            {
+                "ID": 46644,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": null,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-04-13T23:22:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 3,
+        "DateCreated": "2015-01-09T06:03:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": null,
+            "Comments": "For use when the operator of the equipment is a single business owner connected to the location and equipment is not part of a larger network",
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 45,
+            "Title": "(Business Owner at Location)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": null,
+            "IsAccessKeyRequired": null,
+            "ID": 1,
+            "Title": "Public"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 45048,
+        "UUID": "1821CE53-7CC9-4EFC-B8C0-3F318089CA0D",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 45,
+        "OperatorsReference": null,
+        "UsageTypeID": 1,
+        "UsageCost": "Stromspende",
+        "AddressInfo": {
+            "ID": 45394,
+            "Title": "Gebrüder Hoose GmbH",
+            "AddressLine1": "Kemnader Straße 13a",
+            "AddressLine2": "Weitmar",
+            "Town": "Bochum",
+            "StateOrProvince": "Bochum",
+            "Postcode": "44797",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.44044,
+            "Longitude": 7.21474999999998,
+            "ContactTelephone1": "+49 163 7730 400",
+            "ContactTelephone2": "",
+            "ContactEmail": "",
+            "AccessComments": "1 kostenloser 24/7 nutzbarer Parkplatz an Ladesäule, die unter einem Unterstand steht. Auf dem Parkplatz rechts ganz durchfahren. Manchmal stehen dort Taxis, diese über die Taxizentrale melden.",
+            "RelatedURL": "",
+            "Distance": 7.32698702923163,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 55394,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 3,
+                "Level": {
+                    "Comments": "40KW and Higher",
+                    "IsFastChargeCapable": true,
+                    "ID": 3,
+                    "Title": "Level 3:  High (Over 40kW)"
+                },
+                "Amps": 63,
+                "Voltage": 400,
+                "PowerKW": 43.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": "",
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2016-02-19T13:42:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2015-04-23T19:46:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": null,
+            "Comments": "For use when the operator of the equipment is a single business owner connected to the location and equipment is not part of a larger network",
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 45,
+            "Title": "(Business Owner at Location)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": null,
+            "IsAccessKeyRequired": null,
+            "ID": 1,
+            "Title": "Public"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 104050,
+        "UUID": "95F1630D-E021-4623-9BB8-D9476F02CD20",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 45,
+        "OperatorsReference": null,
+        "UsageTypeID": 1,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 104396,
+            "Title": "AHE Biogasanlage",
+            "AddressLine1": "Bebbelsdorf 89",
+            "AddressLine2": "Düren",
+            "Town": "Witten",
+            "StateOrProvince": "Ennepe-Ruhr-Kreis",
+            "Postcode": "58454",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.46200146529238,
+            "Longitude": 7.3470171088455345,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": "Von der Straße ,,Bebbelsdorf\" zur Biogasanlage abbiegen. Die durchgehend kostenlos nutzbare Säule ist auf der linken Fahrbahnseite ca. 30m vor dem Haupttor.",
+            "RelatedURL": "http://ahe.de/",
+            "Distance": 7.359609799265879,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 146869,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 32,
+                "Voltage": 400,
+                "PowerKW": 22.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 2,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 2,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2018-05-15T08:56:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2018-05-15T08:56:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": null,
+            "Comments": "For use when the operator of the equipment is a single business owner connected to the location and equipment is not part of a larger network",
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 45,
+            "Title": "(Business Owner at Location)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": null,
+            "IsAccessKeyRequired": null,
+            "ID": 1,
+            "Title": "Public"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 104049,
+        "UUID": "1B742E9C-78E8-455D-98BB-C6B5434AA58F",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 45,
+        "OperatorsReference": null,
+        "UsageTypeID": 1,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 104395,
+            "Title": "AHE Biogasanlage",
+            "AddressLine1": "Bebbelsdorf 89",
+            "AddressLine2": "Düren",
+            "Town": "Witten",
+            "StateOrProvince": "Ennepe-Ruhr-Kreis",
+            "Postcode": "58454",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.46200146529238,
+            "Longitude": 7.3470171088455345,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": "Von der Straße ,,Bebbelsdorf\" zur Biogasanlage abbiegen. Die durchgehend kostenlos nutzbare Säule ist auf der linken Fahrbahnseite ca. 30m vor dem Haupttor.",
+            "RelatedURL": "http://ahe.de/",
+            "Distance": 7.359609799265879,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 146868,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 32,
+                "Voltage": 400,
+                "PowerKW": 22.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 2,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 2,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2018-05-15T08:28:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2018-05-15T08:28:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": null,
+            "Comments": null,
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": null,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 1,
+            "Title": "(Unknown Operator)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 43619,
+        "UUID": "F670ED73-7DE4-46BD-A456-80AA9DAD2EC6",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 1,
+        "OperatorsReference": null,
+        "UsageTypeID": 4,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 43965,
+            "Title": "Wanner Busbahnhof ",
+            "AddressLine1": "Am Buschmannshof",
+            "AddressLine2": "Wanne",
+            "Town": "Herne",
+            "StateOrProvince": "Herne",
+            "Postcode": "44649",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.529552370698,
+            "Longitude": 7.16058185267447,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": "Gegenüber dem Busbahnhof an der Straße \"Am Buschmannshof\". Ladekarte der STWH (Stadtwerke Herne) notwendig, im Kundencenter der Stadtwerke erhältlich (http://www.stadtwerke-herne.de/index/kontakt/kontakt.html).",
+            "RelatedURL": "http://www.stadtwerke-herne.de/index/unternehmen/presseservice/pressemeldungen/stadtwerke_errichten.html",
+            "Distance": 7.624062533303574,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 52925,
+                "ConnectionTypeID": 28,
+                "ConnectionType": {
+                    "FormalName": "CEE 7/4",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 28,
+                    "Title": "CEE 7/4 - Schuko - Type F"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 230,
+                "PowerKW": 3.7,
+                "CurrentTypeID": 10,
+                "CurrentType": {
+                    "Description": "Alternating Current - Single Phase",
+                    "ID": 10,
+                    "Title": "AC (Single-Phase)"
+                },
+                "Quantity": 2,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 2,
+        "GeneralComments": "Betreiber: STWH (Stadtwerke Herne) ",
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-04-08T10:00:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2015-04-08T09:58:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": null,
+            "Comments": "For use when the operator of the equipment is a single business owner connected to the location and equipment is not part of a larger network",
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 45,
+            "Title": "(Business Owner at Location)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": null,
+            "IsAccessKeyRequired": null,
+            "ID": 3,
+            "Title": "Privately Owned - Notice Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 87862,
+        "UUID": "BCB2FF80-BA42-40DA-A092-CD9FAB40F44C",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 45,
+        "OperatorsReference": null,
+        "UsageTypeID": 3,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 88208,
+            "Title": "Zahnarztpraxis Günther",
+            "AddressLine1": "Pallasstraße 30",
+            "AddressLine2": null,
+            "Town": "Castrop-Rauxel",
+            "StateOrProvince": "Kreis Recklinghausen",
+            "Postcode": "44575",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.5582614,
+            "Longitude": 7.31886140000006,
+            "ContactTelephone1": "+49 2305 357043",
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": "Kostenloses Laden für Patienten, sonst gegen Unkostenpauschale. Freischaltung in der Praxis zu den Sprechzeiten.",
+            "RelatedURL": "http://www.zahnarztguenther.de/news/2017/1704-photovoltaik",
+            "Distance": 7.651726855356758,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 124657,
+                "ConnectionTypeID": 17,
+                "ConnectionType": {
+                    "FormalName": null,
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 17,
+                    "Title": "CEE 5 Pin"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 32,
+                "Voltage": 400,
+                "PowerKW": 22.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            },
+            {
+                "ID": 124658,
+                "ConnectionTypeID": 17,
+                "ConnectionType": {
+                    "FormalName": null,
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 17,
+                    "Title": "CEE 5 Pin"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 400,
+                "PowerKW": 11.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            },
+            {
+                "ID": 124659,
+                "ConnectionTypeID": 28,
+                "ConnectionType": {
+                    "FormalName": "CEE 7/4",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 28,
+                    "Title": "CEE 7/4 - Schuko - Type F"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 230,
+                "PowerKW": 3.7,
+                "CurrentTypeID": 10,
+                "CurrentType": {
+                    "Description": "Alternating Current - Single Phase",
+                    "ID": 10,
+                    "Title": "AC (Single-Phase)"
+                },
+                "Quantity": 4,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2017-05-16T14:16:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2017-05-16T14:16:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": null,
+            "Comments": "For use when the operator of the equipment is a single business owner connected to the location and equipment is not part of a larger network",
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 45,
+            "Title": "(Business Owner at Location)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": null,
+            "IsAccessKeyRequired": null,
+            "ID": 1,
+            "Title": "Public"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 107093,
+        "UUID": "A731C273-C5FB-49A1-B914-4BD540DAF430",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 45,
+        "OperatorsReference": null,
+        "UsageTypeID": 1,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 107439,
+            "Title": "IKEA",
+            "AddressLine1": "Borussiastraße 118",
+            "AddressLine2": null,
+            "Town": "Dortmund",
+            "StateOrProvince": "Dortmund",
+            "Postcode": "44149",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.49175287832189,
+            "Longitude": 7.370052304229716,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": "Kostenlos nutzbar während der Öffnungszeiten. Ganz hinten in der Ecke. Bis zum Ende des Parkplatzes durchfahren und dann direkt am Möbelhaus.",
+            "RelatedURL": null,
+            "Distance": 7.67355360532554,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 150989,
+                "ConnectionTypeID": 2,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-3 Configuration AA",
+                    "IsDiscontinued": null,
+                    "IsObsolete": null,
+                    "ID": 2,
+                    "Title": "CHAdeMO"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 3,
+                "Level": {
+                    "Comments": "40KW and Higher",
+                    "IsFastChargeCapable": true,
+                    "ID": 3,
+                    "Title": "Level 3:  High (Over 40kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 20.0,
+                "CurrentTypeID": 30,
+                "CurrentType": {
+                    "Description": "Direct Current",
+                    "ID": 30,
+                    "Title": "DC"
+                },
+                "Quantity": 1,
+                "Comments": null
+            },
+            {
+                "ID": 150990,
+                "ConnectionTypeID": 33,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-3 Configuration FF",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 33,
+                    "Title": "CCS (Type 2)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 3,
+                "Level": {
+                    "Comments": "40KW and Higher",
+                    "IsFastChargeCapable": true,
+                    "ID": 3,
+                    "Title": "Level 3:  High (Over 40kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 20.0,
+                "CurrentTypeID": 30,
+                "CurrentType": {
+                    "Description": "Direct Current",
+                    "ID": 30,
+                    "Title": "DC"
+                },
+                "Quantity": 1,
+                "Comments": null
+            },
+            {
+                "ID": 150991,
+                "ConnectionTypeID": 1036,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 1036,
+                    "Title": "Type 2 (Tethered Connector) "
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 32,
+                "Voltage": 400,
+                "PowerKW": 22.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 2,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 6,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2018-07-18T09:23:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2018-07-18T09:23:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "https://www.rwe-mobility.com/",
+            "Comments": null,
+            "PhonePrimaryContact": "+49(0) 800 88 88 862",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 105,
+            "Title": "Innogy SE (RWE eMobility)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": [
+            {
+                "ID": 6349,
+                "ChargePointID": 33250,
+                "CommentTypeID": 50,
+                "CommentType": {
+                    "ID": 50,
+                    "Title": "Important Notice (For Other Users)"
+                },
+                "UserName": "dexter",
+                "Comment": "NICHT ÖFFENTLICH! Unklare Öffnungszeiten!\nVermutlich sind die Öffnungszeiten des \"Umspannwerk\" und/oder \"Museum Strom und Leben\" relevant: http://www.umspannwerk-recklinghausen.de/\nLaut RWE-App nur Di-Fr 10-17 Uhr, laut Website auch Sa-Mo 10-17 Uhr -- am besten vorher anrufen!",
+                "Rating": 1,
+                "RelatedURL": null,
+                "DateCreated": "2015-08-30T11:58:23.137Z",
+                "User": {
+                    "ID": 4520,
+                    "IdentityProvider": null,
+                    "Identifier": null,
+                    "CurrentSessionToken": null,
+                    "Username": "dexter",
+                    "Profile": null,
+                    "Location": null,
+                    "WebsiteURL": null,
+                    "ReputationPoints": 66,
+                    "Permissions": null,
+                    "PermissionsRequested": null,
+                    "DateCreated": null,
+                    "DateLastLogin": null,
+                    "IsProfilePublic": null,
+                    "IsEmergencyChargingProvider": null,
+                    "IsPublicChargingProvider": null,
+                    "Latitude": null,
+                    "Longitude": null,
+                    "EmailAddress": null,
+                    "EmailHash": null,
+                    "ProfileImageURL": "https://www.gravatar.com/avatar/c1eeee91e0367e7584c286fe72498b79?s=80&d=robohash",
+                    "IsCurrentSessionTokenValid": null,
+                    "APIKey": null,
+                    "SyncedSettings": null
+                },
+                "CheckinStatusTypeID": 200,
+                "CheckinStatusType": {
+                    "IsPositive": false,
+                    "IsAutomatedCheckin": false,
+                    "ID": 200,
+                    "Title": "Other (Negative/Bad)"
+                },
+                "IsActionedByEditor": null
+            },
+            {
+                "ID": 6348,
+                "ChargePointID": 33250,
+                "CommentTypeID": 50,
+                "CommentType": {
+                    "ID": 50,
+                    "Title": "Important Notice (For Other Users)"
+                },
+                "UserName": "dexter",
+                "Comment": "NICHT ÖFFENTLICH! Unklare Öffnungszeiten!\nVermutlich sind die Öffnungszeiten des \"Umspannwerk\" und/oder \"Museum Strom und Leben\" relevant: http://www.umspannwerk-recklinghausen.de/\nLaut RWE-App nur Di-Fr 10-17 Uhr, laut Website auch Sa-Mo 10-17 Uhr -- am besten vorher anrufen!",
+                "Rating": 1,
+                "RelatedURL": null,
+                "DateCreated": "2015-08-30T11:57:42.027Z",
+                "User": {
+                    "ID": 4520,
+                    "IdentityProvider": null,
+                    "Identifier": null,
+                    "CurrentSessionToken": null,
+                    "Username": "dexter",
+                    "Profile": null,
+                    "Location": null,
+                    "WebsiteURL": null,
+                    "ReputationPoints": 66,
+                    "Permissions": null,
+                    "PermissionsRequested": null,
+                    "DateCreated": null,
+                    "DateLastLogin": null,
+                    "IsProfilePublic": null,
+                    "IsEmergencyChargingProvider": null,
+                    "IsPublicChargingProvider": null,
+                    "Latitude": null,
+                    "Longitude": null,
+                    "EmailAddress": null,
+                    "EmailHash": null,
+                    "ProfileImageURL": "https://www.gravatar.com/avatar/c1eeee91e0367e7584c286fe72498b79?s=80&d=robohash",
+                    "IsCurrentSessionTokenValid": null,
+                    "APIKey": null,
+                    "SyncedSettings": null
+                },
+                "CheckinStatusTypeID": 200,
+                "CheckinStatusType": {
+                    "IsPositive": false,
+                    "IsAutomatedCheckin": false,
+                    "ID": 200,
+                    "Title": "Other (Negative/Bad)"
+                },
+                "IsActionedByEditor": null
+            }
+        ],
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 33250,
+        "UUID": "DB6E189B-7F1F-41EE-96AE-5F468C2B2396",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 105,
+        "OperatorsReference": "Essent EM-DE-05562032-02-00001",
+        "UsageTypeID": 4,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 33596,
+            "Title": "Uferstraße 2-4",
+            "AddressLine1": "Uferstraße 2-4",
+            "AddressLine2": null,
+            "Town": "Recklinghausen",
+            "StateOrProvince": null,
+            "Postcode": "45661",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.561644,
+            "Longitude": 7.208236,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": null,
+            "Distance": 7.73340862736516,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 36761,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": null,
+                "Comments": null
+            },
+            {
+                "ID": 46737,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": null,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-08-30T11:58:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 3,
+        "DateCreated": "2015-01-09T06:04:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "https://www.rwe-mobility.com/",
+            "Comments": null,
+            "PhonePrimaryContact": "+49(0) 800 88 88 862",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 105,
+            "Title": "Innogy SE (RWE eMobility)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": null,
+            "IsAccessKeyRequired": null,
+            "ID": 1,
+            "Title": "Public"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": [
+            {
+                "ID": 6350,
+                "ChargePointID": 45226,
+                "CommentTypeID": 50,
+                "CommentType": {
+                    "ID": 50,
+                    "Title": "Important Notice (For Other Users)"
+                },
+                "UserName": "dexter",
+                "Comment": "NICHT ÖFFENTLICH! Unklare Öffnungszeiten!\nVermutlich sind die Öffnungszeiten des \"Umspannwerk\" und/oder \"Museum Strom und Leben\" relevant: http://www.umspannwerk-recklinghausen.de/\nLaut RWE-App nur Di-Fr 10-17 Uhr, laut Website auch Sa-Mo 10-17 Uhr -- am besten vorher anrufen!",
+                "Rating": 1,
+                "RelatedURL": null,
+                "DateCreated": "2015-08-30T11:58:49.477Z",
+                "User": {
+                    "ID": 4520,
+                    "IdentityProvider": null,
+                    "Identifier": null,
+                    "CurrentSessionToken": null,
+                    "Username": "dexter",
+                    "Profile": null,
+                    "Location": null,
+                    "WebsiteURL": null,
+                    "ReputationPoints": 66,
+                    "Permissions": null,
+                    "PermissionsRequested": null,
+                    "DateCreated": null,
+                    "DateLastLogin": null,
+                    "IsProfilePublic": null,
+                    "IsEmergencyChargingProvider": null,
+                    "IsPublicChargingProvider": null,
+                    "Latitude": null,
+                    "Longitude": null,
+                    "EmailAddress": null,
+                    "EmailHash": null,
+                    "ProfileImageURL": "https://www.gravatar.com/avatar/c1eeee91e0367e7584c286fe72498b79?s=80&d=robohash",
+                    "IsCurrentSessionTokenValid": null,
+                    "APIKey": null,
+                    "SyncedSettings": null
+                },
+                "CheckinStatusTypeID": 200,
+                "CheckinStatusType": {
+                    "IsPositive": false,
+                    "IsAutomatedCheckin": false,
+                    "ID": 200,
+                    "Title": "Other (Negative/Bad)"
+                },
+                "IsActionedByEditor": null
+            }
+        ],
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 45226,
+        "UUID": "8566349C-09CF-4B76-A140-43A20EE0EE7B",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 105,
+        "OperatorsReference": null,
+        "UsageTypeID": 1,
+        "UsageCost": "0",
+        "AddressInfo": {
+            "ID": 45572,
+            "Title": "E-Bike Station Museum",
+            "AddressLine1": "Uferstraße 2-4",
+            "AddressLine2": null,
+            "Town": "Recklinghausen",
+            "StateOrProvince": null,
+            "Postcode": "45663",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.5617257213562,
+            "Longitude": 7.20846110689716,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": "http://www.rwe.com/web/cms/de/494436/e-bikes-on-tour/ladestationen/",
+            "Distance": 7.73427251476166,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 55743,
+                "ConnectionTypeID": 28,
+                "ConnectionType": {
+                    "FormalName": "CEE 7/4",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 28,
+                    "Title": "CEE 7/4 - Schuko - Type F"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 1,
+                "Level": {
+                    "Comments": "Under 2 kW, usually domestic socket types",
+                    "IsFastChargeCapable": false,
+                    "ID": 1,
+                    "Title": "Level 1 : Low (Under 2kW)"
+                },
+                "Amps": 10,
+                "Voltage": 230,
+                "PowerKW": 2.3,
+                "CurrentTypeID": 10,
+                "CurrentType": {
+                    "Description": "Alternating Current - Single Phase",
+                    "ID": 10,
+                    "Title": "AC (Single-Phase)"
+                },
+                "Quantity": 3,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 3,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-08-30T11:59:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2015-04-28T08:55:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "http://www.park-charge.de/",
+            "Comments": null,
+            "PhonePrimaryContact": "030-32 59 91 80 ",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": "info@park-charge.de",
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 98,
+            "Title": "Park & Charge (D)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 45124,
+        "UUID": "317DFEB4-EAA9-4739-A65A-6BFA93348A24",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 98,
+        "OperatorsReference": null,
+        "UsageTypeID": 4,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 45470,
+            "Title": " BEA-tricks",
+            "AddressLine1": "Heerstraße 45",
+            "AddressLine2": null,
+            "Town": "Herne",
+            "StateOrProvince": null,
+            "Postcode": "44653",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.5451556,
+            "Longitude": 7.17086930000005,
+            "ContactTelephone1": "+49172 2947240",
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": "http://www.bea-tricks.de/",
+            "Distance": 7.952249214841106,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 55571,
+                "ConnectionTypeID": 17,
+                "ConnectionType": {
+                    "FormalName": null,
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 17,
+                    "Title": "CEE 5 Pin"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 400,
+                "PowerKW": 11.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            },
+            {
+                "ID": 55572,
+                "ConnectionTypeID": 16,
+                "ConnectionType": {
+                    "FormalName": null,
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 16,
+                    "Title": "CEE 3 Pin"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 230,
+                "PowerKW": 3.7,
+                "CurrentTypeID": 10,
+                "CurrentType": {
+                    "Description": "Alternating Current - Single Phase",
+                    "ID": 10,
+                    "Title": "AC (Single-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            },
+            {
+                "ID": 55573,
+                "ConnectionTypeID": 28,
+                "ConnectionType": {
+                    "FormalName": "CEE 7/4",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 28,
+                    "Title": "CEE 7/4 - Schuko - Type F"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 230,
+                "PowerKW": 3.7,
+                "CurrentTypeID": 10,
+                "CurrentType": {
+                    "Description": "Alternating Current - Single Phase",
+                    "ID": 10,
+                    "Title": "AC (Single-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-04-25T13:57:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2015-04-25T12:27:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": null,
+            "Comments": "For use when the operator of the equipment is a single business owner connected to the location and equipment is not part of a larger network",
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 45,
+            "Title": "(Business Owner at Location)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": null,
+            "IsAccessKeyRequired": null,
+            "ID": 1,
+            "Title": "Public"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 100168,
+        "UUID": "DE424937-C785-4F0E-8768-58A2F4958546",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 45,
+        "OperatorsReference": null,
+        "UsageTypeID": 1,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 100514,
+            "Title": "Supermarkt Kaufland",
+            "AddressLine1": "Breite Straße 23",
+            "AddressLine2": null,
+            "Town": "Witten",
+            "StateOrProvince": "Ennepe-Ruhr-Kreis",
+            "Postcode": "58452",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.4392252,
+            "Longitude": 7.3289638999999625,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": "Im Parkhaus, man fährt direkt darauf zu. Geöffnet von Mo-Sa 07-22Uhr.",
+            "RelatedURL": "http://www.schneller-strom-tanken.de/",
+            "Distance": 8.27570226214968,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 141496,
+                "ConnectionTypeID": 1036,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 1036,
+                    "Title": "Type 2 (Tethered Connector) "
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 3,
+                "Level": {
+                    "Comments": "40KW and Higher",
+                    "IsFastChargeCapable": true,
+                    "ID": 3,
+                    "Title": "Level 3:  High (Over 40kW)"
+                },
+                "Amps": 63,
+                "Voltage": 400,
+                "PowerKW": 43.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            },
+            {
+                "ID": 141497,
+                "ConnectionTypeID": 2,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-3 Configuration AA",
+                    "IsDiscontinued": null,
+                    "IsObsolete": null,
+                    "ID": 2,
+                    "Title": "CHAdeMO"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 3,
+                "Level": {
+                    "Comments": "40KW and Higher",
+                    "IsFastChargeCapable": true,
+                    "ID": 3,
+                    "Title": "Level 3:  High (Over 40kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 50.0,
+                "CurrentTypeID": 30,
+                "CurrentType": {
+                    "Description": "Direct Current",
+                    "ID": 30,
+                    "Title": "DC"
+                },
+                "Quantity": 1,
+                "Comments": null
+            },
+            {
+                "ID": 141498,
+                "ConnectionTypeID": 33,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-3 Configuration FF",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 33,
+                    "Title": "CCS (Type 2)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 3,
+                "Level": {
+                    "Comments": "40KW and Higher",
+                    "IsFastChargeCapable": true,
+                    "ID": 3,
+                    "Title": "Level 3:  High (Over 40kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 50.0,
+                "CurrentTypeID": 30,
+                "CurrentType": {
+                    "Description": "Direct Current",
+                    "ID": 30,
+                    "Title": "DC"
+                },
+                "Quantity": 1,
+                "Comments": null
+            },
+            {
+                "ID": 141499,
+                "ConnectionTypeID": 28,
+                "ConnectionType": {
+                    "FormalName": "CEE 7/4",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 28,
+                    "Title": "CEE 7/4 - Schuko - Type F"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 230,
+                "PowerKW": 3.7,
+                "CurrentTypeID": 10,
+                "CurrentType": {
+                    "Description": "Alternating Current - Single Phase",
+                    "ID": 10,
+                    "Title": "AC (Single-Phase)"
+                },
+                "Quantity": 2,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 5,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2018-02-15T11:26:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2018-02-15T11:26:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "http://www.nissan.de/DE/de/vehicle/electric-vehicles/leaf/charging-and-battery/freistrom-info.html",
+            "Comments": null,
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 167,
+            "Title": "Nissan DE Freistrom"
+        },
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": null,
+            "IsAccessKeyRequired": null,
+            "ID": 3,
+            "Title": "Privately Owned - Notice Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 42543,
+        "UUID": "96A4195B-5368-4CA1-B8C9-CB947DEB7F87",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 167,
+        "OperatorsReference": null,
+        "UsageTypeID": 3,
+        "UsageCost": "0",
+        "AddressInfo": {
+            "ID": 42889,
+            "Title": " Auto + Sport AS",
+            "AddressLine1": "Frankensteiner Straße 10",
+            "AddressLine2": null,
+            "Town": "Witten",
+            "StateOrProvince": "Ennepe-Ruhr-Kreis",
+            "Postcode": "58454",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.4530031882785,
+            "Longitude": 7.35611301904611,
+            "ContactTelephone1": "02302 81051",
+            "ContactTelephone2": null,
+            "ContactEmail": "verkauf.witten@autoundsportas.de",
+            "AccessComments": "Nissan Autohändler mit \"Freistrom für alle\"-Aktion von Nissan. Während der Öffnungszeiten Mo.-Fr 7:30-18, Sa 9-13 Uhr kostenlos nutzbar.",
+            "RelatedURL": "http://autosport.nissan-haendler.de",
+            "Distance": 8.462679186868833,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 51238,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 32,
+                "Voltage": 400,
+                "PowerKW": 22.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 0,
+                "Comments": null
+            },
+            {
+                "ID": 51239,
+                "ConnectionTypeID": 28,
+                "ConnectionType": {
+                    "FormalName": "CEE 7/4",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 28,
+                    "Title": "CEE 7/4 - Schuko - Type F"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 230,
+                "PowerKW": 3.7,
+                "CurrentTypeID": 10,
+                "CurrentType": {
+                    "Description": "Alternating Current - Single Phase",
+                    "ID": 10,
+                    "Title": "AC (Single-Phase)"
+                },
+                "Quantity": 3,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 3,
+        "GeneralComments": "\r\n",
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-03-19T14:32:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2015-03-14T11:48:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": null,
+            "Comments": "For use when the operator is a home owner or private individual making their own facilities available to the public",
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": true,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 44,
+            "Title": "(Private Residence/Individual)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": false,
+            "IsAccessKeyRequired": false,
+            "ID": 6,
+            "Title": "Private - For Staff, Visitors or Customers"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 52938,
+        "UUID": "C66A2401-A691-4DFB-977A-9EACD1D1208C",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 44,
+        "OperatorsReference": null,
+        "UsageTypeID": 6,
+        "UsageCost": "Spende 0,30€/kWh",
+        "AddressInfo": {
+            "ID": 53284,
+            "Title": "Ladepunkt Marsstraße",
+            "AddressLine1": "Marsstraße 23c",
+            "AddressLine2": "Rauxel-Nord",
+            "Town": "Castrop-Rauxel",
+            "StateOrProvince": "Kreis Recklinghausen",
+            "Postcode": "44579",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.5695954,
+            "Longitude": 7.31345169999997,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": "24/7 nutzbarer Crowdfunding Ladepunkt des GoingElectric Forums mit OpenEVSE Wallbox. Spende in Briefkasten (bei Denk) einwerfen. Bitte beim Ladestecker immer wieder mit der Schutzkappe aufstecken\r\nund in die Halterung einrasten.\r\n",
+            "RelatedURL": null,
+            "Distance": 8.576451382874842,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 65904,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 3,
+                "Level": {
+                    "Comments": "40KW and Higher",
+                    "IsFastChargeCapable": true,
+                    "ID": 3,
+                    "Title": "Level 3:  High (Over 40kW)"
+                },
+                "Amps": 63,
+                "Voltage": 400,
+                "PowerKW": 43.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            },
+            {
+                "ID": 65905,
+                "ConnectionTypeID": 17,
+                "ConnectionType": {
+                    "FormalName": null,
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 17,
+                    "Title": "CEE 5 Pin"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 32,
+                "Voltage": 400,
+                "PowerKW": 22.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 2,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-09-15T06:32:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2015-09-15T06:12:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "https://www.plugsurfing.com/",
+            "Comments": null,
+            "PhonePrimaryContact": "+49 30 9599814 10 ",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": "support@plugsurfing.com",
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 3266,
+            "Title": "PlugSurfing"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 96134,
+        "UUID": "233BE586-8837-44B9-8D0E-E035DA91F00B",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 3266,
+        "OperatorsReference": null,
+        "UsageTypeID": 4,
+        "UsageCost": "0,39€/kWh",
+        "AddressInfo": {
+            "ID": 96480,
+            "Title": "Ladepark am Rewe Kaufpark",
+            "AddressLine1": "Dieselstraße 8",
+            "AddressLine2": null,
+            "Town": "Recklinghausen",
+            "StateOrProvince": "Kreis Recklinghausen",
+            "Postcode": "45661",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.569916261598145,
+            "Longitude": 7.199607287067793,
+            "ContactTelephone1": "+49 2361 9365423",
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": "Mehrere weiße Ladesäulen unter dem roten Schild  \"REWE Ihr kaufpark\". 5 kostenlose Parkplätze.",
+            "RelatedURL": "http://www.laden-in-re.de/",
+            "Distance": 8.825490773887413,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 136214,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 32,
+                "Voltage": 400,
+                "PowerKW": 22.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 2,
+                "Comments": null
+            },
+            {
+                "ID": 136215,
+                "ConnectionTypeID": 2,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-3 Configuration AA",
+                    "IsDiscontinued": null,
+                    "IsObsolete": null,
+                    "ID": 2,
+                    "Title": "CHAdeMO"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 3,
+                "Level": {
+                    "Comments": "40KW and Higher",
+                    "IsFastChargeCapable": true,
+                    "ID": 3,
+                    "Title": "Level 3:  High (Over 40kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 50.0,
+                "CurrentTypeID": 30,
+                "CurrentType": {
+                    "Description": "Direct Current",
+                    "ID": 30,
+                    "Title": "DC"
+                },
+                "Quantity": 3,
+                "Comments": null
+            },
+            {
+                "ID": 136216,
+                "ConnectionTypeID": 33,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-3 Configuration FF",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 33,
+                    "Title": "CCS (Type 2)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 3,
+                "Level": {
+                    "Comments": "40KW and Higher",
+                    "IsFastChargeCapable": true,
+                    "ID": 3,
+                    "Title": "Level 3:  High (Over 40kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 50.0,
+                "CurrentTypeID": 30,
+                "CurrentType": {
+                    "Description": "Direct Current",
+                    "ID": 30,
+                    "Title": "DC"
+                },
+                "Quantity": 3,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 8,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2017-12-11T09:55:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2017-12-11T09:55:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": null,
+            "Comments": "For use when the operator of the equipment is a single business owner connected to the location and equipment is not part of a larger network",
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 45,
+            "Title": "(Business Owner at Location)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": null,
+            "IsAccessKeyRequired": null,
+            "ID": 3,
+            "Title": "Privately Owned - Notice Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 57193,
+        "UUID": "894A2FF2-D73E-4919-B47B-BA0226530EFC",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 45,
+        "OperatorsReference": null,
+        "UsageTypeID": 3,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 57539,
+            "Title": "Kia Autohaus Kurt",
+            "AddressLine1": "Bochumer Straße 82A",
+            "AddressLine2": "Rechklinghausen Süd",
+            "Town": "Recklinghausen",
+            "StateOrProvince": "Kreis Recklinghausen",
+            "Postcode": "45661",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.5768585,
+            "Longitude": 7.2129453,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": "Die Säule ist nutzbar: Mo-Fr. 08-19Uhr, Sa. 09-14Uhr\r\n\r\n\r\n",
+            "RelatedURL": "http://www.kia-kurt-recklinghausen.de",
+            "Distance": 9.144940617202996,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 72279,
+                "ConnectionTypeID": 2,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-3 Configuration AA",
+                    "IsDiscontinued": null,
+                    "IsObsolete": null,
+                    "ID": 2,
+                    "Title": "CHAdeMO"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 3,
+                "Level": {
+                    "Comments": "40KW and Higher",
+                    "IsFastChargeCapable": true,
+                    "ID": 3,
+                    "Title": "Level 3:  High (Over 40kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 50.0,
+                "CurrentTypeID": 30,
+                "CurrentType": {
+                    "Description": "Direct Current",
+                    "ID": 30,
+                    "Title": "DC"
+                },
+                "Quantity": 1,
+                "Comments": null
+            },
+            {
+                "ID": 72280,
+                "ConnectionTypeID": 33,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-3 Configuration FF",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 33,
+                    "Title": "CCS (Type 2)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 3,
+                "Level": {
+                    "Comments": "40KW and Higher",
+                    "IsFastChargeCapable": true,
+                    "ID": 3,
+                    "Title": "Level 3:  High (Over 40kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 20.0,
+                "CurrentTypeID": 30,
+                "CurrentType": {
+                    "Description": "Direct Current",
+                    "ID": 30,
+                    "Title": "DC"
+                },
+                "Quantity": 1,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 2,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-11-27T17:56:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2015-11-27T12:34:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "http://www.park-charge.de/",
+            "Comments": null,
+            "PhonePrimaryContact": "030-32 59 91 80 ",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": "info@park-charge.de",
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 98,
+            "Title": "Park & Charge (D)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 45127,
+        "UUID": "70913B5C-18F3-436F-B147-51034BE9E3B4",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 98,
+        "OperatorsReference": null,
+        "UsageTypeID": 4,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 45473,
+            "Title": "P&C Sternwarte in Bochum",
+            "AddressLine1": "Blankensteiner Straße 200a",
+            "AddressLine2": null,
+            "Town": "Bochum",
+            "StateOrProvince": null,
+            "Postcode": "44797",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.4277936521683,
+            "Longitude": 7.19429457672118,
+            "ContactTelephone1": "+49234-47711",
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": "2 kostenlose Parkplätze",
+            "RelatedURL": null,
+            "Distance": 9.229465588698087,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 55580,
+                "ConnectionTypeID": 17,
+                "ConnectionType": {
+                    "FormalName": null,
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 17,
+                    "Title": "CEE 5 Pin"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 400,
+                "PowerKW": 11.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 0,
+                "Comments": null
+            },
+            {
+                "ID": 55581,
+                "ConnectionTypeID": 16,
+                "ConnectionType": {
+                    "FormalName": null,
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 16,
+                    "Title": "CEE 3 Pin"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 230,
+                "PowerKW": 3.7,
+                "CurrentTypeID": 10,
+                "CurrentType": {
+                    "Description": "Alternating Current - Single Phase",
+                    "ID": 10,
+                    "Title": "AC (Single-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            },
+            {
+                "ID": 55582,
+                "ConnectionTypeID": 28,
+                "ConnectionType": {
+                    "FormalName": "CEE 7/4",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 28,
+                    "Title": "CEE 7/4 - Schuko - Type F"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 230,
+                "PowerKW": 3.7,
+                "CurrentTypeID": 10,
+                "CurrentType": {
+                    "Description": "Alternating Current - Single Phase",
+                    "ID": 10,
+                    "Title": "AC (Single-Phase)"
+                },
+                "Quantity": 2,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 2,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-04-25T13:56:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2015-04-25T12:34:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "http://www.nissan.de/DE/de/vehicle/electric-vehicles/leaf/charging-and-battery/freistrom-info.html",
+            "Comments": null,
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 167,
+            "Title": "Nissan DE Freistrom"
+        },
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": null,
+            "IsAccessKeyRequired": null,
+            "ID": 3,
+            "Title": "Privately Owned - Notice Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 98166,
+        "UUID": "C05EEF71-8D3A-4D1B-8237-CF78D1DC2308",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 167,
+        "OperatorsReference": null,
+        "UsageTypeID": 3,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 98512,
+            "Title": "Auto-Center Heddier (Nissan)",
+            "AddressLine1": "Rheinstraße 11",
+            "AddressLine2": null,
+            "Town": "Recklinghausen",
+            "StateOrProvince": "Kreis Recklinghausen",
+            "Postcode": "45663",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.5798892,
+            "Longitude": 7.215717400000017,
+            "ContactTelephone1": "+49 2361 960870",
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": "24/7 zugängliche Ladesäule am blau markierten Parkplatz.",
+            "RelatedURL": "https://heddier-recklinghausen.haendler.nissan.de/de/startseite",
+            "Distance": 9.396377445142805,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 139080,
+                "ConnectionTypeID": 2,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-3 Configuration AA",
+                    "IsDiscontinued": null,
+                    "IsObsolete": null,
+                    "ID": 2,
+                    "Title": "CHAdeMO"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 3,
+                "Level": {
+                    "Comments": "40KW and Higher",
+                    "IsFastChargeCapable": true,
+                    "ID": 3,
+                    "Title": "Level 3:  High (Over 40kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 40.0,
+                "CurrentTypeID": 30,
+                "CurrentType": {
+                    "Description": "Direct Current",
+                    "ID": 30,
+                    "Title": "DC"
+                },
+                "Quantity": 1,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2018-01-22T09:27:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2018-01-22T09:27:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": null,
+            "Comments": "For use when the operator of the equipment is a single business owner connected to the location and equipment is not part of a larger network",
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 45,
+            "Title": "(Business Owner at Location)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": null,
+            "IsAccessKeyRequired": null,
+            "ID": 1,
+            "Title": "Public"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": [
+            {
+                "ID": 16063,
+                "ChargePointID": 73440,
+                "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM73440/OCM-73440.orig.2018072916222586.png",
+                "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM73440/OCM-73440.thmb.2018072916222586.png",
+                "Comment": "Proprietärer Anschluss, nur DC für E-Bikes…",
+                "IsEnabled": true,
+                "IsVideo": false,
+                "IsFeaturedItem": false,
+                "IsExternalResource": false,
+                "MetadataValue": null,
+                "User": {
+                    "ID": 4520,
+                    "IdentityProvider": null,
+                    "Identifier": null,
+                    "CurrentSessionToken": null,
+                    "Username": "dexter",
+                    "Profile": null,
+                    "Location": null,
+                    "WebsiteURL": null,
+                    "ReputationPoints": 66,
+                    "Permissions": null,
+                    "PermissionsRequested": null,
+                    "DateCreated": null,
+                    "DateLastLogin": null,
+                    "IsProfilePublic": null,
+                    "IsEmergencyChargingProvider": null,
+                    "IsPublicChargingProvider": null,
+                    "Latitude": null,
+                    "Longitude": null,
+                    "EmailAddress": null,
+                    "EmailHash": null,
+                    "ProfileImageURL": "https://www.gravatar.com/avatar/c1eeee91e0367e7584c286fe72498b79?s=80&d=robohash",
+                    "IsCurrentSessionTokenValid": null,
+                    "APIKey": null,
+                    "SyncedSettings": null
+                },
+                "DateCreated": "2018-07-29T16:23:00Z"
+            },
+            {
+                "ID": 16064,
+                "ChargePointID": 73440,
+                "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM73440/OCM-73440.orig.2018072916230945.png",
+                "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM73440/OCM-73440.thmb.2018072916230945.png",
+                "Comment": "…passende Kabel muss man haben oder zu den Öffnungszeiten des real da sein.",
+                "IsEnabled": true,
+                "IsVideo": false,
+                "IsFeaturedItem": false,
+                "IsExternalResource": false,
+                "MetadataValue": null,
+                "User": {
+                    "ID": 4520,
+                    "IdentityProvider": null,
+                    "Identifier": null,
+                    "CurrentSessionToken": null,
+                    "Username": "dexter",
+                    "Profile": null,
+                    "Location": null,
+                    "WebsiteURL": null,
+                    "ReputationPoints": 66,
+                    "Permissions": null,
+                    "PermissionsRequested": null,
+                    "DateCreated": null,
+                    "DateLastLogin": null,
+                    "IsProfilePublic": null,
+                    "IsEmergencyChargingProvider": null,
+                    "IsPublicChargingProvider": null,
+                    "Latitude": null,
+                    "Longitude": null,
+                    "EmailAddress": null,
+                    "EmailHash": null,
+                    "ProfileImageURL": "https://www.gravatar.com/avatar/c1eeee91e0367e7584c286fe72498b79?s=80&d=robohash",
+                    "IsCurrentSessionTokenValid": null,
+                    "APIKey": null,
+                    "SyncedSettings": null
+                },
+                "DateCreated": "2018-07-29T16:23:00Z"
+            },
+            {
+                "ID": 16062,
+                "ChargePointID": 73440,
+                "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM73440/OCM-73440.orig.2018072916214948.png",
+                "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM73440/OCM-73440.thmb.2018072916214948.png",
+                "Comment": "Ort: ganz hinten rechts, am dm",
+                "IsEnabled": true,
+                "IsVideo": false,
+                "IsFeaturedItem": false,
+                "IsExternalResource": false,
+                "MetadataValue": null,
+                "User": {
+                    "ID": 4520,
+                    "IdentityProvider": null,
+                    "Identifier": null,
+                    "CurrentSessionToken": null,
+                    "Username": "dexter",
+                    "Profile": null,
+                    "Location": null,
+                    "WebsiteURL": null,
+                    "ReputationPoints": 66,
+                    "Permissions": null,
+                    "PermissionsRequested": null,
+                    "DateCreated": null,
+                    "DateLastLogin": null,
+                    "IsProfilePublic": null,
+                    "IsEmergencyChargingProvider": null,
+                    "IsPublicChargingProvider": null,
+                    "Latitude": null,
+                    "Longitude": null,
+                    "EmailAddress": null,
+                    "EmailHash": null,
+                    "ProfileImageURL": "https://www.gravatar.com/avatar/c1eeee91e0367e7584c286fe72498b79?s=80&d=robohash",
+                    "IsCurrentSessionTokenValid": null,
+                    "APIKey": null,
+                    "SyncedSettings": null
+                },
+                "DateCreated": "2018-07-29T16:22:00Z"
+            }
+        ],
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 73440,
+        "UUID": "ECF9C69D-3DF7-4BFC-AA99-8082443B67C4",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 45,
+        "OperatorsReference": null,
+        "UsageTypeID": 1,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 73786,
+            "Title": "E-Bike Station Supermarkt Real",
+            "AddressLine1": "Siemensstraße 10",
+            "AddressLine2": null,
+            "Town": "Castrop-Rauxel",
+            "StateOrProvince": "Kreis Recklinghausen",
+            "Postcode": "44579",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.581650560936225,
+            "Longitude": 7.308019240623594,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": "http://www.bike-energy.com/",
+            "Distance": 9.667428441840418,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 105649,
+                "ConnectionTypeID": 0,
+                "ConnectionType": {
+                    "FormalName": "Not Specified",
+                    "IsDiscontinued": null,
+                    "IsObsolete": null,
+                    "ID": 0,
+                    "Title": "Unknown"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 1,
+                "Level": {
+                    "Comments": "Under 2 kW, usually domestic socket types",
+                    "IsFastChargeCapable": false,
+                    "ID": 1,
+                    "Title": "Level 1 : Low (Under 2kW)"
+                },
+                "Amps": 10,
+                "Voltage": 48,
+                "PowerKW": 1.0,
+                "CurrentTypeID": 30,
+                "CurrentType": {
+                    "Description": "Direct Current",
+                    "ID": 30,
+                    "Title": "DC"
+                },
+                "Quantity": 2,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 2,
+        "GeneralComments": "Bike energy Ladestation Tower T2B freistehend mit Pfahl mit 2 Anschlüssen für e-Bikes. Anschluss nur Spezialladesystem bike energy, kein Schuko! Nur DC für E-Bike-Akkus, Adapterkabel gibt es leihweise beim real (zu den Öffnungszeiten).",
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2018-07-29T16:30:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2016-11-22T10:38:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": null,
+            "Comments": null,
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": null,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 1,
+            "Title": "(Unknown Operator)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 88968,
+        "UUID": "EE5CA7DB-9216-42D6-87B6-78189CE42441",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 1,
+        "OperatorsReference": null,
+        "UsageTypeID": 4,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 89314,
+            "Title": "Annenstraße",
+            "AddressLine1": "Annenstraße 117",
+            "AddressLine2": null,
+            "Town": "Witten",
+            "StateOrProvince": "Ennepe-Ruhr-Kreis",
+            "Postcode": "58453",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.4452367,
+            "Longitude": 7.368789699999979,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": "24/7 nutzbar Blaue Ladesäule am Straßenrand mit 2 Parkplätzen. Ladekarte der Stadtwerke Witten notwendig!",
+            "RelatedURL": null,
+            "Distance": 9.687980137227017,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 126262,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 32,
+                "Voltage": 400,
+                "PowerKW": 22.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 2,
+                "Comments": null
+            },
+            {
+                "ID": 126263,
+                "ConnectionTypeID": 28,
+                "ConnectionType": {
+                    "FormalName": "CEE 7/4",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 28,
+                    "Title": "CEE 7/4 - Schuko - Type F"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 230,
+                "PowerKW": 3.7,
+                "CurrentTypeID": 10,
+                "CurrentType": {
+                    "Description": "Alternating Current - Single Phase",
+                    "ID": 10,
+                    "Title": "AC (Single-Phase)"
+                },
+                "Quantity": 2,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 2,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2017-06-15T07:31:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2017-06-15T07:31:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "https://www.rwe-mobility.com/",
+            "Comments": null,
+            "PhonePrimaryContact": "+49(0) 800 88 88 862",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 105,
+            "Title": "Innogy SE (RWE eMobility)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 33350,
+        "UUID": "8B71AE39-CB8F-4586-B1F0-5CD433F50867",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 105,
+        "OperatorsReference": "Essent EM-DE-05562032-02-00002",
+        "UsageTypeID": 4,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 33696,
+            "Title": "Bochumer Straße 2",
+            "AddressLine1": "Bochumer Straße 2",
+            "AddressLine2": null,
+            "Town": "Recklinghausen",
+            "StateOrProvince": null,
+            "Postcode": "45661",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.582814,
+            "Longitude": 7.212453,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": null,
+            "Distance": 9.777979650608671,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 36861,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": null,
+                "Comments": null
+            },
+            {
+                "ID": 46765,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": null,
+                "Comments": null
+            },
+            {
+                "ID": 46766,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": null,
+                "Comments": null
+            },
+            {
+                "ID": 46767,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": null,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-04-13T14:59:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 3,
+        "DateCreated": "2015-01-09T06:04:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "https://www.rwe-mobility.com/",
+            "Comments": null,
+            "PhonePrimaryContact": "+49(0) 800 88 88 862",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 105,
+            "Title": "Innogy SE (RWE eMobility)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": null,
+            "IsAccessKeyRequired": null,
+            "ID": 1,
+            "Title": "Public"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 45227,
+        "UUID": "5C95D8E5-5903-4791-9FB2-4FDEC1D66C8B",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 105,
+        "OperatorsReference": null,
+        "UsageTypeID": 1,
+        "UsageCost": "0",
+        "AddressInfo": {
+            "ID": 45573,
+            "Title": "E-Bike Station RWE Niederlassung",
+            "AddressLine1": "Bochumer Straße 2",
+            "AddressLine2": null,
+            "Town": "Recklinghausen",
+            "StateOrProvince": null,
+            "Postcode": "45661",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.5827136,
+            "Longitude": 7.21198500000003,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": "http://www.rwe.com/web/cms/de/494436/e-bikes-on-tour/ladestationen/",
+            "Distance": 9.778411315589889,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 55744,
+                "ConnectionTypeID": 28,
+                "ConnectionType": {
+                    "FormalName": "CEE 7/4",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 28,
+                    "Title": "CEE 7/4 - Schuko - Type F"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 1,
+                "Level": {
+                    "Comments": "Under 2 kW, usually domestic socket types",
+                    "IsFastChargeCapable": false,
+                    "ID": 1,
+                    "Title": "Level 1 : Low (Under 2kW)"
+                },
+                "Amps": 10,
+                "Voltage": 230,
+                "PowerKW": 2.3,
+                "CurrentTypeID": 10,
+                "CurrentType": {
+                    "Description": "Alternating Current - Single Phase",
+                    "ID": 10,
+                    "Title": "AC (Single-Phase)"
+                },
+                "Quantity": 3,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 3,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-04-28T15:51:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2015-04-28T08:56:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "https://www.rwe-mobility.com/",
+            "Comments": null,
+            "PhonePrimaryContact": "+49(0) 800 88 88 862",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 105,
+            "Title": "Innogy SE (RWE eMobility)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 33352,
+        "UUID": "D126CE69-3181-4365-B238-7F9A7F6C53B6",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 105,
+        "OperatorsReference": "Essent EM-DE-05562032-02-00003",
+        "UsageTypeID": 4,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 33698,
+            "Title": "Bochumer Straße 2",
+            "AddressLine1": "Bochumer Straße 2",
+            "AddressLine2": null,
+            "Town": "Recklinghausen",
+            "StateOrProvince": null,
+            "Postcode": "45661",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.582837,
+            "Longitude": 7.212042,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": null,
+            "Distance": 9.789980789065456,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 36863,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": null,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-04-13T14:55:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 3,
+        "DateCreated": "2015-01-09T06:04:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "https://www.rwe-mobility.com/",
+            "Comments": null,
+            "PhonePrimaryContact": "+49(0) 800 88 88 862",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 105,
+            "Title": "Innogy SE (RWE eMobility)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 33204,
+        "UUID": "CE26C476-BB5B-4FEC-B314-EA2EA93A9B92",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 105,
+        "OperatorsReference": "Essent EM-DE-05913000-13-00002",
+        "UsageTypeID": 4,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 33550,
+            "Title": "Westerfilder Straße 73-75",
+            "AddressLine1": "Westerfilder Straße 73-75",
+            "AddressLine2": null,
+            "Town": "Dortmund",
+            "StateOrProvince": null,
+            "Postcode": "44357",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.548117,
+            "Longitude": 7.381117,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": null,
+            "Distance": 9.941824382689372,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 36715,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": null,
+                "Comments": null
+            },
+            {
+                "ID": 46725,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": null,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-04-13T15:25:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 3,
+        "DateCreated": "2015-01-09T06:04:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "https://www.rwe-mobility.com/",
+            "Comments": null,
+            "PhonePrimaryContact": "+49(0) 800 88 88 862",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 105,
+            "Title": "Innogy SE (RWE eMobility)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 33052,
+        "UUID": "450B328B-6E85-4A86-B711-F60E0FF0217E",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 105,
+        "OperatorsReference": "Essent EM-DE-05513000-06-00001",
+        "UsageTypeID": 4,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 33398,
+            "Title": "Munscheidstraße 14",
+            "AddressLine1": "Munscheidstraße 14",
+            "AddressLine2": null,
+            "Town": "Gelsenkirchen",
+            "StateOrProvince": null,
+            "Postcode": "45886",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.499206,
+            "Longitude": 7.108239,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": null,
+            "Distance": 10.50542827685911,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 36563,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": null,
+                "Comments": null
+            },
+            {
+                "ID": 46646,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": null,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-04-13T23:27:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 3,
+        "DateCreated": "2015-01-09T06:03:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": null,
+            "Comments": "For use when the operator of the equipment is a single business owner connected to the location and equipment is not part of a larger network",
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 45,
+            "Title": "(Business Owner at Location)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": null,
+            "IsAccessKeyRequired": null,
+            "ID": 1,
+            "Title": "Public"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 31311,
+        "UUID": "5B959A43-D390-4943-B87A-9E6FD64957D0",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 45,
+        "OperatorsReference": null,
+        "UsageTypeID": 1,
+        "UsageCost": "1 € / h",
+        "AddressInfo": {
+            "ID": 31657,
+            "Title": "TU-Dortmund / Maschinenbau",
+            "AddressLine1": "Leonhard-Euler-Str. 5",
+            "AddressLine2": null,
+            "Town": "Dortmund",
+            "StateOrProvince": "NRW",
+            "Postcode": "44227",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.4926465988971,
+            "Longitude": 7.41228880027769,
+            "ContactTelephone1": "0231 755 2465",
+            "ContactTelephone2": null,
+            "ContactEmail": "markus.kroner@tu-dortmund.de",
+            "AccessComments": null,
+            "RelatedURL": "http://www.me.mb.uni-dortmund.de/index.php?id=e-mobility",
+            "Distance": 10.574011886373944,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 34700,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 230,
+                "PowerKW": 11.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": null,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 6,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-01-02T09:23:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2015-01-02T08:36:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": null,
+            "Comments": "For use when the operator of the equipment is a single business owner connected to the location and equipment is not part of a larger network",
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 45,
+            "Title": "(Business Owner at Location)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": false,
+            "IsAccessKeyRequired": false,
+            "ID": 7,
+            "Title": "Public - Notice Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 41824,
+        "UUID": "B31AF429-5FC0-400D-BB80-10690CA1AA2B",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 45,
+        "OperatorsReference": null,
+        "UsageTypeID": 7,
+        "UsageCost": "0",
+        "AddressInfo": {
+            "ID": 42170,
+            "Title": "McDonalds Restaurant",
+            "AddressLine1": "Schmalkalder Straße",
+            "AddressLine2": null,
+            "Town": "Recklinghausen",
+            "StateOrProvince": "Kreis Recklinghausen",
+            "Postcode": "45665",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.5968288,
+            "Longitude": 7.24491820000003,
+            "ContactTelephone1": "02361 5822650 ",
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": "Beim Schichtführer melden, um E-Tanksäule (gegen Hinterlegung des Personalausweises) freizuschalten. Öffnungszeiten Mo-Do 7:00-01:00, Fr/Sa 7:00-2:00, So 09:00-01:00",
+            "RelatedURL": "http://www.mcdonalds.de/restaurant?id=1664",
+            "Distance": 10.817258115544188,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 50101,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 32,
+                "Voltage": 400,
+                "PowerKW": 22.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            },
+            {
+                "ID": 50102,
+                "ConnectionTypeID": 28,
+                "ConnectionType": {
+                    "FormalName": "CEE 7/4",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 28,
+                    "Title": "CEE 7/4 - Schuko - Type F"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 230,
+                "PowerKW": 3.7,
+                "CurrentTypeID": 10,
+                "CurrentType": {
+                    "Description": "Alternating Current - Single Phase",
+                    "ID": 10,
+                    "Title": "AC (Single-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 2,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-02-12T21:05:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2015-02-11T07:34:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "https://www.rwe-mobility.com/",
+            "Comments": null,
+            "PhonePrimaryContact": "+49(0) 800 88 88 862",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 105,
+            "Title": "Innogy SE (RWE eMobility)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 33026,
+        "UUID": "DB9FB340-6449-4007-83BD-D46F03621AA1",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 105,
+        "OperatorsReference": "Essent EM-DE-05913000-03-00002",
+        "UsageTypeID": 4,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 33372,
+            "Title": "Vogelpothsweg 74",
+            "AddressLine1": "Vogelpothsweg 74",
+            "AddressLine2": null,
+            "Town": "Dortmund",
+            "StateOrProvince": null,
+            "Postcode": "44227",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.493702,
+            "Longitude": 7.416093,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": null,
+            "Distance": 10.82824469145617,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 36537,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": null,
+                "Comments": null
+            },
+            {
+                "ID": 46634,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": null,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-04-13T21:04:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 3,
+        "DateCreated": "2015-01-09T06:03:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "https://www.rwe-mobility.com/",
+            "Comments": null,
+            "PhonePrimaryContact": "+49(0) 800 88 88 862",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 105,
+            "Title": "Innogy SE (RWE eMobility)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 33053,
+        "UUID": "514C50B8-A086-4649-8422-5D5E27F71970",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 105,
+        "OperatorsReference": "Essent EM-DE-05913000-06-00001",
+        "UsageTypeID": 4,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 33399,
+            "Title": "Friedrich-Henkel-Weg 3",
+            "AddressLine1": "Friedrich-Henkel-Weg 3",
+            "AddressLine2": null,
+            "Town": "Dortmund",
+            "StateOrProvince": null,
+            "Postcode": "44149",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.499233,
+            "Longitude": 7.417316,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": null,
+            "Distance": 10.889910867317889,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 36564,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": null,
+                "Comments": null
+            },
+            {
+                "ID": 46647,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": null,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-04-13T23:30:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 3,
+        "DateCreated": "2015-01-09T06:03:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": null,
+            "Comments": null,
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": null,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 1,
+            "Title": "(Unknown Operator)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": null,
+            "IsAccessKeyRequired": null,
+            "ID": 1,
+            "Title": "Public"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 104591,
+        "UUID": "BF17AB9E-308B-42FA-B907-D6D3E72289C8",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 1,
+        "OperatorsReference": null,
+        "UsageTypeID": 1,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 104937,
+            "Title": "DSW - BH-Dorstfeld ",
+            "AddressLine1": "Dorstfelder Hellweg 73",
+            "AddressLine2": null,
+            "Town": "Dortmund",
+            "StateOrProvince": "Dortmund",
+            "Postcode": "44149",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.5143233989759,
+            "Longitude": 7.41637048728023,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": "24/7 nutzbar",
+            "RelatedURL": "http://www.dew21.de/",
+            "Distance": 10.93890310127698,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 147625,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 32,
+                "Voltage": 400,
+                "PowerKW": 22.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 4,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 4,
+        "GeneralComments": "Betreiber ist die Dortmunder Energie- und Wasserversorgung.",
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2018-05-22T12:46:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2018-05-22T11:20:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://www.oplaadpalen.nl/",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 20,
+                "Title": "Automated Import"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Attribution-NonCommercial-ShareAlike 3.0 : http://creativecommons.org/licenses/by-nc-sa/3.0/",
+            "DateLastImported": "2016-06-04T03:04:53.05Z",
+            "ID": 26,
+            "Title": "Oplaadpalen.nl"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "http://www.essent.nl/content/particulier/producten/elektrisch_rijden/index.html",
+            "Comments": null,
+            "PhonePrimaryContact": "0800 377 36 83",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": null,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": "elektrischrijden@essent.nl",
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 78,
+            "Title": "Essent (NL)"
+        },
+        "UsageType": null,
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 100,
+            "Title": "Imported and Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 62924,
+        "UUID": "EE8D271F-EA99-42A6-AFB0-DA67EAD25789",
+        "ParentChargePointID": null,
+        "DataProviderID": 26,
+        "DataProvidersReference": "24921",
+        "OperatorID": 78,
+        "OperatorsReference": "Essent EM-DE-05913000-06-00001",
+        "UsageTypeID": null,
+        "UsageCost": "0.00 jaarabonnement",
+        "AddressInfo": {
+            "ID": 63270,
+            "Title": "Friedrich-Henkel-Weg 16a",
+            "AddressLine1": "Friedrich-Henkel-Weg 16a",
+            "AddressLine2": null,
+            "Town": "Dortmund",
+            "StateOrProvince": null,
+            "Postcode": "44149",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.49868,
+            "Longitude": 7.420221,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": "http://www.essent.nl",
+            "Distance": 11.091702414291891,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 79976,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": 10,
+                "CurrentType": {
+                    "Description": "Alternating Current - Single Phase",
+                    "ID": 10,
+                    "Title": "AC (Single-Phase)"
+                },
+                "Quantity": null,
+                "Comments": null
+            },
+            {
+                "ID": 79977,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": 10,
+                "CurrentType": {
+                    "Description": "Alternating Current - Single Phase",
+                    "ID": 10,
+                    "Title": "AC (Single-Phase)"
+                },
+                "Quantity": null,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2016-06-04T02:39:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 3,
+        "DateCreated": "2016-03-03T12:29:00Z",
+        "SubmissionStatusTypeID": 100
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "https://www.rwe-mobility.com/",
+            "Comments": null,
+            "PhonePrimaryContact": "+49(0) 800 88 88 862",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 105,
+            "Title": "Innogy SE (RWE eMobility)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": [
+            {
+                "ID": 21520,
+                "ChargePointID": 33165,
+                "CommentTypeID": 10,
+                "CommentType": {
+                    "ID": 10,
+                    "Title": "General Comment"
+                },
+                "UserName": "dexter",
+                "Comment": null,
+                "Rating": 4,
+                "RelatedURL": null,
+                "DateCreated": "2019-09-16T18:18:17.327Z",
+                "User": {
+                    "ID": 4520,
+                    "IdentityProvider": null,
+                    "Identifier": null,
+                    "CurrentSessionToken": null,
+                    "Username": "dexter",
+                    "Profile": null,
+                    "Location": null,
+                    "WebsiteURL": null,
+                    "ReputationPoints": 66,
+                    "Permissions": null,
+                    "PermissionsRequested": null,
+                    "DateCreated": null,
+                    "DateLastLogin": null,
+                    "IsProfilePublic": null,
+                    "IsEmergencyChargingProvider": null,
+                    "IsPublicChargingProvider": null,
+                    "Latitude": null,
+                    "Longitude": null,
+                    "EmailAddress": null,
+                    "EmailHash": null,
+                    "ProfileImageURL": "https://www.gravatar.com/avatar/c1eeee91e0367e7584c286fe72498b79?s=80&d=robohash",
+                    "IsCurrentSessionTokenValid": null,
+                    "APIKey": null,
+                    "SyncedSettings": null
+                },
+                "CheckinStatusTypeID": 10,
+                "CheckinStatusType": {
+                    "IsPositive": true,
+                    "IsAutomatedCheckin": false,
+                    "ID": 10,
+                    "Title": "Charged Successfully"
+                },
+                "IsActionedByEditor": null
+            }
+        ],
+        "PercentageSimilarity": null,
+        "MediaItems": [
+            {
+                "ID": 19595,
+                "ChargePointID": 33165,
+                "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM33165/OCM-33165.orig.2019091618153282.jpg",
+                "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM33165/OCM-33165.thmb.2019091618153282.jpg",
+                "Comment": "",
+                "IsEnabled": true,
+                "IsVideo": false,
+                "IsFeaturedItem": false,
+                "IsExternalResource": false,
+                "MetadataValue": null,
+                "User": {
+                    "ID": 4520,
+                    "IdentityProvider": null,
+                    "Identifier": null,
+                    "CurrentSessionToken": null,
+                    "Username": "dexter",
+                    "Profile": null,
+                    "Location": null,
+                    "WebsiteURL": null,
+                    "ReputationPoints": 66,
+                    "Permissions": null,
+                    "PermissionsRequested": null,
+                    "DateCreated": null,
+                    "DateLastLogin": null,
+                    "IsProfilePublic": null,
+                    "IsEmergencyChargingProvider": null,
+                    "IsPublicChargingProvider": null,
+                    "Latitude": null,
+                    "Longitude": null,
+                    "EmailAddress": null,
+                    "EmailHash": null,
+                    "ProfileImageURL": "https://www.gravatar.com/avatar/c1eeee91e0367e7584c286fe72498b79?s=80&d=robohash",
+                    "IsCurrentSessionTokenValid": null,
+                    "APIKey": null,
+                    "SyncedSettings": null
+                },
+                "DateCreated": "2019-09-16T18:16:00Z"
+            }
+        ],
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 33165,
+        "UUID": "47E2E60A-99BC-4440-919C-17664278527D",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 105,
+        "OperatorsReference": "Essent EM-DE-05913000-12-00001",
+        "UsageTypeID": 4,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 33511,
+            "Title": "Rahmer Straße 15",
+            "AddressLine1": "Rahmer Straße 15",
+            "AddressLine2": null,
+            "Town": "Dortmund",
+            "StateOrProvince": null,
+            "Postcode": "44369",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.5307658334706,
+            "Longitude": 7.41436485070062,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": null,
+            "Distance": 11.216051129568935,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 36676,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": null,
+                "Comments": null
+            },
+            {
+                "ID": 46710,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": null,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2019-09-16T18:18:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 3,
+        "DateCreated": "2015-01-09T06:04:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "https://www.rwe-mobility.com/",
+            "Comments": null,
+            "PhonePrimaryContact": "+49(0) 800 88 88 862",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 105,
+            "Title": "Innogy SE (RWE eMobility)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": [
+            {
+                "ID": 20273,
+                "ChargePointID": 100665,
+                "CommentTypeID": 10,
+                "CommentType": {
+                    "ID": 10,
+                    "Title": "General Comment"
+                },
+                "UserName": "dexter",
+                "Comment": "",
+                "Rating": 5,
+                "RelatedURL": null,
+                "DateCreated": "2018-10-07T08:12:08.807Z",
+                "User": {
+                    "ID": 4520,
+                    "IdentityProvider": null,
+                    "Identifier": null,
+                    "CurrentSessionToken": null,
+                    "Username": "dexter",
+                    "Profile": null,
+                    "Location": null,
+                    "WebsiteURL": null,
+                    "ReputationPoints": 66,
+                    "Permissions": null,
+                    "PermissionsRequested": null,
+                    "DateCreated": null,
+                    "DateLastLogin": null,
+                    "IsProfilePublic": null,
+                    "IsEmergencyChargingProvider": null,
+                    "IsPublicChargingProvider": null,
+                    "Latitude": null,
+                    "Longitude": null,
+                    "EmailAddress": null,
+                    "EmailHash": null,
+                    "ProfileImageURL": "https://www.gravatar.com/avatar/c1eeee91e0367e7584c286fe72498b79?s=80&d=robohash",
+                    "IsCurrentSessionTokenValid": null,
+                    "APIKey": null,
+                    "SyncedSettings": null
+                },
+                "CheckinStatusTypeID": 10,
+                "CheckinStatusType": {
+                    "IsPositive": true,
+                    "IsAutomatedCheckin": false,
+                    "ID": 10,
+                    "Title": "Charged Successfully"
+                },
+                "IsActionedByEditor": null
+            }
+        ],
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 100665,
+        "UUID": "DFB60634-D726-4912-998D-3A9CDAC9CD13",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 105,
+        "OperatorsReference": null,
+        "UsageTypeID": 4,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 101011,
+            "Title": "Parkplatz Ewaldcafé",
+            "AddressLine1": "Lise-Meitner-Straße",
+            "AddressLine2": null,
+            "Town": "Herten",
+            "StateOrProvince": "Kreis Recklinghausen",
+            "Postcode": "45699",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.5718524862848,
+            "Longitude": 7.14499938354072,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": "24/7 nutzbar",
+            "RelatedURL": null,
+            "Distance": 11.273960395140532,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 142187,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 32,
+                "Voltage": 400,
+                "PowerKW": 22.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 2,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 2,
+        "GeneralComments": "Stand September 2019: Säule ist nicht mehr im Messemodus und hat prompt die üblichen Zickereien… die Hotline hilft",
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2019-09-16T18:01:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2018-03-05T08:47:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "http://www.ev-box.com",
+            "Comments": null,
+            "PhonePrimaryContact": "+31 (0)88 77 55 444",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": null,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": "info@ev-box.com",
+            "FaultReportEmail": "info@ev-box.com",
+            "IsRestrictedEdit": null,
+            "ID": 73,
+            "Title": "EV-Box"
+        },
+        "UsageType": null,
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 100,
+            "Title": "Imported and Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 65445,
+        "UUID": "B0FFC9A5-C003-4F8E-BEDC-FBE36E4ABB7C",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 73,
+        "OperatorsReference": "EV-Box EVB-P1523031",
+        "UsageTypeID": null,
+        "UsageCost": "0.00 jaarabonnement",
+        "AddressInfo": {
+            "ID": 65791,
+            "Title": "Platanendreef 74",
+            "AddressLine1": "Platanendreef 74",
+            "AddressLine2": null,
+            "Town": "Vlaardingen",
+            "StateOrProvince": null,
+            "Postcode": "3137 CN",
+            "CountryID": 159,
+            "Country": {
+                "ISOCode": "NL",
+                "ContinentCode": "EU",
+                "ID": 159,
+                "Title": "Netherlands"
+            },
+            "Latitude": 51.59838,
+            "Longitude": 7.2139,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": "http://www.ev-box.nl",
+            "Distance": 11.394315455030172,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 90181,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": null,
+                "Comments": null
+            },
+            {
+                "ID": 90182,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": null,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2016-05-08T12:02:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 3,
+        "DateCreated": "2016-04-27T09:41:00Z",
+        "SubmissionStatusTypeID": 100
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": null,
+            "Comments": "For use when the operator of the equipment is a single business owner connected to the location and equipment is not part of a larger network",
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 45,
+            "Title": "(Business Owner at Location)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": null,
+            "IsAccessKeyRequired": null,
+            "ID": 1,
+            "Title": "Public"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 99521,
+        "UUID": "C39B5BE8-C49F-4FC7-BA16-C866639CDA03",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 45,
+        "OperatorsReference": null,
+        "UsageTypeID": 1,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 99867,
+            "Title": "Supermarkt Rewe",
+            "AddressLine1": "Dr.-C.-Otto-Straße 118",
+            "AddressLine2": null,
+            "Town": "Bochum",
+            "StateOrProvince": "Nordrhein-Westfalen",
+            "Postcode": "44879",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.4267552249372,
+            "Longitude": 7.144741663624914,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": "Wallbox in der linken Ecke des Parkplatzes, die zu den Öffnungszeiten Mo-Da 7-19Uhr kostenlos nutzbar ist.",
+            "RelatedURL": "http://www.rewe-lenk.de/",
+            "Distance": 11.405547962054785,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 140636,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 400,
+                "PowerKW": 11.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2018-01-29T08:04:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2018-01-29T08:04:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "https://www.rwe-mobility.com/",
+            "Comments": null,
+            "PhonePrimaryContact": "+49(0) 800 88 88 862",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 105,
+            "Title": "Innogy SE (RWE eMobility)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 33194,
+        "UUID": "0C61231F-BD97-4AA4-9CBA-00C103A42234",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 105,
+        "OperatorsReference": "Essent EM-DE-05513000-07-00002",
+        "UsageTypeID": 4,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 33540,
+            "Title": "Bleckstr. 47",
+            "AddressLine1": "Bleckstr. 47",
+            "AddressLine2": null,
+            "Town": "Gelsenkirchen",
+            "StateOrProvince": null,
+            "Postcode": "45889",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.541997,
+            "Longitude": 7.109581,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": null,
+            "Distance": 11.406965116054433,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 36705,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": null,
+                "Comments": null
+            },
+            {
+                "ID": 46722,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": null,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-04-13T15:29:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 3,
+        "DateCreated": "2015-01-09T06:04:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "https://www.rwe-mobility.com/",
+            "Comments": null,
+            "PhonePrimaryContact": "+49(0) 800 88 88 862",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 105,
+            "Title": "Innogy SE (RWE eMobility)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": [
+            {
+                "ID": 19937,
+                "ChargePointID": 33288,
+                "CommentTypeID": 10,
+                "CommentType": {
+                    "ID": 10,
+                    "Title": "General Comment"
+                },
+                "UserName": "dexter",
+                "Comment": "Gut platziert, reservierte Stellplätze, prima!",
+                "Rating": 5,
+                "RelatedURL": null,
+                "DateCreated": "2018-07-29T16:32:58.283Z",
+                "User": {
+                    "ID": 4520,
+                    "IdentityProvider": null,
+                    "Identifier": null,
+                    "CurrentSessionToken": null,
+                    "Username": "dexter",
+                    "Profile": null,
+                    "Location": null,
+                    "WebsiteURL": null,
+                    "ReputationPoints": 66,
+                    "Permissions": null,
+                    "PermissionsRequested": null,
+                    "DateCreated": null,
+                    "DateLastLogin": null,
+                    "IsProfilePublic": null,
+                    "IsEmergencyChargingProvider": null,
+                    "IsPublicChargingProvider": null,
+                    "Latitude": null,
+                    "Longitude": null,
+                    "EmailAddress": null,
+                    "EmailHash": null,
+                    "ProfileImageURL": "https://www.gravatar.com/avatar/c1eeee91e0367e7584c286fe72498b79?s=80&d=robohash",
+                    "IsCurrentSessionTokenValid": null,
+                    "APIKey": null,
+                    "SyncedSettings": null
+                },
+                "CheckinStatusTypeID": null,
+                "CheckinStatusType": null,
+                "IsActionedByEditor": null
+            }
+        ],
+        "PercentageSimilarity": null,
+        "MediaItems": [
+            {
+                "ID": 16065,
+                "ChargePointID": 33288,
+                "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM33288/OCM-33288.orig.2018072916332238.png",
+                "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM33288/OCM-33288.thmb.2018072916332238.png",
+                "Comment": "",
+                "IsEnabled": true,
+                "IsVideo": false,
+                "IsFeaturedItem": false,
+                "IsExternalResource": false,
+                "MetadataValue": null,
+                "User": {
+                    "ID": 4520,
+                    "IdentityProvider": null,
+                    "Identifier": null,
+                    "CurrentSessionToken": null,
+                    "Username": "dexter",
+                    "Profile": null,
+                    "Location": null,
+                    "WebsiteURL": null,
+                    "ReputationPoints": 66,
+                    "Permissions": null,
+                    "PermissionsRequested": null,
+                    "DateCreated": null,
+                    "DateLastLogin": null,
+                    "IsProfilePublic": null,
+                    "IsEmergencyChargingProvider": null,
+                    "IsPublicChargingProvider": null,
+                    "Latitude": null,
+                    "Longitude": null,
+                    "EmailAddress": null,
+                    "EmailHash": null,
+                    "ProfileImageURL": "https://www.gravatar.com/avatar/c1eeee91e0367e7584c286fe72498b79?s=80&d=robohash",
+                    "IsCurrentSessionTokenValid": null,
+                    "APIKey": null,
+                    "SyncedSettings": null
+                },
+                "DateCreated": "2018-07-29T16:34:00Z"
+            }
+        ],
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 33288,
+        "UUID": "61ACCE87-98EC-4637-B226-419939B991A6",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 105,
+        "OperatorsReference": "Essent EM-DE-05913000-13-00003",
+        "UsageTypeID": 4,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 33634,
+            "Title": "Am Amtshaus 8",
+            "AddressLine1": "Am Amtshaus 8",
+            "AddressLine2": null,
+            "Town": "Dortmund",
+            "StateOrProvince": null,
+            "Postcode": "44359",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.57079938811072,
+            "Longitude": 7.3801096311149195,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": null,
+            "Distance": 11.445203610128814,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 36799,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": null,
+                "Comments": null
+            },
+            {
+                "ID": 46747,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": null,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2018-07-29T16:35:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 3,
+        "DateCreated": "2015-01-09T06:04:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "http://www.drehstromnetz.de",
+            "Comments": null,
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 66,
+            "Title": "Drehstromnetz"
+        },
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": null,
+            "IsAccessKeyRequired": null,
+            "ID": 3,
+            "Title": "Privately Owned - Notice Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 96335,
+        "UUID": "32F2CE4A-CBF7-42DA-8944-7A3E4C813C88",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 66,
+        "OperatorsReference": null,
+        "UsageTypeID": 3,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 96681,
+            "Title": "Am Kraftwerk",
+            "AddressLine1": "Am Kraftwerk 30",
+            "AddressLine2": null,
+            "Town": "Dortmund",
+            "StateOrProvince": "Dortmund",
+            "Postcode": "44227",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.45536860000001,
+            "Longitude": 7.409384799999998,
+            "ContactTelephone1": "+49 174 2004055",
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": "Laden tagsüber nach telefonischer Absprache möglich. Typ2 und 32A CEE Dose an der Garagenrückwand, Typ 1 / J1772 Kabel vor der Garage",
+            "RelatedURL": "http://www.dew21.de/",
+            "Distance": 11.474299122245727,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 136487,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 32,
+                "Voltage": 400,
+                "PowerKW": 22.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            },
+            {
+                "ID": 136488,
+                "ConnectionTypeID": 16,
+                "ConnectionType": {
+                    "FormalName": null,
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 16,
+                    "Title": "CEE 3 Pin"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 230,
+                "PowerKW": 3.7,
+                "CurrentTypeID": 10,
+                "CurrentType": {
+                    "Description": "Alternating Current - Single Phase",
+                    "ID": 10,
+                    "Title": "AC (Single-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            },
+            {
+                "ID": 136489,
+                "ConnectionTypeID": 17,
+                "ConnectionType": {
+                    "FormalName": null,
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 17,
+                    "Title": "CEE 5 Pin"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 32,
+                "Voltage": 400,
+                "PowerKW": 22.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            },
+            {
+                "ID": 136490,
+                "ConnectionTypeID": 1,
+                "ConnectionType": {
+                    "FormalName": "SAE J1772-2009",
+                    "IsDiscontinued": null,
+                    "IsObsolete": null,
+                    "ID": 1,
+                    "Title": "Type 1 (J1772)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 230,
+                "PowerKW": 3.7,
+                "CurrentTypeID": 10,
+                "CurrentType": {
+                    "Description": "Alternating Current - Single Phase",
+                    "ID": 10,
+                    "Title": "AC (Single-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 3,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2017-12-21T09:04:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2017-12-21T09:04:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "https://www.rwe-mobility.com/",
+            "Comments": null,
+            "PhonePrimaryContact": "+49(0) 800 88 88 862",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 105,
+            "Title": "Innogy SE (RWE eMobility)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 33113,
+        "UUID": "C971063F-53F3-4ADE-AB52-6700A7B75549",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 105,
+        "OperatorsReference": "Essent EM-DE-05513000-05-00002",
+        "UsageTypeID": 4,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 33459,
+            "Title": "Mulvanystr. 1",
+            "AddressLine1": "Mulvanystr. 1",
+            "AddressLine2": null,
+            "Town": "Gelsenkirchen",
+            "StateOrProvince": null,
+            "Postcode": "45879",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.51277,
+            "Longitude": 7.092891,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": null,
+            "Distance": 11.65258034909047,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 36624,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": null,
+                "Comments": null
+            },
+            {
+                "ID": 46682,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": null,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-04-13T05:26:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 3,
+        "DateCreated": "2015-01-09T06:04:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "https://www.rwe-mobility.com/",
+            "Comments": null,
+            "PhonePrimaryContact": "+49(0) 800 88 88 862",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 105,
+            "Title": "Innogy SE (RWE eMobility)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": [
+            {
+                "ID": 10481,
+                "ChargePointID": 32727,
+                "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM32727/OCM-32727.orig.2017022112370883.jpg",
+                "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM32727/OCM-32727.thmb.2017022112370883.jpg",
+                "Comment": "",
+                "IsEnabled": true,
+                "IsVideo": false,
+                "IsFeaturedItem": false,
+                "IsExternalResource": false,
+                "MetadataValue": null,
+                "User": {
+                    "ID": 12115,
+                    "IdentityProvider": null,
+                    "Identifier": null,
+                    "CurrentSessionToken": null,
+                    "Username": "Andreas Reisewitz",
+                    "Profile": null,
+                    "Location": null,
+                    "WebsiteURL": null,
+                    "ReputationPoints": 3,
+                    "Permissions": null,
+                    "PermissionsRequested": null,
+                    "DateCreated": null,
+                    "DateLastLogin": null,
+                    "IsProfilePublic": null,
+                    "IsEmergencyChargingProvider": null,
+                    "IsPublicChargingProvider": null,
+                    "Latitude": null,
+                    "Longitude": null,
+                    "EmailAddress": null,
+                    "EmailHash": null,
+                    "ProfileImageURL": null,
+                    "IsCurrentSessionTokenValid": null,
+                    "APIKey": null,
+                    "SyncedSettings": null
+                },
+                "DateCreated": "2017-02-21T12:38:00Z"
+            }
+        ],
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 32727,
+        "UUID": "1D3F5A85-DF1B-4640-B518-26A5B220F8C3",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 105,
+        "OperatorsReference": "Essent EM-DE-05954016-01-00001",
+        "UsageTypeID": 4,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 33073,
+            "Title": "Roonstraße / Rathausplatz",
+            "AddressLine1": "Roonstraße / Rathausplatz",
+            "AddressLine2": null,
+            "Town": "Hattingen",
+            "StateOrProvince": null,
+            "Postcode": "45525",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.40115,
+            "Longitude": 7.185217,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": null,
+            "Distance": 12.151957412971372,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 36238,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": null,
+                "Comments": null
+            },
+            {
+                "ID": 46514,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": null,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2017-02-21T12:38:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 3,
+        "DateCreated": "2015-01-09T06:03:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": null,
+            "Comments": "For use when the operator of the equipment is a single business owner connected to the location and equipment is not part of a larger network",
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 45,
+            "Title": "(Business Owner at Location)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": null,
+            "IsAccessKeyRequired": null,
+            "ID": 1,
+            "Title": "Public"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 133929,
+        "UUID": "E09BFE67-632D-49FC-948D-102461AC31B5",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 45,
+        "OperatorsReference": null,
+        "UsageTypeID": 1,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 134275,
+            "Title": "Kaufland Luisenglück",
+            "AddressLine1": "Luisenglück 43",
+            "AddressLine2": null,
+            "Town": "Dortmund",
+            "StateOrProvince": "NRW",
+            "Postcode": "44225",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.4773498654974,
+            "Longitude": 7.43285282320346,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": "http://www.schneller-strom-tanken.de/",
+            "Distance": 12.230062687402697,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 187402,
+                "ConnectionTypeID": 1036,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 1036,
+                    "Title": "Type 2 (Tethered Connector) "
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 3,
+                "Level": {
+                    "Comments": "40KW and Higher",
+                    "IsFastChargeCapable": true,
+                    "ID": 3,
+                    "Title": "Level 3:  High (Over 40kW)"
+                },
+                "Amps": 63,
+                "Voltage": 400,
+                "PowerKW": 43.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            },
+            {
+                "ID": 187403,
+                "ConnectionTypeID": 2,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-3 Configuration AA",
+                    "IsDiscontinued": null,
+                    "IsObsolete": null,
+                    "ID": 2,
+                    "Title": "CHAdeMO"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 3,
+                "Level": {
+                    "Comments": "40KW and Higher",
+                    "IsFastChargeCapable": true,
+                    "ID": 3,
+                    "Title": "Level 3:  High (Over 40kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 50.0,
+                "CurrentTypeID": 30,
+                "CurrentType": {
+                    "Description": "Direct Current",
+                    "ID": 30,
+                    "Title": "DC"
+                },
+                "Quantity": 1,
+                "Comments": null
+            },
+            {
+                "ID": 187404,
+                "ConnectionTypeID": 33,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-3 Configuration FF",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 33,
+                    "Title": "CCS (Type 2)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 3,
+                "Level": {
+                    "Comments": "40KW and Higher",
+                    "IsFastChargeCapable": true,
+                    "ID": 3,
+                    "Title": "Level 3:  High (Over 40kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 50.0,
+                "CurrentTypeID": 30,
+                "CurrentType": {
+                    "Description": "Direct Current",
+                    "ID": 30,
+                    "Title": "DC"
+                },
+                "Quantity": 1,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2019-10-30T10:54:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2019-10-30T10:54:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "https://www.rwe-mobility.com/",
+            "Comments": null,
+            "PhonePrimaryContact": "+49(0) 800 88 88 862",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 105,
+            "Title": "Innogy SE (RWE eMobility)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 95907,
+        "UUID": "90B5178E-5E6F-4632-9172-CC573D11B505",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 105,
+        "OperatorsReference": null,
+        "UsageTypeID": 4,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 96253,
+            "Title": "Augustastraße",
+            "AddressLine1": "Augustastraße 2",
+            "AddressLine2": null,
+            "Town": "Hattingen",
+            "StateOrProvince": "Ennepe-Ruhr-Kreis",
+            "Postcode": "45525",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.39924802330261,
+            "Longitude": 7.186291369311553,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": "24/7 nutzbare orange Ladesäule vom RWE Typ, wenige Meter von der Einfahrt zum Parkhaus \"Altstadtparkhaus\" entfernt am rechten Straßenrand.",
+            "RelatedURL": "https://www.volksbank-kassel-goettingen.de/",
+            "Distance": 12.312556869705718,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 135859,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 32,
+                "Voltage": 400,
+                "PowerKW": 22.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 2,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 2,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2017-11-30T08:02:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2017-11-30T08:02:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "https://www.rwe-mobility.com/",
+            "Comments": null,
+            "PhonePrimaryContact": "+49(0) 800 88 88 862",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 105,
+            "Title": "Innogy SE (RWE eMobility)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 32967,
+        "UUID": "2BE5C075-2C26-4FEB-9212-DBA8428B6B50",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 105,
+        "OperatorsReference": "Essent EM-DE-05913000-05-00001",
+        "UsageTypeID": 4,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 33313,
+            "Title": "Harkortstraße 73",
+            "AddressLine1": "Harkortstraße 73",
+            "AddressLine2": null,
+            "Town": "Dortmund",
+            "StateOrProvince": null,
+            "Postcode": "44225",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.475957,
+            "Longitude": 7.436843,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": null,
+            "Distance": 12.532846540968835,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 36478,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": null,
+                "Comments": null
+            },
+            {
+                "ID": 46614,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": null,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-04-13T23:14:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 3,
+        "DateCreated": "2015-01-09T06:03:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": null,
+            "Comments": null,
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": null,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 1,
+            "Title": "(Unknown Operator)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 106832,
+        "UUID": "64548213-9A64-41B0-AB4E-B4BC57DDE9FA",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 1,
+        "OperatorsReference": null,
+        "UsageTypeID": 4,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 107178,
+            "Title": "BMW Vogelsang Automobile",
+            "AddressLine1": "Rottstraße 118",
+            "AddressLine2": null,
+            "Town": "Recklinghausen",
+            "StateOrProvince": "Kreis Recklinghausen",
+            "Postcode": "45659",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.6018926,
+            "Longitude": 7.181024699999966,
+            "ContactTelephone1": "+49 89248837755",
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": "Verbund Digital Energy Solutions - mit New Motion oder PlugSurfing aktivierbar.",
+            "RelatedURL": "https://www.bmw-vogelsang.de/",
+            "Distance": 12.577185113044814,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 150591,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 400,
+                "PowerKW": 11.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 2,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 2,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2018-07-04T06:43:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2018-07-04T06:43:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "http://www.allego.eu/",
+            "Comments": null,
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": "info@allego.eu",
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 103,
+            "Title": "Allego BV"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 100617,
+        "UUID": "EFB6FFB1-7B56-4F53-8B81-E3C4CB419EF8",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 103,
+        "OperatorsReference": null,
+        "UsageTypeID": 4,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 100963,
+            "Title": "Autowerkstatt A.T.U.",
+            "AddressLine1": "Dordrechtring 38",
+            "AddressLine2": null,
+            "Town": "Recklinghausen",
+            "StateOrProvince": "Kreis Recklinghausen",
+            "Postcode": "45657",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.609334635673605,
+            "Longitude": 7.207270035581928,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": "24/7 nutzbar; Burger King nebenan.",
+            "RelatedURL": null,
+            "Distance": 12.692290040698202,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 142117,
+                "ConnectionTypeID": 1036,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 1036,
+                    "Title": "Type 2 (Tethered Connector) "
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 3,
+                "Level": {
+                    "Comments": "40KW and Higher",
+                    "IsFastChargeCapable": true,
+                    "ID": 3,
+                    "Title": "Level 3:  High (Over 40kW)"
+                },
+                "Amps": 63,
+                "Voltage": 400,
+                "PowerKW": 43.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 1,
+                "Comments": null
+            },
+            {
+                "ID": 142118,
+                "ConnectionTypeID": 2,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-3 Configuration AA",
+                    "IsDiscontinued": null,
+                    "IsObsolete": null,
+                    "ID": 2,
+                    "Title": "CHAdeMO"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 3,
+                "Level": {
+                    "Comments": "40KW and Higher",
+                    "IsFastChargeCapable": true,
+                    "ID": 3,
+                    "Title": "Level 3:  High (Over 40kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 50.0,
+                "CurrentTypeID": 30,
+                "CurrentType": {
+                    "Description": "Direct Current",
+                    "ID": 30,
+                    "Title": "DC"
+                },
+                "Quantity": 1,
+                "Comments": null
+            },
+            {
+                "ID": 142119,
+                "ConnectionTypeID": 33,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-3 Configuration FF",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 33,
+                    "Title": "CCS (Type 2)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 3,
+                "Level": {
+                    "Comments": "40KW and Higher",
+                    "IsFastChargeCapable": true,
+                    "ID": 3,
+                    "Title": "Level 3:  High (Over 40kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 50.0,
+                "CurrentTypeID": 30,
+                "CurrentType": {
+                    "Description": "Direct Current",
+                    "ID": 30,
+                    "Title": "DC"
+                },
+                "Quantity": 1,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 3,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2018-03-02T08:19:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2018-03-02T08:19:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "https://www.rwe-mobility.com/",
+            "Comments": null,
+            "PhonePrimaryContact": "+49(0) 800 88 88 862",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 105,
+            "Title": "Innogy SE (RWE eMobility)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 33144,
+        "UUID": "189E5518-5668-418B-AB95-E99B8984813D",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 105,
+        "OperatorsReference": "Essent EM-DE-05913000-01-00054",
+        "UsageTypeID": 4,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 33490,
+            "Title": "Sunderweg 100",
+            "AddressLine1": "Sunderweg 100",
+            "AddressLine2": null,
+            "Town": "Dortmund",
+            "StateOrProvince": null,
+            "Postcode": "44147",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.523084,
+            "Longitude": 7.441987,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": null,
+            "Distance": 12.852945500868273,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 36655,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": null,
+                "Comments": null
+            },
+            {
+                "ID": 46701,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": null,
+                "StatusType": null,
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": null,
+                "Voltage": null,
+                "PowerKW": 11.0,
+                "CurrentTypeID": null,
+                "CurrentType": null,
+                "Quantity": null,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 1,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2015-04-13T05:22:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 3,
+        "DateCreated": "2015-01-09T06:04:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": null,
+            "Comments": "For use when the operator of the equipment is a single business owner connected to the location and equipment is not part of a larger network",
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 45,
+            "Title": "(Business Owner at Location)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": null,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": null,
+            "ID": 2,
+            "Title": "Private - Restricted Access"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 60572,
+        "UUID": "172E97FB-C0C6-4430-BB0D-E7F6760E421B",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 45,
+        "OperatorsReference": null,
+        "UsageTypeID": 2,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 60918,
+            "Title": "Stadtwerke ",
+            "AddressLine1": "Gasstraße 1",
+            "AddressLine2": "Baak",
+            "Town": "Hattingen",
+            "StateOrProvince": "Ennepe-Ruhr-Kreis",
+            "Postcode": "45525",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.3977728,
+            "Longitude": 7.173365999999987,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": "2 kostenlose Parkplätze, nutzbar von Mo-Do 8-16, Fr 8-12Uhr.",
+            "RelatedURL": "http://www.stadtwerke-hattingen.de/",
+            "Distance": 12.8551466139343,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 76756,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 400,
+                "PowerKW": 11.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 2,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 2,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2016-02-02T11:32:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2016-02-02T11:32:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "http://www.teslamotors.com",
+            "Comments": null,
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": null,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 23,
+            "Title": "Tesla Motors (Worldwide)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": false,
+            "IsAccessKeyRequired": false,
+            "ID": 6,
+            "Title": "Private - For Staff, Visitors or Customers"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 82386,
+        "UUID": "3489C8FB-15C8-4BB1-8B8E-3CA4B7AC2FB4",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 23,
+        "OperatorsReference": "24107",
+        "UsageTypeID": 6,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 82732,
+            "Title": "Mintrops Land Hotel Burgaltendorf",
+            "AddressLine1": "81 Schwarzensteinweg",
+            "AddressLine2": null,
+            "Town": "Essen",
+            "StateOrProvince": null,
+            "Postcode": "45289",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.41733,
+            "Longitude": 7.126062,
+            "ContactTelephone1": "+49 2015 71710",
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": null,
+            "Distance": 13.061918185579183,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 117152,
+                "ConnectionTypeID": 30,
+                "ConnectionType": {
+                    "FormalName": null,
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 30,
+                    "Title": "Tesla (Model S/X)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 400,
+                "PowerKW": 11.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 2,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 2,
+        "GeneralComments": "2 Tesla Connectors, up to 11kW.Available for patrons only. Please see front desk.",
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2018-10-03T20:16:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2017-02-03T15:48:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": null,
+            "Comments": "For use when the operator of the equipment is a single business owner connected to the location and equipment is not part of a larger network",
+            "PhonePrimaryContact": null,
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": null,
+            "ID": 45,
+            "Title": "(Business Owner at Location)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": true,
+            "IsMembershipRequired": false,
+            "IsAccessKeyRequired": false,
+            "ID": 5,
+            "Title": "Public - Pay At Location"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": [
+            {
+                "ID": 9406,
+                "ChargePointID": 43622,
+                "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM43622/OCM-43622.orig.2017020408095429.jpg",
+                "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM43622/OCM-43622.thmb.2017020408095429.jpg",
+                "Comment": "",
+                "IsEnabled": true,
+                "IsVideo": false,
+                "IsFeaturedItem": false,
+                "IsExternalResource": false,
+                "MetadataValue": null,
+                "User": {
+                    "ID": 12115,
+                    "IdentityProvider": null,
+                    "Identifier": null,
+                    "CurrentSessionToken": null,
+                    "Username": "Andreas Reisewitz",
+                    "Profile": null,
+                    "Location": null,
+                    "WebsiteURL": null,
+                    "ReputationPoints": 3,
+                    "Permissions": null,
+                    "PermissionsRequested": null,
+                    "DateCreated": null,
+                    "DateLastLogin": null,
+                    "IsProfilePublic": null,
+                    "IsEmergencyChargingProvider": null,
+                    "IsPublicChargingProvider": null,
+                    "Latitude": null,
+                    "Longitude": null,
+                    "EmailAddress": null,
+                    "EmailHash": null,
+                    "ProfileImageURL": null,
+                    "IsCurrentSessionTokenValid": null,
+                    "APIKey": null,
+                    "SyncedSettings": null
+                },
+                "DateCreated": "2017-02-04T08:10:00Z"
+            }
+        ],
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 43622,
+        "UUID": "832F0C82-CC85-4187-A185-C4829DBA6BCA",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 45,
+        "OperatorsReference": null,
+        "UsageTypeID": 5,
+        "UsageCost": "0",
+        "AddressInfo": {
+            "ID": 43968,
+            "Title": "Einkaufszentrum Palais Vest",
+            "AddressLine1": "Löhrhof 1",
+            "AddressLine2": "Innenstadt",
+            "Town": "Recklinghausen",
+            "StateOrProvince": "Kreis Recklinghausen",
+            "Postcode": "45657",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.61411436105176,
+            "Longitude": 7.200349299336262,
+            "ContactTelephone1": "+49 2361 4055100",
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": null,
+            "RelatedURL": "http://www.palais-vest.de/aktion/31498/knigliches-shopping-recklinghausen/",
+            "Distance": 13.342244388399127,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 52929,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 16,
+                "Voltage": 400,
+                "PowerKW": 11.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 2,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 2,
+        "GeneralComments": "Laden kostenlos ohne Karte, Parkgebühr 1€ / h, max 6€/Tag im Parkhaus. Ladestation auf Ebene 2.",
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2017-02-04T08:10:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2015-04-08T10:22:00Z",
+        "SubmissionStatusTypeID": 200
+    },
+    {
+        "DataProvider": {
+            "WebsiteURL": "http://openchargemap.org",
+            "Comments": null,
+            "DataProviderStatusType": {
+                "IsProviderEnabled": true,
+                "ID": 1,
+                "Title": "Manual Data Entry"
+            },
+            "IsRestrictedEdit": false,
+            "IsOpenDataLicensed": true,
+            "IsApprovedImport": true,
+            "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "DateLastImported": null,
+            "ID": 1,
+            "Title": "Open Charge Map Contributors"
+        },
+        "OperatorInfo": {
+            "WebsiteURL": "https://www.rwe-mobility.com/",
+            "Comments": null,
+            "PhonePrimaryContact": "+49(0) 800 88 88 862",
+            "PhoneSecondaryContact": null,
+            "IsPrivateIndividual": false,
+            "AddressInfo": null,
+            "BookingURL": null,
+            "ContactEmail": null,
+            "FaultReportEmail": null,
+            "IsRestrictedEdit": false,
+            "ID": 105,
+            "Title": "Innogy SE (RWE eMobility)"
+        },
+        "UsageType": {
+            "IsPayAtLocation": false,
+            "IsMembershipRequired": true,
+            "IsAccessKeyRequired": true,
+            "ID": 4,
+            "Title": "Public - Membership Required"
+        },
+        "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+        },
+        "SubmissionStatus": {
+            "IsLive": true,
+            "ID": 200,
+            "Title": "Submission Published"
+        },
+        "UserComments": null,
+        "PercentageSimilarity": null,
+        "MediaItems": null,
+        "IsRecentlyVerified": false,
+        "DateLastVerified": null,
+        "ID": 101206,
+        "UUID": "DFD06F36-3E5E-498B-853B-AD251CB17B57",
+        "ParentChargePointID": null,
+        "DataProviderID": 1,
+        "DataProvidersReference": null,
+        "OperatorID": 105,
+        "OperatorsReference": null,
+        "UsageTypeID": 4,
+        "UsageCost": null,
+        "AddressInfo": {
+            "ID": 101552,
+            "Title": "Parkplatz Antoniusplatz",
+            "AddressLine1": "Kurt-Schumacher-Straße 28",
+            "AddressLine2": null,
+            "Town": "Herten",
+            "StateOrProvince": "Kreis Recklinghausen",
+            "Postcode": "45699",
+            "CountryID": 87,
+            "Country": {
+                "ISOCode": "DE",
+                "ContinentCode": "EU",
+                "ID": 87,
+                "Title": "Germany"
+            },
+            "Latitude": 51.59285840574967,
+            "Longitude": 7.1373219638931005,
+            "ContactTelephone1": null,
+            "ContactTelephone2": null,
+            "ContactEmail": null,
+            "AccessComments": "24/7 nutzbare Ladesäule direkt hinter einem Baum an der Kurt Schumacher Straße auf der Seite, nahe der St. Antonius Kirche.",
+            "RelatedURL": null,
+            "Distance": 13.363298225698049,
+            "DistanceUnit": 1
+        },
+        "Connections": [
+            {
+                "ID": 142881,
+                "ConnectionTypeID": 25,
+                "ConnectionType": {
+                    "FormalName": "IEC 62196-2 Type 2",
+                    "IsDiscontinued": false,
+                    "IsObsolete": false,
+                    "ID": 25,
+                    "Title": "Type 2 (Socket Only)"
+                },
+                "Reference": null,
+                "StatusTypeID": 50,
+                "StatusType": {
+                    "IsOperational": true,
+                    "IsUserSelectable": true,
+                    "ID": 50,
+                    "Title": "Operational"
+                },
+                "LevelID": 2,
+                "Level": {
+                    "Comments": "Over 2 kW, usually non-domestic socket type",
+                    "IsFastChargeCapable": false,
+                    "ID": 2,
+                    "Title": "Level 2 : Medium (Over 2kW)"
+                },
+                "Amps": 32,
+                "Voltage": 400,
+                "PowerKW": 22.0,
+                "CurrentTypeID": 20,
+                "CurrentType": {
+                    "Description": "Alternating Current - Three Phase",
+                    "ID": 20,
+                    "Title": "AC (Three-Phase)"
+                },
+                "Quantity": 2,
+                "Comments": null
+            }
+        ],
+        "NumberOfPoints": 2,
+        "GeneralComments": null,
+        "DatePlanned": null,
+        "DateLastConfirmed": null,
+        "StatusTypeID": 50,
+        "DateLastStatusUpdate": "2018-03-20T08:22:00Z",
+        "MetadataValues": null,
+        "DataQualityLevel": 1,
+        "DateCreated": "2018-03-20T08:22:00Z",
+        "SubmissionStatusTypeID": 200
+    }
+]

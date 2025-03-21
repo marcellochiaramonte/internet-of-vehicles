@@ -1,0 +1,18 @@
+<mat-toolbar color="primary" style="height: 7vh;">
+    <a href="vehicles">
+        <div style="background-color: white; height: 7vh; margin-right: 15px;">
+            <img src="assets/img/enesys.png">
+        </div>
+    </a>
+
+    <ng-container *ngFor="let link of links">
+        <a href={{link.link}} style="text-decoration: none; padding-right: 15px;">
+            <div style="color: white;">{{link.name}}</div>
+        </a>
+    </ng-container>
+    <!-- <div>Home</div>
+    <div>Vehicles</div>
+    <div>Home</div>
+    <div>Home</div> -->
+</mat-toolbar>
+<router-outlet></router-outlet>

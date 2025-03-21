@@ -1,0 +1,72 @@
+<table mat-table [dataSource]="dataSource" class="mat-elevation-z8" matSort matSortActive='name' matSortDirection='asc'
+    matSortDisableClear='true'>
+
+    <!--- Note that these columns can be defined in any order.
+          The actual rendered columns are set as a property on the row definition" -->
+
+    <ng-container matColumnDef="id">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> ID </th>
+        <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="model">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Model </th>
+        <td mat-cell *matCellDef="let element"> {{element.model}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="make">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Make </th>
+        <td mat-cell *matCellDef="let element"> {{element.make}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="carOn">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Car Status </th>
+        <td mat-cell *matCellDef="let element">
+            {{getCarStatusString(element.carOn)}}
+        </td>
+    </ng-container>
+
+    <ng-container matColumnDef="chargingState">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Charging State </th>
+        <td mat-cell *matCellDef="let element"> {{element.chargingState}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="odometer">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Odometer </th>
+        <td mat-cell *matCellDef="let element"> {{element.odometer | number: '1.0-0'}} km </td>
+    </ng-container>
+
+    <ng-container matColumnDef="soc">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Soc </th>
+        <td mat-cell *matCellDef="let element"> {{element.soc | number: '1.0-0'}}% </td>
+    </ng-container>
+
+    <ng-container matColumnDef="iconColor">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>Color</th>
+        <td mat-cell *matCellDef="let element">
+            <img style="width: 50px;" src="{{getIcon(element.iconColor)}}">
+            <!-- <div [ngStyle]="{'background-color':element.iconColor}"
+                style="width: 25px; height: 25px; border-radius: 50%;">
+            </div> -->
+        </td>
+    </ng-container>
+
+    <!-- <ng-container matColumnDef="menu">
+        <th mat-header-cell *matHeaderCellDef></th>
+        <td mat-cell *matCellDef="let element">
+            <button mat-icon-button color="primary">
+                <mat-icon>edit</mat-icon>
+            </button>
+        </td>
+    </ng-container> -->
+
+    <!-- Symbol Column
+    <ng-container matColumnDef="symbol">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Symbol </th>
+        <td mat-cell *matCellDef="let element"> {{element.symbol}} </td>
+    </ng-container> -->
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;" (click)="navigateToVehicle(row)" class="table-row">
+    </tr>
+</table>
